@@ -1,0 +1,6 @@
+.env
+PyProgramm/Outsourced
+PyProgramm/__pycache__
+Datenpool
+ExportedData
+debug_data.json
