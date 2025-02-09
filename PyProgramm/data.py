@@ -12,7 +12,7 @@ import xml.etree.ElementTree as ET
 
 # Sentence Transformer initalisieren
 class SentenceTransformerEmbeddings(Embeddings):
-    def __init__(self, model_name: str = "intfloat/multiPyProgramm/Datenspeicher_1.pylingual-e5-large"):
+    def __init__(self, model_name: str = "intfloat/multilingual-e5-large"):
         device = 'cuda' if torch.cuda.is_available() else 'cpu'
         self.model = SentenceTransformer(model_name, device=device)
 
@@ -113,7 +113,7 @@ def process_xmls(directory):
 
 
 # Hauptverzeichnis
-data_directory = r"C:\\Users\\fabio.cappellaro\\Documents\\Masterarbeit_FC\\Datenpool"
+data_directory = r"C:\Users\fabio.cappellaro\Documents\Masterarbeit Projekt\Masterarbeit_FC\Datenpool"
 
 # XML-Dokumente verarbeiten
 xml_documents = process_xmls(data_directory)
