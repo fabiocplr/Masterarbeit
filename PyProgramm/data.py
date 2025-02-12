@@ -171,5 +171,5 @@ def export_data(docs, vectorstore, directory):
     print(f"Export abgeschlossen. Dateien gespeichert in: {directory}")
 
 # Daten exportieren
-export_directory = r"C:\\Users\\fabio.cappellaro\\Documents\\Masterarbeit_FC\\ExportedData"
+export_directory = r"C:\Users\fabio.cappellaro\Documents\Masterarbeit Projekt\Masterarbeit_FC\ExportedData"
 export_data(docs, vectorstore, export_directory)
