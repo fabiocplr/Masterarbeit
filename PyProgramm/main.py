@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
-os.environ["LANGCHAIN_API_KEY"] = LANGSMITH_API
+os.environ["LANGCHAIN_API_KEY"] = os.getenv("LANGSMITH_API")
 os.environ["LANGCHAIN_PROJECT"] = "Master"
 os.environ["LANGCHAIN_ENDPOINT"] = "https://api.smith.langchain.com"
 
