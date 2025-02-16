@@ -5,19 +5,11 @@ from langchain.prompts import PromptTemplate
 
 from langchain_core.output_parsers import BaseOutputParser
 
-from data.vectorstore import vectorstore
+from data import vectorstore
 
 
 logging.basicConfig()
 logging.getLogger("langchain.retrievers.multi_query").setLevel(logging.INFO)
-
-class LineListOutputParser(BaseOutputParser[List[str]]):
-    """Output parser for a list of lines."""
-
-    def parse(self, text: str) -> List[str]:
-        lines = text.strip().split("\n")
-        return list(filter(None, lines))  # Remove empty lines
-    
 
 # Prompt-Vorlage, um mehrere Varianten einer Frage zu generieren
 multi_query_prompt = PromptTemplate(
