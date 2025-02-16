@@ -48,13 +48,6 @@ def extract_content(element):
     return " ".join(content).strip()
 
 def extract_deutsch_chunks(root):
-    """
-    Geht in Dokumentreihenfolge durch den XML-Baum.
-    Sobald ein <n:Data-Title> (Aspect="de") gefunden wird, 
-    startet ein neuer Chunk. Alle folgenden <n:Data-Content>-Knoten
-    (ebenfalls Aspect="de") werden diesem Chunk hinzugefügt, bis
-    ein neuer Data-Title gefunden wird.
-    """
     chunks = []
     current_chunk = ""
     for elem in root.iter():
@@ -87,8 +80,7 @@ def extract_deutsch_chunks(root):
         chunks.append(current_chunk.strip())
     return chunks
 
-# XML-Dateien verarbeiten: Für jede XML-Datei wird für jeden Chunk (Data-Title + zugehörige Data-Content-Einträge)
-# ein eigenes Document-Objekt erstellt.
+# XML-Dateien verarbeiten: Für jede XML-Datei wird für jeden Chunk (Data-Title + zugehörige Data-Content-Einträge) ein eigenes Document-Objekt erstellt.
 def process_xmls(directory):
     documents = []
     for filename in os.listdir(directory):
