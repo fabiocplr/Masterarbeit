@@ -26,14 +26,6 @@ class SentenceTransformerEmbeddings(Embeddings):
         embedding = self.model.encode([prefixed], convert_to_numpy=True, normalize_embeddings=True)
         return embedding[0].tolist()
 
-# XML Parsen
-# Namespace-Deklarationen extrahieren
-namespaces = {
-    "n": "http://www.schema.de/2004/ST4/XmlImportExport/Node",
-    "d": "http://www.schema.de/2004/ST4/XmlImportExport/Data",
-    "l": "http://www.schema.de/2004/ST4/XmlImportExport/Link",
-    "m": "http://www.schema.de/2004/ST4/XmlImportExport/Meta"
-}
 
 # XML Parsen
 # Namespace-Deklarationen extrahieren
