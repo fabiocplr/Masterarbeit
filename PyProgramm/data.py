@@ -28,12 +28,22 @@ class SentenceTransformerEmbeddings(Embeddings):
 
 # XML Parsen
 # Namespace-Deklarationen extrahieren
+import os
+import xml.etree.ElementTree as ET
 
 namespaces = {
     "n": "http://www.schema.de/2004/ST4/XmlImportExport/Node",
     "d": "http://www.schema.de/2004/ST4/XmlImportExport/Data",
     "l": "http://www.schema.de/2004/ST4/XmlImportExport/Link",
     "m": "http://www.schema.de/2004/ST4/XmlImportExport/Meta"
+}
+
+# Definiere die Container-Tags, die als Abschnitte gelten sollen.
+container_tags = {
+    "TextFolder", "Project", "Document",
+    "InfoType01", "InfoType02", "InfoType03",
+    "InfoType04", "InfoType05", "InfoType07",
+    "Content"
 }
 
 def extract_content(element):
@@ -61,23 +71,19 @@ def remove_redundant_blank_lines(file_content):
             cleaned_lines.append(line)
     return "\n".join(cleaned_lines)
 
+def tag_without_ns(elem):
+    if elem.tag.startswith("{"):
+        return elem.tag.split("}", 1)[1]
+    return elem.tag
+
 def extract_sections_with_parent_map(root):
     """
-    Sucht in der gesamten XML nach Container-Elementen, die als inhaltlich zusammengehörige Abschnitte gelten.
-    Hierzu zählen beispielsweise Elemente mit den Tags TextFolder, Project, Document, InfoType01, InfoType04 oder Content.
-    
-    Für jeden solchen Container wird (falls vorhanden) zunächst der Title (Attribut "Title") eingefügt und
-    anschließend alle untergeordneten Data-Title und Data-Content (Aspect="de") in der Reihenfolge ihres Auftretens zusammengeführt.
-    Zwischen den einzelnen Knoten wird ein Absatz (doppelte Zeilenumbrüche) eingefügt.
+    Sucht in der gesamten XML nach Container-Elementen (definiert in container_tags),
+    die als inhaltlich zusammengehörige Abschnitte gelten, und extrahiert in der Reihenfolge
+    (basierend auf dem l:Sort-Attribut) alle untergeordneten Data-Title und Data-Content-Einträge
+    (nur Aspect="de"). Dabei werden Überschriften (Data-Title) und zugehörige Inhalte gruppiert.
     """
-    container_tags = {"TextFolder", "Project", "Document", "InfoType01", "InfoType04", "Content"}
-    
-    def tag_without_ns(elem):
-        if elem.tag.startswith("{"):
-            return elem.tag.split("}", 1)[1]
-        return elem.tag
-    
-    # Erstellen einer Parent-Map, da ET keine getparent()-Methode bietet
+    # Erstelle eine Parent-Map, da ElementTree kein getparent() bietet
     parent_map = {child: parent for parent in root.iter() for child in list(parent)}
     
     def has_container_ancestor(elem):
@@ -87,29 +93,72 @@ def extract_sections_with_parent_map(root):
                 return True
             current = parent_map.get(current)
         return False
-    
+
     sections = []
-    # Mit enumerate erfassen wir die Position im Dokument
-    for i, elem in enumerate(root.iter()):
+    # Sammle alle Container, die keine untergeordneten Container sind
+    for elem in root.iter():
         if tag_without_ns(elem) in container_tags and not has_container_ancestor(elem):
+            # Lese den Sortierwert (l:Sort) des Containers
+            sort_val = elem.attrib.get("{http://www.schema.de/2004/ST4/XmlImportExport/Link}Sort")
+            try:
+                sort_val = float(sort_val) if sort_val is not None else 0
+            except ValueError:
+                sort_val = 0
+
             section_parts = []
-            # Zuerst: Falls vorhanden, den Titel des Containers (Attribut "Title")
+            # Falls vorhanden: Container-Titel aus dem Attribut "Title"
             title_attr = elem.attrib.get("{http://www.schema.de/2004/ST4/XmlImportExport/Node}Title")
             if title_attr:
                 section_parts.append(title_attr.strip())
-            # Dann: Alle untergeordneten Data-Title und Data-Content-Elemente (Aspect="de") in Dokumentreihenfolge
+
+            # Innerhalb des Containers: Sammle alle untergeordneten Data-Title und Data-Content-Elemente,
+            # allerdings nur jene, die den Aspekt "de" betreffen.
+            # Wir bauen dabei Gruppen: Jede Data-Title markiert eine Überschrift, der nachfolgende Text
+            # (aus Data-Content und ggf. weiteren Data-Title-Einträgen) wird gruppiert.
+            groups = []
+            current_heading = None
+            current_chunk = []
+            # Iteriere über alle Nachfahren in Dokumentreihenfolge
             for sub in elem.iter():
-                if tag_without_ns(sub) in {"Data-Title", "Data-Content"}:
+                sub_tag = tag_without_ns(sub)
+                if sub_tag in {"Data-Title", "Data-Content"}:
+                    # Filtere nach Value-Elementen mit n:Aspect="de"
                     for value in sub.findall("n:Value[@n:Aspect='de']", namespaces):
+                        # Gehe alle darin enthaltenen Entry-Elemente durch
                         for entry in value.findall("n:Entry", namespaces):
                             text = extract_content(entry)
-                            if text:
-                                section_parts.append(text.strip())
+                            if not text:
+                                continue
+                            if sub_tag == "Data-Title":
+                                # Wenn bereits eine Überschrift vorliegt, sichere die bisherige Gruppe
+                                if current_heading or current_chunk:
+                                    groups.append((current_heading, "\n\n".join(current_chunk)))
+                                    current_chunk = []
+                                current_heading = text
+                            else:  # Data-Content
+                                current_chunk.append(text)
+            # Sichere die letzte Gruppe, falls vorhanden
+            if current_heading or current_chunk:
+                groups.append((current_heading, "\n\n".join(current_chunk)))
+
+            # Führe die Gruppen zusammen: Überschrift (falls vorhanden) gefolgt von zugehörigen Inhalten
+            group_texts = []
+            for heading, content in groups:
+                if heading and content:
+                    group_texts.append(heading + "\n\n" + content)
+                elif heading:
+                    group_texts.append(heading)
+                else:
+                    group_texts.append(content)
+            if group_texts:
+                section_parts.append("\n\n".join(group_texts))
+
+            # Verbinde alle Teile des Containers mit doppelten Zeilenumbrüchen
             if section_parts:
-                # Hier werden die einzelnen Teile mit doppeltem Zeilenumbruch (als Absatz-Trenner) verbunden
-                section_text = "\n\n".join(section_parts)
-                sections.append((i, section_text))
-    # Sortiere die Abschnitte nach ihrer Position im Dokument
+                full_text = "\n\n".join(section_parts)
+                sections.append((sort_val, full_text))
+
+    # Sortiere die Container entsprechend dem l:Sort-Wert
     sections.sort(key=lambda x: x[0])
     return [text for _, text in sections]
 
@@ -127,6 +176,7 @@ def process_xmls(directory):
             sections = extract_sections_with_parent_map(root)
             combined_content = "\n\n".join(sections)
             cleaned_content = remove_redundant_blank_lines(combined_content)
+            # Hier wird angenommen, dass du eine Document-Klasse hast (z.B. aus langchain)
             documents.append(Document(page_content=cleaned_content, metadata={"source": filename}))
     return documents
 
