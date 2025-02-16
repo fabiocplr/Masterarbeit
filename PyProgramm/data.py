@@ -35,6 +35,15 @@ namespaces = {
     "m": "http://www.schema.de/2004/ST4/XmlImportExport/Meta"
 }
 
+# XML Parsen
+# Namespace-Deklarationen extrahieren
+namespaces = {
+    "n": "http://www.schema.de/2004/ST4/XmlImportExport/Node",
+    "d": "http://www.schema.de/2004/ST4/XmlImportExport/Data",
+    "l": "http://www.schema.de/2004/ST4/XmlImportExport/Link",
+    "m": "http://www.schema.de/2004/ST4/XmlImportExport/Meta"
+}
+
 def extract_content(element):
     """Rekursive Extraktion des Textinhalts eines Elements."""
     content = []
@@ -101,6 +110,7 @@ def process_xmls(directory):
                 cleaned_chunk = chunk.strip()
                 documents.append(Document(page_content=cleaned_chunk, metadata={"source": filename}))
     return documents
+
 
 
 # PDF-Parsing
