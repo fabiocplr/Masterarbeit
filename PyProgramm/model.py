@@ -3,15 +3,16 @@ from langchain_huggingface import HuggingFacePipeline
 from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
 from huggingface_hub import login
 import torch
-
-# Multi-Query-Retriever kommt aus retriever.py
 from retriever import get_multi_query_retriever
-
-# PromptTemplate für deine finale Antwort
 from langchain.prompts import PromptTemplate
+import os
+from dotenv import load_dotenv
 
-# Mistral LLM
-login("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")
+
+load_dotenv()
+
+# Mistral LLM HuggingFace Key
+login(os.getenv("MISTRAL_LOGIN"))
 
 model_name = "mistralai/Ministral-8B-Instruct-2410"
 tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True, legacy=False)
@@ -40,7 +41,7 @@ text_pipeline = pipeline(
 
 llm = HuggingFacePipeline(pipeline=text_pipeline)
 
-# Propt-Template zum Generieren der finalen Antwort
+# Propt-Template zum Generieren der finalen Antwort (LLM)
 template_de_kurz = """Du bist ein hilfreicher KI-Assistent für technische Dokumentationen. 
 Beantworte die folgende Frage ausschließlich basierend auf dem untenstehenden Kontext. 
 - Falls der Kontext mehrere relevante Informationen enthält, fasse sie präzise zusammen. 

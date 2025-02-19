@@ -7,7 +7,7 @@ from langchain_core.output_parsers import BaseOutputParser
 
 from data import vectorstore
 
-
+#Logger für den Multi-Query-Retriever (gibt in der Konsole eine Liste aus)
 logging.basicConfig()
 logging.getLogger("langchain.retrievers.multi_query").setLevel(logging.INFO)
 

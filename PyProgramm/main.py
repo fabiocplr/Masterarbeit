@@ -12,10 +12,10 @@ os.environ["LANGCHAIN_ENDPOINT"] = "https://api.smith.langchain.com"
 
 
 def frage_und_antwort():
-    # 1) Frage vom User einholen
+    # 1) Frage vom User
     query = input("\nBitte geben Sie Ihre Frage ein: ")
     
-    # 2) Chain ausführen (als Dict)
+    # 2) Chain ausführen
     result = qa_chain.invoke(query)
 
     # 3) Ergebnis-Parsing
@@ -41,28 +41,15 @@ def frage_und_antwort():
 
 
 
-#in main eig:
-# (A) Query und Result in einer Datei speichern
-    with open("debug_data.json", "w", encoding="utf-8") as f:
-        json.dump(
-            {
-                "query": query,
-                "result": {
-                    "result": result["result"],
-                    "source_documents": [
-                        {
-                            "content": doc.page_content,
-                            "metadata": doc.metadata
-                        }
-                        for doc in result["source_documents"]
-                    ]
-                }
-            },
-            f,
-            ensure_ascii=False,
-            indent=2
-        )
-    print("\n(Daten für Debugging wurden in debug_data.json gespeichert)")
+
+# Debugging: Query und Result in einer Datei speichern
+    try:
+        with open("debug_data.json", "w", encoding="utf-8") as f:
+            json.dump({"query": query, "answer": answer}, f, ensure_ascii=False, indent=2)
+        print("\nDebug-Daten gespeichert.")
+    except Exception as e:
+        print(f"Fehler beim Speichern der Debug-Daten: {e}")
+
 
 
 

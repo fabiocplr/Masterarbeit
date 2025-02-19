@@ -37,7 +37,7 @@ namespaces = {
 }
 
 def extract_content(element):
-    """Rekursive Extraktion des Textinhalts eines Elements."""
+    #Rekursive Extraktion des Textinhalts eines Elements
     content = []
     if element.text and element.text.strip():
         content.append(element.text.strip())
@@ -53,7 +53,7 @@ def extract_deutsch_chunks(root):
     for elem in root.iter():
         tag = elem.tag.split("}", 1)[-1]  # Namespace entfernen
         if tag == "Data-Title":
-            # Für jeden Data-Title, der den deutschen Aspekt hat:
+            # Für jeden Data-Title, der einen deutschen Tag hat
             for value in elem.findall("n:Value[@n:Aspect='de']", namespaces):
                 texts = []
                 for entry in value.findall("n:Entry", namespaces):
@@ -67,7 +67,7 @@ def extract_deutsch_chunks(root):
                         current_chunk = ""
                     current_chunk += "\n\n".join(texts) + "\n\n"
         elif tag == "Data-Content":
-            # Alle Data-Content-Einträge mit Aspect="de" dem aktuellen Chunk hinzufügen
+            # Alle Data-Content Elemente mit Aspect="de" dem aktuellen Chunk hinzufügen
             for value in elem.findall("n:Value[@n:Aspect='de']", namespaces):
                 texts = []
                 for entry in value.findall("n:Entry", namespaces):
@@ -80,7 +80,7 @@ def extract_deutsch_chunks(root):
         chunks.append(current_chunk.strip())
     return chunks
 
-# XML-Dateien verarbeiten: Für jede XML-Datei wird für jeden Chunk (Data-Title + zugehörige Data-Content-Einträge) ein eigenes Document-Objekt erstellt.
+# Für jede XML-Datei wird für jeden Chunk (Data-Title + zugehörige Data-Content Element) ein Dokument erstellt
 def process_xmls(directory):
     documents = []
     for filename in os.listdir(directory):
@@ -94,7 +94,6 @@ def process_xmls(directory):
                 cleaned_chunk = chunk.strip()
                 documents.append(Document(page_content=cleaned_chunk, metadata={"source": filename}))
     return documents
-
 
 
 # PDF-Parsing
@@ -116,7 +115,7 @@ def process_pdfs(directory):
 
 data_directory = r"C:\Users\fabio.cappellaro\Documents\Masterarbeit Projekt\Masterarbeit_FC\Datenpool"
 
-# XML-Dokumente verarbeiten (jede Entry ist ein Chunk)
+# XML-Dokumente verarbeiten
 xml_documents = process_xmls(data_directory)
 
 # PDF-Dokumente verarbeiten
@@ -141,11 +140,11 @@ vectorstore = FAISS.from_documents(documents, embeddings)
 print(f"{len(documents)} Dokument-Chunks wurden verarbeitet und in den Vektorspeicher geladen.")
 
 
-# Debugging: Exportiere Daten (Chunks, Embeddings etc.)
+# Debugging: Exportiere Daten für zwischen Kontrolle, speichert in den Ordner ExportetData
 def export_data(documents, vectorstore, directory):
     os.makedirs(directory, exist_ok=True)
 
-    # Originaltext exportieren
+    # Parsed exportieren
     parsed_text_path = os.path.join(directory, "parsed_text.txt")
     with open(parsed_text_path, "w", encoding="utf-8") as f:
         for doc in documents:
