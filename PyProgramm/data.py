@@ -29,6 +29,34 @@ class SentenceTransformerEmbeddings(Embeddings):
 
 # XML Parsen
 # Namespace-Deklarationen extrahieren
+import os
+import torch
+from sentence_transformers import SentenceTransformer
+from langchain.embeddings.base import Embeddings
+from typing import List
+from langchain_community.document_loaders import PyMuPDFLoader
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_community.vectorstores import FAISS
+from langchain.docstore.document import Document
+import xml.etree.ElementTree as ET
+
+# Sentence Transformer initialisieren
+class SentenceTransformerEmbeddings(Embeddings):
+    def __init__(self, model_name: str = "intfloat/multilingual-e5-large"):
+        device = 'cuda' if torch.cuda.is_available() else 'cpu'
+        self.model = SentenceTransformer(model_name, device=device)
+
+    def embed_documents(self, texts: List[str]) -> List[List[float]]:
+        prefixed = [f"passage: {t}" for t in texts]
+        embeddings = self.model.encode(prefixed, convert_to_numpy=True, batch_size=32, normalize_embeddings=True)
+        return embeddings.tolist()
+
+    def embed_query(self, text: str) -> List[float]:
+        prefixed = f"query: {text}"
+        embedding = self.model.encode([prefixed], convert_to_numpy=True, normalize_embeddings=True)
+        return embedding[0].tolist()
+
+# XML-Namespace-Deklarationen
 namespaces = {
     "n": "http://www.schema.de/2004/ST4/XmlImportExport/Node",
     "d": "http://www.schema.de/2004/ST4/XmlImportExport/Data",
@@ -38,6 +66,17 @@ namespaces = {
 
 def extract_content(element):
     #Rekursive Extraktion des Textinhalts eines Elements
+    content = []
+    if element.text and element.text.strip():
+        content.append(element.text.strip())
+    for child in element:
+        content.append(extract_content(child))
+    if element.tail and element.tail.strip():
+        content.append(element.tail.strip())
+    return " ".join(content).strip()
+
+def extract_content(element):
+    """Rekursive Extraktion des Textinhalts eines Elements."""
     content = []
     if element.text and element.text.strip():
         content.append(element.text.strip())
@@ -80,7 +119,28 @@ def extract_deutsch_chunks(root):
         chunks.append(current_chunk.strip())
     return chunks
 
-# Für jede XML-Datei wird für jeden Chunk (Data-Title + zugehörige Data-Content Element) ein Dokument erstellt
+# Neue Funktion: Kleine XML-Chunks (< 100 Zeichen) mit dem nächsten Chunk zusammenführen
+def merge_small_xml_chunks(chunks, threshold=100):
+    merged = []
+    i = 0
+    while i < len(chunks):
+        current = chunks[i].strip()
+        # Solange der aktuelle Chunk unter dem Schwellenwert liegt und es einen nächsten Chunk gibt,
+        # wird dieser an den aktuellen Chunk angehängt.
+        while len(current) < threshold and i + 1 < len(chunks):
+            i += 1
+            current += " " + chunks[i].strip()
+        merged.append(current)
+        i += 1
+    # Falls der letzte Chunk immer noch zu klein ist und es bereits einen vorherigen Chunk gibt,
+    # wird der letzte Chunk an den vorangehenden Chunk angehängt.
+    if merged and len(merged[-1]) < threshold and len(merged) > 1:
+        merged[-2] = merged[-2] + " " + merged[-1]
+        merged.pop()
+    return merged
+
+
+# Für jede XML-Datei wird für jeden Chunk (Data-Title + zugehörige Data-Content Element) ein Dokument erstellt, Kapitel werden als Metadatum mitgeben
 def process_xmls(directory):
     documents = []
     for filename in os.listdir(directory):
@@ -89,11 +149,20 @@ def process_xmls(directory):
             tree = ET.parse(file_path)
             root = tree.getroot()
             chunks = extract_deutsch_chunks(root)
+            # Kleine XML-Chunks zusammenführen
+            chunks = merge_small_xml_chunks(chunks, threshold=100)
             for chunk in chunks:
-                # Hier wird nur strip() angewendet
                 cleaned_chunk = chunk.strip()
-                documents.append(Document(page_content=cleaned_chunk, metadata={"source": filename}))
+                # Annahme: Die erste Zeile entspricht dem Kapitel-Titel
+                lines = [line.strip() for line in cleaned_chunk.split("\n") if line.strip()]
+                chapter = lines[0] if lines else "Unbekanntes Kapitel"
+                documents.append(Document(
+                    page_content=cleaned_chunk,
+                    metadata={"source": filename, "chapter": chapter}
+                ))
     return documents
+
+
 
 
 # PDF-Parsing

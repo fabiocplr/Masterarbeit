@@ -36,7 +36,8 @@ def frage_und_antwort():
             metadata = doc.metadata
             source_info = metadata.get("source", "Unbekannte Quelle")
             page_info = metadata.get("page", "N/A")
-            print(f"{i}. Quelle: {source_info} | Seite: {page_info}")
+            chapter_info = metadata.get("chapter", "Unbekanntes Kapitel")
+            print(f"{i}. Quelle: {source_info} | Kapitel: {chapter_info} | Seite: {page_info}")
     print("-"*50)
 
 
@@ -45,7 +46,20 @@ def frage_und_antwort():
 # Debugging: Query und Result in einer Datei speichern
     try:
         with open("debug_data.json", "w", encoding="utf-8") as f:
-            json.dump({"query": query, "answer": answer}, f, ensure_ascii=False, indent=2)
+            json.dump({
+                        "query": query, 
+                        "answer": answer, 
+                        "Kontext": [
+                            {
+                                "text": doc.page_content,  
+                                "source": doc.metadata.get("source", "Unbekannte Quelle"),
+                                "page": doc.metadata.get("page", "N/A"),
+                                "chapter": doc.metadata.get("chapter", "Unbekanntes Kapitel")
+                            }
+                            for doc in source_docs
+                        ]
+                    }, f, ensure_ascii=False, indent=2)
+
         print("\nDebug-Daten gespeichert.")
     except Exception as e:
         print(f"Fehler beim Speichern der Debug-Daten: {e}")
