@@ -12,17 +12,17 @@ os.environ["LANGCHAIN_ENDPOINT"] = "https://api.smith.langchain.com"
 
 
 def frage_und_antwort():
-    # 1) Frage vom User
+    # Frage vom User
     query = input("\nBitte geben Sie Ihre Frage ein: ")
     
-    # 2) Chain ausführen
+    # Chain ausführen
     result = qa_chain.invoke(query)
 
-    # 3) Ergebnis-Parsing
+    # Ergebnis-Parsing
     answer = result.get('result', "Keine Antwort gefunden.")
     source_docs = result.get('source_documents', [])
 
-    # 4) Ausgabe formatieren
+    # Ausgabe formatieren
     print("\n" + "="*50)
     print("Antwort auf deine Frage:")
     print("="*50)

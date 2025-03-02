@@ -18,12 +18,12 @@ class SentenceTransformerEmbeddings(Embeddings):
 
     def embed_documents(self, texts: List[str]) -> List[List[float]]:
         prefixed = [f"passage: {t}" for t in texts]
-        embeddings = self.model.encode(prefixed, convert_to_numpy=True, batch_size=32, normalize_embeddings=True)
+        embeddings = self.model.encode(prefixed, convert_to_numpy=True, batch_size=32, normalize_embeddings=False)
         return embeddings.tolist()
 
     def embed_query(self, text: str) -> List[float]:
         prefixed = f"query: {text}"
-        embedding = self.model.encode([prefixed], convert_to_numpy=True, normalize_embeddings=True)
+        embedding = self.model.encode([prefixed], convert_to_numpy=True, normalize_embeddings=False)
         return embedding[0].tolist()
 
 
@@ -161,8 +161,6 @@ def process_xmls(directory):
                     metadata={"source": filename, "chapter": chapter}
                 ))
     return documents
-
-
 
 
 # PDF-Parsing
