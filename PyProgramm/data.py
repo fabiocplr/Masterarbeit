@@ -28,35 +28,7 @@ class SentenceTransformerEmbeddings(Embeddings):
 
 
 # XML Parsen
-# Namespace-Deklarationen extrahieren
-import os
-import torch
-from sentence_transformers import SentenceTransformer
-from langchain.embeddings.base import Embeddings
-from typing import List
-from langchain_community.document_loaders import PyMuPDFLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_community.vectorstores import FAISS
-from langchain.docstore.document import Document
-import xml.etree.ElementTree as ET
-
-# Sentence Transformer initialisieren
-class SentenceTransformerEmbeddings(Embeddings):
-    def __init__(self, model_name: str = "intfloat/multilingual-e5-large"):
-        device = 'cuda' if torch.cuda.is_available() else 'cpu'
-        self.model = SentenceTransformer(model_name, device=device)
-
-    def embed_documents(self, texts: List[str]) -> List[List[float]]:
-        prefixed = [f"passage: {t}" for t in texts]
-        embeddings = self.model.encode(prefixed, convert_to_numpy=True, batch_size=32, normalize_embeddings=True)
-        return embeddings.tolist()
-
-    def embed_query(self, text: str) -> List[float]:
-        prefixed = f"query: {text}"
-        embedding = self.model.encode([prefixed], convert_to_numpy=True, normalize_embeddings=True)
-        return embedding[0].tolist()
-
-# XML-Namespace-Deklarationen
+# Namespaces
 namespaces = {
     "n": "http://www.schema.de/2004/ST4/XmlImportExport/Node",
     "d": "http://www.schema.de/2004/ST4/XmlImportExport/Data",
