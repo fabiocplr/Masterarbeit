@@ -47,49 +47,44 @@ def extract_content(element):
         content.append(element.tail.strip())
     return " ".join(content).strip()
 
-def extract_content(element):
-    """Rekursive Extraktion des Textinhalts eines Elements."""
-    content = []
-    if element.text and element.text.strip():
-        content.append(element.text.strip())
-    for child in element:
-        content.append(extract_content(child))
-    if element.tail and element.tail.strip():
-        content.append(element.tail.strip())
-    return " ".join(content).strip()
-
+# Extrahiert deutschsprachige Inhalte aus XML-Dokumenten.
 def extract_deutsch_chunks(root):
     chunks = []
     current_chunk = ""
+
     for elem in root.iter():
         tag = elem.tag.split("}", 1)[-1]  # Namespace entfernen
+
+        # Verarbeitung von Data-Title
         if tag == "Data-Title":
-            # Für jeden Data-Title, der einen deutschen Tag hat
+            # Falls vorher ein Chunk existierte, diesen speichern
+            if current_chunk.strip():
+                chunks.append(current_chunk.strip())
+                current_chunk = ""
+
+            # Neuen Chunk mit Titel beginnen
             for value in elem.findall("n:Value[@n:Aspect='de']", namespaces):
-                texts = []
-                for entry in value.findall("n:Entry", namespaces):
-                    t = extract_content(entry)
-                    if t:
-                        texts.append(t)
+                texts = [extract_content(entry) for entry in value.findall("n:Entry", namespaces) if extract_content(entry)]
                 if texts:
-                    # Falls bereits ein Chunk vorhanden ist, speichern und neu starten
-                    if current_chunk:
-                        chunks.append(current_chunk.strip())
-                        current_chunk = ""
-                    current_chunk += "\n\n".join(texts) + "\n\n"
+                    current_chunk = "\n\n".join(texts) + "\n\n"
+
+        # Verarbeitung von Data-Content
         elif tag == "Data-Content":
-            # Alle Data-Content Elemente mit Aspect="de" dem aktuellen Chunk hinzufügen
             for value in elem.findall("n:Value[@n:Aspect='de']", namespaces):
-                texts = []
-                for entry in value.findall("n:Entry", namespaces):
-                    t = extract_content(entry)
-                    if t:
-                        texts.append(t)
+                texts = [extract_content(entry) for entry in value.findall("n:Entry", namespaces) if extract_content(entry)]
                 if texts:
-                    current_chunk += "\n\n".join(texts) + "\n\n"
-    if current_chunk:
+                    # Falls current_chunk leer ist, neuer Eintrag
+                    if not current_chunk.strip():
+                        chunks.append("\n\n".join(texts).strip())
+                    else:
+                        current_chunk += "\n\n".join(texts) + "\n\n"
+
+    # Letzten Chunk speichern, falls noch vorhanden
+    if current_chunk.strip():
         chunks.append(current_chunk.strip())
+
     return chunks
+
 
 # Neue Funktion: Kleine XML-Chunks (< 100 Zeichen) mit dem nächsten Chunk zusammenführen
 def merge_small_xml_chunks(chunks, threshold=100):
