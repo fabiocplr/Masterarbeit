@@ -43,9 +43,9 @@ def frage_und_antwort():
 
 
 
-# Debugging: Query und Result in einer Datei speichern
+# Evaluation: Query und Result in einer Datei speichern
     try:
-        with open("debug_data.json", "w", encoding="utf-8") as f:
+        with open("evaluation_data.json", "w", encoding="utf-8") as f:
             json.dump({
                         "query": query, 
                         "answer": answer, 
@@ -60,9 +60,9 @@ def frage_und_antwort():
                         ]
                     }, f, ensure_ascii=False, indent=2)
 
-        print("\nDebug-Daten gespeichert.")
+        print("\nEvaluation-Daten gespeichert.")
     except Exception as e:
-        print(f"Fehler beim Speichern der Debug-Daten: {e}")
+        print(f"Fehler beim Speichern der Evaluation-Daten: {e}")
 
 
 

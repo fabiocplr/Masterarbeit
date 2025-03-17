@@ -45,8 +45,8 @@ def rouge_score(answer, correct_answer):
     
 
 
-def debug_info(query, result_dict, correct_answer):
-    """ Zeigt Debug-Infos an: Kontext, Cosine Similarity, Confidence Score und ROUGE Score. """
+def evaluation_info(query, result_dict, correct_answer):
+    """ Zeigt Evaluation-Infos an: Kontext, Cosine Similarity, Confidence Score und ROUGE Score. """
     
     # Kontext ausgeben
     source_docs = result_dict.get("source_documents", [])
@@ -107,8 +107,8 @@ def debug_info(query, result_dict, correct_answer):
     print(f"ROUGE-L F1-Score: {rougeL_f1:.4f}")
 
 
-    # Ergebnisse in Debug-Datei speichern
-    debug_output = {
+    # Ergebnisse in Evaluation-Datei speichern
+    evaluation_output = {
         "query": query,
         "answer": answer,
         "confidence_score": confidence_score,
@@ -121,20 +121,20 @@ def debug_info(query, result_dict, correct_answer):
         "sorted_source_documents": similarity_results
     }
 
-    with open("debug_output.json", "w", encoding="utf-8") as f:
-        json.dump(debug_output, f, ensure_ascii=False, indent=2)
+    with open("evaluation_output.json", "w", encoding="utf-8") as f:
+        json.dump(evaluation_output, f, ensure_ascii=False, indent=2)
 
-    print("\nDebug-Daten gespeichert in debug_output.json.")
+    print("\nEvaluation-Daten gespeichert in evaluation_output.json.")
 
 if __name__ == "__main__":
     try:
-        with open("debug_data.json", "r", encoding="utf-8") as f:
+        with open("evaluation_data.json", "r", encoding="utf-8") as f:
             data = json.load(f)
     except FileNotFoundError:
-        print("Fehler: Keine debug_data.json gefunden! Bitte zuerst main.py ausführen.")
+        print("Fehler: Keine evaluation_data.json gefunden! Bitte zuerst main.py ausführen.")
         exit(1)
     except json.JSONDecodeError:
-        print("Fehler: debug_data.json enthält ungültige JSON-Daten!")
+        print("Fehler: evaluation_data.json enthält ungültige JSON-Daten!")
         exit(1)
 
     # Korrekte Antwort aus correct_answer.json laden
@@ -158,7 +158,7 @@ if __name__ == "__main__":
     # Hole die korrekte Antwort aus der JSON-Datei
     correct_answer = correct_answer_data.get(query, "Keine Referenzantwort vorhanden.")
 
-    print(f"\n=== DEBUGGING-SKRIPT ===")
+    print(f"\n=== EVALUATION-SKRIPT ===")
     print(f"Query aus main.py war: '{query}'")
 
-    debug_info(query, result_dict, correct_answer)
+    evaluation_info(query, result_dict, correct_answer)
