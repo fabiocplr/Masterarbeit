@@ -54,7 +54,8 @@ def frage_und_antwort():
                                 "text": doc.page_content,  
                                 "source": doc.metadata.get("source", "Unbekannte Quelle"),
                                 "page": doc.metadata.get("page", "N/A"),
-                                "chapter": doc.metadata.get("chapter", "Unbekanntes Kapitel")
+                                "chapter": doc.metadata.get("chapter", "Unbekanntes Kapitel"),
+                                "id": doc.metadata.get("id", "Unbekannte ID")
                             }
                             for doc in source_docs
                         ]

@@ -118,21 +118,28 @@ def process_xmls(directory):
             chunks = extract_deutsch_chunks(root)
             # Kleine XML-Chunks zusammenführen
             chunks = merge_small_xml_chunks(chunks, threshold=100)
-            for chunk in chunks:
+            for idx, chunk in enumerate(chunks):
                 cleaned_chunk = chunk.strip()
                 # Annahme: Die erste Zeile entspricht dem Kapitel-Titel
                 lines = [line.strip() for line in cleaned_chunk.split("\n") if line.strip()]
                 chapter = lines[0] if lines else "Unbekanntes Kapitel"
+                unique_id = f"{filename}_{idx}"
                 documents.append(Document(
                     page_content=cleaned_chunk,
-                    metadata={"source": filename, "chapter": chapter}
+                    metadata={"source": filename, "chapter": chapter, "id": unique_id}
                 ))
     return documents
 
 
-# PDF-Parsing
+# PDF-Parsing und Splitten
 def process_pdfs(directory):
     documents = []
+    # RecursiveCharacterTextSplitter definieren
+    text_splitter = RecursiveCharacterTextSplitter(
+        chunk_size=600,
+        chunk_overlap=20,
+        length_function=len
+    )
     for filename in os.listdir(directory):
         if filename.endswith(".pdf"):
             file_path = os.path.join(directory, filename)
@@ -141,8 +148,17 @@ def process_pdfs(directory):
             pdf_loader = PyMuPDFLoader(file_path)
             pdf_documents = pdf_loader.load()
 
-            # Extrahierte Dokumente zur Liste hinzufügen
-            documents.extend(pdf_documents)
+            # Dateinamen als Quelle
+            for doc in pdf_documents:
+                doc.metadata["source"] = filename
+            
+            # PDF-Dokumente in kleinere Chunks splitten
+            split_docs = text_splitter.split_documents(pdf_documents)
+            
+            # Eindeutige IDs für jeden Chunk
+            for idx, doc in enumerate(split_docs):
+                doc.metadata["id"] = f"{filename}_{idx}"
+                documents.append(doc)
 
     return documents
 
@@ -154,14 +170,6 @@ xml_documents = process_xmls(data_directory)
 
 # PDF-Dokumente verarbeiten
 pdf_documents = process_pdfs(data_directory)
-
-# Nur die PDF-Dokumente mit dem RecursiveCharacterTextSplitter in kleinere Chunks aufteilen
-text_splitter = RecursiveCharacterTextSplitter(
-    chunk_size=600,
-    chunk_overlap=20,
-    length_function=len
-)
-pdf_documents = text_splitter.split_documents(pdf_documents)
 
 # Alle Dokumente kombinieren
 documents = xml_documents + pdf_documents

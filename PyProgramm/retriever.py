@@ -28,6 +28,36 @@ multi_query_prompt = PromptTemplate(
 Du bist ein KI-Assistent für technische Dokumentationen. Generiere drei alternative Formulierungen der Frage "{question}" zur Suche relevanter Dokumente in einer Vektordatenbank. Verwende dabei alternative Fachbegriffe und Bezeichnungen, ohne die ursprüngliche Bedeutung zu verändern.
 """)
 
+
+class CustomMultiQueryRetriever(MultiQueryRetriever):
+    def get_relevant_documents(self, query: str) -> List:
+        # Alternative Fragen generieren mit invoke statt run
+        alternative_queries = self.llm_chain.invoke({"question": query})
+        # Originalfrage hinzufügen
+        all_queries = [query] + alternative_queries
+
+        # Debug-Ausgabe zur Kontrolle
+        print("CustomMultiQueryRetriever: all_queries =", all_queries)
+
+        all_docs = []
+        for q in all_queries:
+            # Statt get_relevant_documents verwenden wir invoke
+            docs = self.retriever.invoke({"query": q})
+            all_docs.extend(docs)
+        
+        # Doppelte Dokumente basierend auf der "id" in den Metadaten entfernen
+        unique_docs = []
+        seen_ids = set()
+        for doc in all_docs:
+            doc_id = doc.metadata.get("id")
+            if doc_id is None:
+                # Falls keine ID vorhanden ist, das Dokument einfach hinzufügen
+                unique_docs.append(doc)
+            elif doc_id not in seen_ids:
+                unique_docs.append(doc)
+                seen_ids.add(doc_id)
+        return unique_docs
+    
 # Für Template 0 [T0] (Basis)
 def create_multi_query_retriever(llm):
     # Normaler Retriever
@@ -58,7 +88,7 @@ def create_multi_query_retriever(llm):
     llm_chain = multi_query_prompt | llm | output_parser
 
     # Multi-Query-Retriever
-    multi_query_retriever = MultiQueryRetriever(
+    multi_query_retriever = CustomMultiQueryRetriever(
         retriever=base_retriever,
         llm_chain=llm_chain
     )
