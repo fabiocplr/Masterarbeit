@@ -25,15 +25,19 @@ logging.getLogger("langchain.retrievers.multi_query").setLevel(logging.DEBUG)
 multi_query_prompt = PromptTemplate(
     input_variables=["question"],
     template="""
-Du bist ein KI-Assistent für technische Dokumentationen. Generiere drei alternative Formulierungen der Frage "{question}" zur Suche relevanter Dokumente in einer Vektordatenbank. Verwende dabei alternative Fachbegriffe und Bezeichnungen, ohne die ursprüngliche Bedeutung zu verändern.
+Du bist ein KI-Assistent für technische Dokumentationen. Generiere eine alternative Formulierung der Frage "{question}" zur Suche relevanter Dokumente in einer Vektordatenbank. Verwende dabei alternative Fachbegriffe und Bezeichnungen, ohne die ursprüngliche Bedeutung zu verändern.
 """)
 
 
+# Globale Variable zur Speicherung der alternativen Queries
+raw_alternative_queries = None
+
 class CustomMultiQueryRetriever(MultiQueryRetriever):
     def get_relevant_documents(self, query: str) -> List:
-        # Alternative Fragen generieren mit invoke statt run
+        global raw_alternative_queries
         alternative_queries = self.llm_chain.invoke({"question": query})
-        # Originalfrage hinzufügen
+        raw_alternative_queries = alternative_queries  # Speichern für den späteren Zugriff
+
         all_queries = [query] + alternative_queries
 
         # Debug-Ausgabe zur Kontrolle
@@ -59,22 +63,20 @@ class CustomMultiQueryRetriever(MultiQueryRetriever):
         return unique_docs
     
 # Für Template 0 [T0] (Basis)
-def create_multi_query_retriever(llm):
-    # Normaler Retriever
-    base_retriever = vectorstore.as_retriever(
-        search_type="mmr",
-        search_kwargs={'k': 4, 'lambda_mult': 0.5 })
-
-# # Für Template 1 [T1] (Präzisiion)
 # def create_multi_query_retriever(llm):
 #     # Normaler Retriever
 #     base_retriever = vectorstore.as_retriever(
-#         search_type="similarity",
-#         search_kwargs={'k': 4 
-#                        #'score_threshold': 0.8
-#                        })
+#         search_type="mmr",
+#         search_kwargs={'k': 3, 'lambda_mult': 0.5 })
 
-# #Für Template 2 [T2] (Kreativ)    
+# Für Template 1 [T1] (Präzisiion)
+def create_multi_query_retriever(llm):
+     # Normaler Retriever
+    base_retriever = vectorstore.as_retriever(
+        search_type="similarity",
+        search_kwargs={'k': 3 })
+                        
+# Für Template 2 [T2] (Kreativ)    
 # def create_multi_query_retriever(llm):
 #     # Normaler Retriever
 #     base_retriever = vectorstore.as_retriever(

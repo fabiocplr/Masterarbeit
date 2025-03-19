@@ -2,6 +2,7 @@ from model import qa_chain
 import json
 import os
 from dotenv import load_dotenv
+import retriever
 
 load_dotenv()
 
@@ -14,9 +15,12 @@ os.environ["LANGCHAIN_ENDPOINT"] = "https://api.smith.langchain.com"
 def frage_und_antwort():
     # Frage vom User
     query = input("\nBitte geben Sie Ihre Frage ein: ")
-    
+
     # Chain ausführen
     result = qa_chain.invoke(query)
+
+    alternative_queries = retriever.raw_alternative_queries
+
 
     # Ergebnis-Parsing
     answer = result.get('result', "Keine Antwort gefunden.")
@@ -47,7 +51,8 @@ def frage_und_antwort():
     try:
         with open("evaluation_data.json", "w", encoding="utf-8") as f:
             json.dump({
-                        "query": query, 
+                        "query": query,
+                        "alternative_queries": alternative_queries,
                         "answer": answer, 
                         "Kontext": [
                             {

@@ -136,8 +136,8 @@ def process_pdfs(directory):
     documents = []
     # RecursiveCharacterTextSplitter definieren
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=600,
-        chunk_overlap=20,
+        chunk_size=500,
+        chunk_overlap=10,
         length_function=len
     )
     for filename in os.listdir(directory):
