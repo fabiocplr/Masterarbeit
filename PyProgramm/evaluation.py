@@ -4,29 +4,81 @@ from data import embeddings
 from scipy.spatial.distance import cosine
 from model import text_pipeline, tokenizer
 from rouge_score import rouge_scorer
+from transformers import AutoTokenizer
 
 def cosine_similarity(vector1, vector2):
     """ Berechnet Cosine Similarity"""
     cos_sim = 1 - cosine(vector1, vector2)
     return cos_sim
 
+
+# def model_confidence(answer):
+#     """ Berechnet den Confidence Score der Antwort basierend auf Token-Wahrscheinlichkeiten. """
+#     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    
+#     inputs = tokenizer(answer, return_tensors="pt", truncation=True, max_length=512).to(device)
+
+#     with torch.no_grad():
+#         outputs = text_pipeline.model(**inputs)
+
+#     # Softmax auf Logits anwenden, um Wahrscheinlichkeiten zu erhalten
+#     probs = torch.nn.functional.softmax(outputs.logits, dim=-1)
+    
+#     # Berechnung des Confidence Scores (Durchschnitt der Top-1 Token-Wahrscheinlichkeiten)
+#     top_probs, _ = torch.max(probs, dim=-1)  
+#     confidence_score = top_probs.mean().item()
+    
+#     return confidence_score
+
 def model_confidence(answer):
-    """ Berechnet den Confidence Score der Antwort basierend auf Token-Wahrscheinlichkeiten. """
+    """ Berechnet den Confidence Score der Antwort basierend auf den Wahrscheinlichkeiten der tatsächlich generierten Tokens. """
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     
     inputs = tokenizer(answer, return_tensors="pt", truncation=True, max_length=512).to(device)
 
     with torch.no_grad():
         outputs = text_pipeline.model(**inputs)
-
-    # Softmax auf Logits anwenden, um Wahrscheinlichkeiten zu erhalten
-    probs = torch.nn.functional.softmax(outputs.logits, dim=-1)
     
-    # Berechnung des Confidence Scores (Durchschnitt der Top-1 Token-Wahrscheinlichkeiten)
-    top_probs, _ = torch.max(probs, dim=-1)  
-    confidence_score = top_probs.mean().item()
+    # Logits verschieben: Ignoriere den ersten Logit, da dieser zur Vorhersage des zweiten Tokens dient
+    logits = outputs.logits[:, :-1, :]  
+    target_ids = inputs.input_ids[:, 1:]  # Ziel-Tokens ab dem zweiten Token
+
+    # Softmax anwenden, um Wahrscheinlichkeiten zu erhalten
+    probs = torch.nn.functional.softmax(logits, dim=-1)
+    
+    # Wahrscheinlichkeit für jedes Ziel-Token abrufen
+    token_probs = probs.gather(2, target_ids.unsqueeze(-1)).squeeze(-1)
+    
+    # Durchschnitt der Token-Wahrscheinlichkeiten berechnen
+    confidence_score = token_probs.mean().item()
     
     return confidence_score
+
+def show_token_confidences(answer, model, tokenizer, filename="token_confidences.txt"):
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    inputs = tokenizer(answer, return_tensors="pt", truncation=True, max_length=512).to(device)
+    input_ids = inputs.input_ids
+
+    with torch.no_grad():
+        outputs = model(**inputs)
+
+    logits = outputs.logits[:, :-1, :]
+    target_ids = input_ids[:, 1:]
+
+    probs = torch.nn.functional.softmax(logits, dim=-1)
+    token_probs = probs.gather(2, target_ids.unsqueeze(-1)).squeeze(-1)
+    tokens = tokenizer.convert_ids_to_tokens(input_ids[0])[1:]
+
+    # In Datei schreiben
+    with open(filename, "w", encoding="utf-8") as f:
+        f.write("Token\t\tWahrscheinlichkeit\n")
+        f.write("=" * 40 + "\n")
+        for token, prob in zip(tokens, token_probs[0]):
+            f.write(f"{token:>12s} : {prob.item():.4f}\n")
+
+    print(f"\nToken-Wahrscheinlichkeiten gespeichert in: {filename}")
+
+
 
 #ROUGE Metrik
 def rouge_score(answer, correct_answer):
@@ -91,6 +143,9 @@ def evaluation_info(query, result_dict, correct_answer):
     answer = result_dict.get("result", "Keine Antwort gefunden.")
     confidence_score = model_confidence(answer)
     print(f"Confidence Score der Antwort: {confidence_score:.4f}")
+
+    # Token-Wahrscheinlichkeiten in Datei speichern
+    show_token_confidences(answer, text_pipeline.model, tokenizer)
 
 
     # ROUGE-1 & ROUGE-L Score berechnen
