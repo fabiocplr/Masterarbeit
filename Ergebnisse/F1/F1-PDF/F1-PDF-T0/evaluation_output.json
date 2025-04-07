@@ -1,0 +1,94 @@
+{
+  "query": "Welche Schritte sind notwendig, um die Grasfangbox des Rasentraktors korrekt zu montieren und einzustellen?",
+  "answer": "   Die Schritte zur korrekten Montage und Einstellung der Grasfangbox des Rasentraktors sind wie folgt:\n\n1. Halten Sie die Grasfangbox mit einer Hand am Boxgriff (11/1) und mit der anderen Hand an der Halteöffnung an der Rückseite (11/2).\n2. Legen Sie die Grasfangbox symmetrisch auf die Führung (11/3).\n3. Kippen Sie die Grasfangbox mit der anderen Hand leicht nach vorne (12), so dass der vordere Teil der Grasfangbox einrastet.\n4. Schwenken Sie nun die Grasfangbox wieder nach unten (13/a).\n5. Überprüfen Sie den korrekten Sitz der Grasfangbox.\n\nZusätzlich müssen die Sicherheitseinrichtungen vor jedem Start des Rasentraktors geprüft werden. Der Kontaktschalter an der Grasfangbox stellt sicher, dass sich der Motor abschaltet, sobald die Grasfangbox bei eingeschaltetem Mähwerk nicht korrekt eingehängt ist.",
+  "confidence_score": 0.54296875,
+  "rouge1_precision": 0.19655172413793104,
+  "rouge1_recall": 0.8636363636363636,
+  "rouge1_f1": 0.3202247191011236,
+  "rougeL_precision": 0.16896551724137931,
+  "rougeL_recall": 0.7424242424242424,
+  "rougeL_f1": 0.2752808988764045,
+  "sorted_source_documents": [
+    {
+      "metadata": {
+        "source": "Betriebsanleitung Rasentraktor.pdf",
+        "chapter": "Unbekanntes Kapitel",
+        "page": 16
+      },
+      "text": "am Boxgriff (11/1) und mit der anderen Hand\nan der Halteöffnung an der Rückseite (11/2).\n2.\nLegen Sie die Grasfangbox symmetrisch auf\ndie Führung (11/3).\n3.\nKippen Sie die Grasfangbox mit der anderen\nHand leicht nach vorne (12), so dass der vor-\ndere Teil der Grasfangbox einrastet.\n4.\nSchwenken Sie nun die Grasfangbox wieder\nnach unten (13/a).\n5.\nÜberprüfen Sie den korrekten Sitz der Gras-\nfangbox.\n6.6\nPrüfung der Sicherheitseinrichtungen\nDie Sicherheitseinrichtungen müssen vor jedem\nStart des Rasentraktors geprüft werden.\n WARNUNG! Gefahr bei der Prüfung der",
+      "cosine_similarity": 0.9169333963709017
+    },
+    {
+      "metadata": {
+        "source": "Montageanleitung Rasentraktor.pdf",
+        "chapter": "Unbekanntes Kapitel",
+        "page": 8
+      },
+      "text": "tor und Grasfangbox = 0 mm betragen (23, 24)!\n1.\nMessen Sie jeweils links und rechts den Ab-\nstand zwischen Grasfangbox und Rasentrak-\ntor (25). \nHinweis: Bei einem Abstand > 0 mm müs-\nsen die Boxhaltearme entsprechend des ge-\nmessenen Abstands nachgestellt werden!\n2.\nGrasfangbox abnehmen (26).\n3.\nLösen Sie die 4 Sechskantschrauben an bei-\nden Boxhaltearmen jeweils um eine halbe\nUmdrehung (27).\n4.\nEntsprechend des jeweils gemessenen Ab-\nstands die Haltearme links und rechts nach\noben stellen und die unteren Sechskant-",
+      "cosine_similarity": 0.9112017526682931
+    },
+    {
+      "metadata": {
+        "source": "Montageanleitung Rasentraktor.pdf",
+        "chapter": "Unbekanntes Kapitel",
+        "page": 9
+      },
+      "text": "1.\nRadbolzen (33/1) durch das Stützrad (33/2)\nstecken.\n2.\nRadbolzen samt Stützrad in das mittlere Loch\n(33/3) am Träger (33/4) stecken.\n3.\nMutter (33/5) auf dem Radbolzen festdrehen.\n3.7\nGrasfangbox einhängen\n1.\nHalten Sie die Grasfangbox mit einer Hand\nam Boxgriff (20/1) und mit der anderen Hand\nan der Halteöffnung an der Rückseite (20/2).\n2.\nLegen Sie die Grasfangbox symmetrisch auf\ndie Führung (20/3).\n3.\nKippen Sie die Grasfangbox mit der anderen\nHand leicht nach vorne (21), so dass der vor-\ndere Teil der Grasfangbox einrastet.\n4.\nSchwenken Sie nun die Grasfangbox wieder\nnach unten (22).",
+      "cosine_similarity": 0.9014665333394254
+    },
+    {
+      "metadata": {
+        "source": "Montageanleitung Rasentraktor.pdf",
+        "chapter": "Unbekanntes Kapitel",
+        "page": 7
+      },
+      "text": "DE\n8\n476758_c\nOriginal-Montageanleitung\nORIGINAL-MONTAGEANLEITUNG\nInhaltsverzeichnis\n1\nZu dieser Montageanleitung ....................\n8\n1.1\nSymbole auf der Titelseite..................\n8\n1.2\nZeichenerklärungen und Signalwörter\n8\n2\nRasentraktor auspacken..........................\n8\n3\nRasentraktor montieren ...........................\n9\n3.1\nLenkrad montieren .............................\n9\n3.2\nFahrersitz montieren ..........................\n9\n3.3\nTempomat-Bedienhebel montieren....\n9\n3.4\nGrasfangbox montieren......................\n9\n3.5\nBoxhalterung einstellen......................\n9\n3.6",
+      "cosine_similarity": 0.8945209856945646
+    },
+    {
+      "metadata": {
+        "source": "Betriebsanleitung Rasentraktor.pdf",
+        "chapter": "Unbekanntes Kapitel",
+        "page": 9
+      },
+      "text": "16\n6\nInbetriebnahme ........................................\n16\n6.1\nMähwerk prüfen.................................\n16\n6.2\nBefüllung mit Öl .................................\n16\n6.3\nBefüllung mit Kraftstoff (09) ...............\n16\n6.4\nReifendruck prüfen ............................\n16\n6.5\nGrasfangbox anbauen (10 – 13)........\n17\n6.6\nPrüfung der Sicherheitseinrichtungen\n17\n6.6.1\nBremskontaktschalter prüfen.......\n17\n6.6.2\nMähwerkkontaktschalter prüfen ..\n17\n6.6.3\nSitzkontaktschalter prüfen...........\n17\n6.6.4\nKontaktschalter der Grasfangbox\nprüfen ..........................................\n17",
+      "cosine_similarity": 0.8809235489399146
+    },
+    {
+      "metadata": {
+        "source": "Betriebsanleitung Rasentraktor.pdf",
+        "chapter": "Unbekanntes Kapitel",
+        "page": 16
+      },
+      "text": "prüfen\nDer Kontaktschalter an der Grasfangbox stellt si-\ncher, dass sich der Motor abschaltet, sobald die\nGrasfangbox bei eingeschaltetem Mähwerk nicht\nkorrekt eingehängt ist.\n1.\nSetzen Sie sich auf den Fahrersitz.",
+      "cosine_similarity": 0.8762476266466346
+    },
+    {
+      "metadata": {
+        "source": "Betriebsanleitung Rasentraktor.pdf",
+        "chapter": "Unbekanntes Kapitel",
+        "page": 9
+      },
+      "text": "be................................................. 19\n7.5.3\nFahren mit Tempomat.................. 19\n7.5.4\nFahren und Mähen an Hängen.... 20\n7.5.5\nMähen mit dem Rasentraktor....... 20\n8\nRasentraktor reinigen ............................... 21\n8.1\nGrasfangbox reinigen......................... 21\n8.2\nGehäuse, Motor und Getriebe reini-\ngen ..................................................... 22\n8.3\nReinigen des Auswurfkanals (18) ...... 22\n9\nInstandhaltung .......................................... 22\n9.1\nWartungsplan ..................................... 22\n9.2",
+      "cosine_similarity": 0.8651890190283241
+    },
+    {
+      "metadata": {
+        "source": "Betriebsanleitung Rasentraktor.pdf",
+        "chapter": "Unbekanntes Kapitel",
+        "page": 20
+      },
+      "text": "Nehmen Sie dazu die Grasfangbox ab und sprit-\nzen Sie die Box innen und außen mit einem Was-\nserschlauch ab. Fester anhaftende Verschmut-\nzungen müssen vorsichtig, zum Beispiel mit einer\nBürste, abgekratzt werden. Achten Sie insbeson-\ndere bei Grasfangboxen mit Gewebebezug dar-\nauf, das Gewebe nicht zu beschädigen.",
+      "cosine_similarity": 0.8638296469774108
+    },
+    {
+      "metadata": {
+        "source": "Betriebsanleitung Rasentraktor.pdf",
+        "chapter": "Unbekanntes Kapitel",
+        "page": 61
+      },
+      "text": "6.\nSchroef deze met de twee bevestigings-\nschroeven vast.\n7.\nMonteer de grasopvangbak.",
+      "cosine_similarity": 0.8506009029181093
+    }
+  ]
+}

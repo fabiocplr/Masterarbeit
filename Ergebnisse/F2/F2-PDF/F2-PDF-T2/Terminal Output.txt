@@ -1,0 +1,464 @@
+PS C:\Users\fabio.cappellaro\Documents\Masterarbeit Projekt\Masterarbeit_FC> & C:/Users/fabio.cappellaro/AppData/Local/Microsoft/WindowsApps/python3.11.exe "c:/Users/fabio.cappellaro/Documents/Masterarbeit Projekt/Masterarbeit_FC/PyProgramm/main.py"
+878 Dokument-Chunks wurden verarbeitet und in den Vektorspeicher geladen.
+Export abgeschlossen. Dateien gespeichert in: C:\Users\fabio.cappellaro\Documents\Masterarbeit Projekt\Masterarbeit_FC\ExportedData
+Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:05<00:00,  1.26s/it]
+Device set to use cuda:0
+
+Bitte geben Sie Ihre Frage ein: Warum fördert die Gartenpumpe trotz eingeschaltetem Motor kein Wasser und wie kann das Problem behoben werden?
+CustomMultiQueryRetriever: all_queries = ['Warum fördert die Gartenpumpe trotz eingeschaltetem Motor kein Wasser und wie kann das Problem behoben werden?', '1. "Weshalb pumpt die Gartenbewässerungsanlage trotz laufenden Motors kein Wasser und welche Maßnahmen können das Problem lösen?"', '2. "Warum erzeugt die Gartenzufuhrpumpe trotz aktiven Motors keine Wasserversorgung und wie kann das Problem behoben werden?"', '3. "Welche Ursache hat es, dass die Gartenzufuhrpumpe trotz laufenden Motors kein Wasser fördert und welche Schritte zur Behebung des Problems sind möglich?"', '4. "Weshalb pumpt die Gartenbewässerungsanlage trotz laufenden Motors kein Wasser und welche Maßnahmen zur Fehlerbehebung sind notwendig?"', '5. "Warum gibt es bei der Gartenzufuhrpumpe trotz eingeschalteten Motors keine Wasserversorgung und wie kann das Problem gelöst werden?"']
+
+==================================================
+Antwort auf deine Frage:
+==================================================
+   Eine Gartenpumpe kann trotz eines eingeschalteten Motors kein Wasser fördern, wenn die Saugleitung nicht tief genug im Wasser steht. Dies kann dazu führen, dass die Pumpe Luft ansaugt, anstatt Wasser, was zu einem blockierten Laufrad und somit zu keinem Wasserfluss führt.     
+
+Um das Problem zu beheben, sollten Sie sicherstellen, dass die Saugleitung mindestens 30 cm tief im Wasser steht. Dies kann durch Überprüfung und gegebenenfalls Anpassung der Position der Saugleitung erreicht werden.
+
+Zusätzlich sollten Sie die gesamte Anschlussverbindung und den Filterdeckel auf Dichtheit prüfen, um sicherzustellen, dass keine Luft in die Pumpe gelangt. Wenn die Saugleitung verstopft ist, sollten Sie den Schmutz im Ansaugbereich entfernen.
+
+Falls die Pumpe trocken gelaufen ist, müssen Sie das Pumpengehäuse mit Wasser befüllen. Dies kann durch Überprüfen und Reinigen der Saugseite sowie durch Nachfüllen von Wasser im Vorratsbehälter (falls vorhanden) erreicht werden.
+
+Wenn der Druckschlauch geknickt ist, sollten Sie ihn strecken, um sicherzustellen, dass der Druck richtig übertragen wird. Der Trockenlaufschutz kann ebenfalls aktiviert sein, was darauf hinweist, dass die Saugseite nicht richtig funktioniert. In diesem Fall sollten Sie die Saugseite überprüfen und sicherstellen, dass sie korrekt installiert ist.
+
+Falls die Pumpe zu oft ein- und ausschaltet, kann dies auf eine beschädigte Membran hinweisen. In diesem Fall sollten Sie die Membran durch AL-KO Service austauschen lassen. Geringer Luftdruck im Vorratsbehälter kann ebenfalls ein Problem sein, das durch Nachfüllen von Luft im Vorratsbehälter behoben werden kann.
+
+Zusammengefasst sind die wichtigsten Schritte zur Behebung des Problems:
+1. Überprüfen Sie, ob die Saugleitung tief genug im Wasser steht.
+2. Prüfen Sie die gesamte Anschlussverbindung und den Filterdeckel auf Dichtheit.
+3. Entfernen Sie Schmutz im Ansaugbereich.
+4. Befüllen Sie das Pumpengehäuse mit Wasser, wenn die Pumpe trocken gelaufen ist.
+5. Strecken Sie den Druckschlauch, falls er geknickt ist.
+6. Überprüfen Sie die Saugseite und stellen Sie sicher, dass sie korrekt installiert ist.
+7. Tauschen Sie die Membran aus, falls diese beschädigt ist.
+8. Füllen Sie den Vorratsbehälter mit Luft auf, falls der Luftdruck zu niedrig ist.
+
+--------------------------------------------------
+Quellen (Auszug):
+--------------------------------------------------
+1. Quelle: Betriebsanleitung Pumpen.pdf | Kapitel: Unbekanntes Kapitel | Seite: 11
+2. Quelle: Betriebsanleitung Pumpen.pdf | Kapitel: Unbekanntes Kapitel | Seite: 7
+3. Quelle: Betriebsanleitung Pumpen.pdf | Kapitel: Unbekanntes Kapitel | Seite: 48
+4. Quelle: Betriebsanleitung Pumpen.pdf | Kapitel: Unbekanntes Kapitel | Seite: 6
+5. Quelle: Betriebsanleitung Pumpen.pdf | Kapitel: Unbekanntes Kapitel | Seite: 8
+6. Quelle: Betriebsanleitung Pumpen.pdf | Kapitel: Unbekanntes Kapitel | Seite: 55
+7. Quelle: Betriebsanleitung Pumpen.pdf | Kapitel: Unbekanntes Kapitel | Seite: 6
+8. Quelle: Betriebsanleitung Pumpen.pdf | Kapitel: Unbekanntes Kapitel | Seite: 12
+9. Quelle: Betriebsanleitung Pumpen.pdf | Kapitel: Unbekanntes Kapitel | Seite: 127
+10. Quelle: Betriebsanleitung Pumpen.pdf | Kapitel: Unbekanntes Kapitel | Seite: 217
+11. Quelle: Betriebsanleitung Pumpen.pdf | Kapitel: Unbekanntes Kapitel | Seite: 17
+12. Quelle: Betriebsanleitung Pumpen.pdf | Kapitel: Unbekanntes Kapitel | Seite: 20
+--------------------------------------------------
+
+Evaluation-Daten gespeichert.
+PS C:\Users\fabio.cappellaro\Documents\Masterarbeit Projekt\Masterarbeit_FC> & C:/Users/fabio.cappellaro/AppData/Local/Microsoft/WindowsApps/python3.11.exe "c:/Users/fabio.cappellaro/Documents/Masterarbeit Projekt/Masterarbeit_FC/PyProgramm/evaluation.py"
+878 Dokument-Chunks wurden verarbeitet und in den Vektorspeicher geladen.
+Export abgeschlossen. Dateien gespeichert in: C:\Users\fabio.cappellaro\Documents\Masterarbeit Projekt\Masterarbeit_FC\ExportedData
+Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:05<00:00,  1.26s/it]
+Device set to use cuda:0
+
+=== EVALUATION-SKRIPT ===
+Query aus main.py war: 'Warum fördert die Gartenpumpe trotz eingeschaltetem Motor kein Wasser und wie kann das Problem behoben werden?'
+
+=== Vollständiger Kontext (sortiert nach Relevanz) ===
+
+--- Kontextblock 1 ---
+Quelle: Betriebsanleitung Pumpen.pdf, Kapitel: Unbekanntes Kapitel, Seite: 11
+Cosine Similarity: 0.8685
+
+Kundendienst.
+Störung
+Mögliche Ursache
+Abhilfe
+Motor läuft nicht.
+Laufrad blockiert.
+■
+Pumpe reinigen. Motorwelle des
+Laufrads mit Schraubendreher
+losdrehen.
+■
+Schmutz im Ansaugbereich ent-
+fernen.
+Thermoschalter hat abgeschal-
+tet.
+■
+Wasserstand auf Saugseite prü-
+fen. Förderflüssigkeit abkühlen
+lassen. Pumpe Instandsetzen
+oder austauschen.
+■
+Warten, bis der Thermoschalter
+die Pumpe wieder einschaltet.
+Auf maximale Temperatur des
+Fördermediums achten. Pumpe
+prüfen lassen
+Keine Netzspannung vorhan-
+den.
+Sicherungen prüfen, Stromversor-
+gung von Elektrofachkraft prüfen
+lassen.
+Trockenlaufschutz aktiviert
+Saugseite prüfen.
+
+--------------------------------------------------
+
+--- Kontextblock 2 ---
+Quelle: Betriebsanleitung Pumpen.pdf, Kapitel: Unbekanntes Kapitel, Seite: 12
+Cosine Similarity: 0.8611
+
+477634_d
+13
+Lagerung
+Störung
+Mögliche Ursache
+Abhilfe
+Pumpe läuft, aber fördert
+nicht.
+Die Saugleitung ist nicht im
+Wasser.
+Saugleitung min. 30 cm ins Wasser
+eintauchen.
+Druckleitung geschlossen.
+Verschluss-Aggregate in der Druck-
+leitung öffnen.
+Pumpe saugt Luft.
+Alle Anschlussverbindungen und
+den Filterdeckel auf Dichtheit prüfen.
+Saugseitige Verstopfung.
+Schmutz im Ansaugbereich entfer-
+nen.
+Pumpe ist trocken gelaufen.
+Pumpengehäuse mit Wasser befül-
+len.
+Druckschlauch geknickt.
+Druckschlauch strecken.
+Trockenlaufschutz aktiviert.
+Saugseite prüfen.
+Pumpe schaltet zu oft ein
+und aus.
+Membrane ist beschädigt
+(HW 3600).
+Membrane durch AL-KO Service
+austauschen lassen.
+Geringer Luftdruck im Vorrats-
+behälter (HW 3600).
+Luft im Vorratsbehälter nachfüllen.
+(Membranvordruck auf 1,5 bar ein-
+
+--------------------------------------------------
+
+--- Kontextblock 3 ---
+Quelle: Betriebsanleitung Pumpen.pdf, Kapitel: Unbekanntes Kapitel, Seite: 6
+Cosine Similarity: 0.8411
+
+2.7
+LED-Anzeige (HWA 3600)
+Zur Anzeige der Betriebszustände und Fehler-
+meldungen ist die Pumpe mit einer LED-Anzeige
+(03/13) ausgestattet. Betriebsstörungen können
+durch Drücken der Taste Reset (06/1) quittiert
+werden
+2.8
+Bestimmungsgemäße Verwendung
+Die Pumpe ist für die private Nutzung in Haus
+und Garten bestimmt. Sie darf nur im Rahmen
+der Einsatzgrenzen gemäß den technischen Da-
+ten betrieben werden.
+Die Pumpe eignet sich für:
+■
+Bewässerung der Garten- und Grundstücks-
+fläche
+■
+Um- und Auspumpen von Behältern (z. B.
+Schwimmbecken)
+■
+Wasserentnahme aus Brunnen, Regenton-
+nen und Zisternen.
+HW 3600 / HWA 3600
+■
+Automatische Wasserversorgung im Haus
+■
+Druckerhöhung der Wasserversorgung.
+
+--------------------------------------------------
+
+--- Kontextblock 4 ---
+Quelle: Betriebsanleitung Pumpen.pdf, Kapitel: Unbekanntes Kapitel, Seite: 6
+Cosine Similarity: 0.8396
+
+HW 3600
+Das Gerät wird für die Wasserversorgung im und
+am Haus eingesetzt. Nach der Inbetriebnahme
+schaltet das Gerät druckabhängig die Pumpe ein
+und aus. Die Pumpe saugt Wasser über die
+Saugleitung an und fördert es in den Vorratsbe-
+hälter. Ist der Vorratsbehälter gefüllt, schaltet die
+Pumpe wieder ab. Wird Wasser entnommen,
+schaltet die Pumpe automatisch wieder ein und
+fördert das Wasser zur Entnahmestelle. Anschlie-
+ßend wird der Vorratsbehälter wieder gefüllt.
+HWA 3600
+Das Gerät wird für die Wasserversorgung im und
+am Haus eingesetzt. Nach der Inbetriebnahme
+schaltet das Gerät druckabhängig die Pumpe ein
+und aus. Die Pumpe saugt Wasser über die
+Saugleitung an. Wird Wasser entnommen, schal-
+tet die Pumpe automatisch wieder ein und fördert
+das Wasser zur Entnahmestelle.
+2.4
+
+--------------------------------------------------
+
+--- Kontextblock 5 ---
+Quelle: Betriebsanleitung Pumpen.pdf, Kapitel: Unbekanntes Kapitel, Seite: 8
+Cosine Similarity: 0.8380
+
+477634_d
+9
+Montage
+3.2
+Elektrische Sicherheit
+■
+Wenn sich Personen im Schwimmbecken
+oder Gartenteich befinden, darf die Pumpe
+nicht betrieben werden.
+■
+Die Haus-Netzspannung muss mit den Anga-
+ben zur Netzspannung in den Technischen
+Daten übereinstimmen, keine andere Versor-
+gungsspannung verwenden.
+■
+Das Gerät darf nur an einer elektrischen Ein-
+richtung gemäß DIN/VDE 0100, Teil 737, 738
+und 702 betrieben werden. Zur Absicherung
+muss ein Leitungs-Schutzschalter 10 A ins-
+talliert werden.
+■
+Nur Verlängerungskabel verwenden, die für
+den Gebrauch im Freien vorgesehen sind -
+Mindestquerschnitt 3 x 1,5 mm2 der Qualität
+H07RN-F nach DIN 57282/57245 mit
+spritzwassergeschützter Steckvorrichtung.
+Kabeltrommeln immer vollständig abrollen.
+■
+Kontrollieren Sie vor jeder Inbetriebnahme
+
+--------------------------------------------------
+
+--- Kontextblock 6 ---
+Quelle: Betriebsanleitung Pumpen.pdf, Kapitel: Unbekanntes Kapitel, Seite: 20
+Cosine Similarity: 0.8361
+
+477634_d
+21
+Help in case of malfunction
+Malfunction
+Possible cause
+Remedy
+Motor does not run.
+Impeller blocked.
+■
+Clean the pump. Release the
+motor shaft of the impeller with a
+screwdriver.
+■
+Remove dirt from the suction area.
+Thermal protection switch has
+switched off.
+■
+Check the water level on the
+suction side. Allow the convey-
+ing fluid to cool down. Repair or
+replace the pump.
+■
+Wait until the thermal protection
+switch on the pump switches on
+again. Take note of the maximum
+temperature of the conveying me-
+dium. Have the pump inspected
+No mains power.
+Check the fuses, have the power sup-
+ply checked by a qualified electrician.
+Dry running protection activated
+Check the suction side.
+Pump running but does not
+feed.
+The suction line is not in the
+water.
+
+--------------------------------------------------
+
+--- Kontextblock 7 ---
+Quelle: Betriebsanleitung Pumpen.pdf, Kapitel: Unbekanntes Kapitel, Seite: 7
+Cosine Similarity: 0.8351
+
+den.
+■
+Halten Sie einen Sicherheitsabstand zu Tie-
+ren ein, bzw. schalten Sie die Pumpe aus,
+wenn sich Tiere nähern.
+
+--------------------------------------------------
+
+--- Kontextblock 8 ---
+Quelle: Betriebsanleitung Pumpen.pdf, Kapitel: Unbekanntes Kapitel, Seite: 217
+Cosine Similarity: 0.8344
+
+Defecțiune
+Cauza posibilă
+Remediu
+Motorul nu funcționează.
+Rotor blocat.
+■
+Curățați pompa. Eliberați
+arborele motor al rotorului cu o
+șurubelniță.
+■
+Îndepărtați murdăria din zona
+de aspirare.
+Întrerupătorul de protecție
+termică s-a dezactivat.
+■
+Verificați nivelul apei pe partea
+de aspirație. Lăsați lichidul de
+transport să se răcească.
+Reparați sau înlocuiți pompa.
+■
+Așteptați până când
+întrerupătorul de protecție
+termică de pe pompă pornește
+din nou. Luați notă de
+temperatura maximă a agentului
+de transport. Solicitați inspecția
+pompei
+Nu există curent electric.
+Verificați siguranțele, solicitați
+verificarea alimentării cu energie
+electrică de către un electrician
+calificat.
+Protecție la funcționare uscată
+activată
+Verificați partea de aspirație.
+
+--------------------------------------------------
+
+--- Kontextblock 9 ---
+Quelle: Betriebsanleitung Pumpen.pdf, Kapitel: Unbekanntes Kapitel, Seite: 48
+Cosine Similarity: 0.8283
+
+La bomba funciona pero no
+bombea.
+El tubo de aspiración no está
+en el agua.
+Sumergir el tubo de aspiración 30
+cm mín. en el agua.
+Tubo de presión cerrado.
+Abrir los cierres del tubo de presión.
+La bomba aspira aire.
+Comprobar la estanqueidad de to-
+das las uniones roscadas y la tapa
+del filtro.
+Obstrucción en el lado de aspi-
+ración.
+Eliminar la suciedad en la zona de
+aspiración.
+La bomba está funcionando en
+seco.
+Llenar de agua el cuerpo de la bom-
+ba.
+El tubo de presión está dobla-
+do.
+Estirar el tubo de presión.
+La protección contra la marcha
+en seco está activada.
+Comprobar el lado de aspiración.
+La bomba se conecta y des-
+conecta continuamente.
+La membrana está dañada
+(HW 3600).
+Encargar la sustitución de la mem-
+brana al servicio técnico de AL-KO.
+Presión de aire insuficiente en
+
+--------------------------------------------------
+
+--- Kontextblock 10 ---
+Quelle: Betriebsanleitung Pumpen.pdf, Kapitel: Unbekanntes Kapitel, Seite: 127
+Cosine Similarity: 0.8250
+
+LED
+Kopplingsstatus
+ lyser
+■
+Vattentryck genereras
+■
+Pumpen har stängt av
+ blinkar lång-
+samt
+Första sugförsök misslycka-
+des
+
+--------------------------------------------------
+
+--- Kontextblock 11 ---
+Quelle: Betriebsanleitung Pumpen.pdf, Kapitel: Unbekanntes Kapitel, Seite: 55
+Cosine Similarity: 0.8139
+
+■
+Controllare il livello dell'acqua lato aspirazio-
+ne.
+■
+Verificare la tenuta delle condotte.
+■
+Verificare l'installazione del tubo di aspirazio-
+ne e del tubo di mandata.
+■
+Rimettere la pompa in funzione solo dopo a-
+ver eliminato tutti i vizi!
+
+--------------------------------------------------
+
+--- Kontextblock 12 ---
+Quelle: Betriebsanleitung Pumpen.pdf, Kapitel: Unbekanntes Kapitel, Seite: 17
+Cosine Similarity: 0.8097
+
+consequential damage due to flooding.
+■
+Take appropriate measures to avoid conse-
+quential damage caused by flooding in the
+event of faults in the pump.
+4.2
+Connect the suction line
+ NOTE We recommend the installation of flex-
+ible lines at the pump inlet to prevent mechanical
+pressure or tension being exerted on the pump.
+1.
+Select the length of the suction line such that
+the pump cannot run dry. The suction line
+must always be at least 30 cm under the wa-
+ter surface.
+2.
+Connect the suction line. Ensure that the
+connection is tight, but take care not to dam-
+age the thread.
+3.
+Always lay the suction line with an upward
+gradient.
+ NOTE If the suction head is more than 4 m,
+a suction hose with a diameter larger than 1”
+must be installed. We recommend the use of an
+
+--------------------------------------------------
+
+=== Confidence Score ===
+Confidence Score der Antwort:  0.6567
+
+=== ROUGE Scores ===
+ROUGE-1 Precision: 0.5159
+ROUGE-1 Recall: 0.1841
+ROUGE-1 F1-Score: 0.2714
+
+ROUGE-L Precision: 0.3889
+ROUGE-L Recall: 0.1388
+ROUGE-L F1-Score: 0.2046
+
+Evaluation-Daten gespeichert in evaluation_output.json.

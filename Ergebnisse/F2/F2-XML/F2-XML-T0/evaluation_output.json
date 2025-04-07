@@ -1,0 +1,85 @@
+{
+  "query": "Warum fördert die Gartenpumpe trotz eingeschaltetem Motor kein Wasser und wie kann das Problem behoben werden?",
+  "answer": "   Die Pumpe fördert trotz eingeschaltetem Motor kein Wasser, wenn die Saugleitung nicht im Wasser ist oder die Saugleitung nicht ordnungsgemäß angeschlossen ist. Um das Problem zu beheben, sollte die Saugleitung mindestens 30 cm ins Wasser eintauchen und alle Anschlussverbindungen auf Dichtheit geprüft werden.",
+  "confidence_score": 0.47265625,
+  "rouge1_precision": 0.2222222222222222,
+  "rouge1_recall": 0.6222222222222222,
+  "rouge1_f1": 0.32748538011695905,
+  "rougeL_precision": 0.14285714285714285,
+  "rougeL_recall": 0.4,
+  "rougeL_f1": 0.21052631578947364,
+  "sorted_source_documents": [
+    {
+      "metadata": {
+        "source": "BETRIEBSANLEITUNG Pumpen.xml",
+        "chapter": "Hinweis - Erstinbetriebnahme",
+        "page": "N/A"
+      },
+      "text": "Hinweis - Erstinbetriebnahme\n\nSollte nach ca. 90 Sekunden noch kein Wasser über die Saugleitung angesaugt werden, schaltet der Trockenlaufschutz die Pumpe ab und die LED-Anzeige ALARM leuchtet. Überprüfen Sie die Saugleitung, das Filterglas und alle Verschraubungen auf Dichtheit, drücken Sie den RESET-Taster und führen Sie die Erstinbetriebnahme nochmals durch.",
+      "cosine_similarity": 0.8573806696152174
+    },
+    {
+      "metadata": {
+        "source": "BETRIEBSANLEITUNG Pumpen.xml",
+        "chapter": "Hilfe bei Störungen",
+        "page": "N/A"
+      },
+      "text": "Hilfe bei Störungen\n\nStörung Mögliche Ursache Abhilfe Motor läuft nicht. Laufrad blockiert. Pumpe reinigen. Motorwelle des Laufrads mit Schraubendreher losdrehen. Schmutz im Ansaugbereich entfernen. Thermoschalter hat abgeschaltet. Wasserstand auf Saugseite prüfen. Förderflüssigkeit abkühlen lassen. Pumpe Instandsetzen oder austauschen. Warten, bis der Thermoschalter die Pumpe wieder einschaltet. Auf maximale Temperatur des Fördermediums achten. Pumpe prüfen lassen Keine Netzspannung vorhanden. Sicherungen prüfen, Stromversorgung von Elektrofachkraft prüfen lassen. Trockenlaufschutz aktiviert Saugseite prüfen. Pumpe läuft, aber fördert nicht. Die Saugleitung ist nicht im Wasser. Saugleitung min. 30 cm ins Wasser eintauchen. Druckleitung geschlossen. Verschluss-Aggregate in der Druckleitung öffnen. Pumpe saugt Luft. Alle Anschlussverbindungen und den Filterdeckel auf Dichtheit prüfen. Saugseitige Verstopfung. Schmutz im Ansaugbereich entfernen. Pumpe ist trocken gelaufen. Pumpengehäuse mit Wasser befüllen. Druckschlauch geknickt. Druckschlauch strecken. Trockenlaufschutz aktiviert. Saugseite prüfen. Pumpe schaltet zu oft ein und aus. Membrane ist beschädigt (HW 3600). Membrane durch AL-KO Service austauschen lassen. Geringer Luftdruck im Vorratsbehälter (HW 3600). Luft im Vorratsbehälter nachfüllen. (Membranvordruck auf 1,5 bar einstellen). Pumpe saugt Luft, Wassermangel saugseitig. Pumpe ausschalten und abkühlen lassen. Undichtigkeit auf der Druckseite (HWA 3600) Druckschlauch prüfen. Fördermenge zu gering Druckschlauch geknickt. Druckschlauch strecken. Saugseitige Verstopfung. Schmutz im Ansaugbereich entfernen. Schlauchdurchmesser zu klein. Größeren Druckschlauch verwenden. Förderhöhe zu groß. Max. Förderhöhe beachten, siehe technische Daten! Saugseitig zu geringe Wassermenge. Drosseln der Pumpe, um die Fördermenge anzupassen. Saughöhe zu groß. Saughöhe prüfen, max. Saughöhe beachten - siehe technische Daten.",
+      "cosine_similarity": 0.8451197569316278
+    },
+    {
+      "metadata": {
+        "source": "BETRIEBSANLEITUNG Pumpen.xml",
+        "chapter": "Bestimmungsgemäße Verwendung",
+        "page": "N/A"
+      },
+      "text": "Bestimmungsgemäße Verwendung\n\nDie Pumpe ist für die private Nutzung in Haus und Garten bestimmt. Sie darf nur im Rahmen der Einsatzgrenzen gemäß den technischen Daten betrieben werden. Die Pumpe eignet sich für: Bewässerung der Garten- und Grundstücksfläche Um- und Auspumpen von Behältern (z. B. Schwimmbecken) Wasserentnahme aus Brunnen, Regentonnen und Zisternen. HW 3600 / HWA 3600 Automatische Wasserversorgung im Haus Druckerhöhung der Wasserversorgung.  Die Pumpe ist ausschließlich zum Fördern von folgenden Flüssigkeiten geeignet: Klarwasser, Regenwasser chlorhaltiges Wasser (z. B. Schwimmbecken) Eine andere oder darüber hinausgehende Verwendung gilt als nicht bestimmungsgemäß.",
+      "cosine_similarity": 0.8388844733774217
+    },
+    {
+      "metadata": {
+        "source": "BETRIEBSANLEITUNG Pumpen.xml",
+        "chapter": "Inbetriebnahme Pumpe befüllen",
+        "page": "N/A"
+      },
+      "text": "Inbetriebnahme Pumpe befüllen\n\nUm die Ansaugzeit zu verkürzen, Saugschlauch vor dem Anschrauben mit Wasser füllen. Einfüllschraube (3) mit Filterschlüssel (19/A) öffnen. Über die Einfüllschraube Wasser einfüllen, bis das Pumpengehäuse (2) voll ist. Einfüllschraube einschrauben.",
+      "cosine_similarity": 0.8327851093253741
+    },
+    {
+      "metadata": {
+        "source": "BETRIEBSANLEITUNG Pumpen.xml",
+        "chapter": "Möglicher Fehlgebrauch",
+        "page": "N/A"
+      },
+      "text": "Möglicher Fehlgebrauch\n\nDie Pumpe darf nicht im Dauerbetrieb eingesetzt werden. Sie ist nicht geeignet zur Förderung von: Trinkwasser Salzwasser Lebensmitteln Schmutzwasser aggressiven Medien, Chemikalien ätzenden, brennbaren, explosiven oder gasenden Flüssigkeiten Flüssigkeiten, die wärmer als 35 °C sind sandhaltigem Wasser und schmirgelnden Flüssigkeiten",
+      "cosine_similarity": 0.8319634534383572
+    },
+    {
+      "metadata": {
+        "source": "BETRIEBSANLEITUNG Pumpen.xml",
+        "chapter": "Hinweis – Pumpe reinigen",
+        "page": "N/A"
+      },
+      "text": "Hinweis – Pumpe reinigen\n\nNach Förderung von chlorhaltigem Schwimmbadwasser oder Flüssigkeiten, die Rückstände hinterlassen, muss die Pumpe mit klarem Wasser gespült werden.",
+      "cosine_similarity": 0.8288017692143206
+    },
+    {
+      "metadata": {
+        "source": "BETRIEBSANLEITUNG Pumpen.xml",
+        "chapter": "Achtung - Entnahmestelle",
+        "page": "N/A"
+      },
+      "text": "Achtung - Entnahmestelle\n\nGefahr von Geräteschäden! Die Pumpe funktioniert nicht ordnungsgemäß, wenn die Entnahmestelle 15 m höher als die Pumpe liegt. Achten Sie darauf, dass die Entnahmestelle nicht höher als 15 m über der Pumpe liegt.",
+      "cosine_similarity": 0.8271845839527061
+    },
+    {
+      "metadata": {
+        "source": "BETRIEBSANLEITUNG Pumpen.xml",
+        "chapter": "Hinweis - Störungen",
+        "page": "N/A"
+      },
+      "text": "Hinweis - Störungen\n\nBei nicht behebbaren Störungen wenden Sie sich bitte an unseren zuständigen Kundendienst.",
+      "cosine_similarity": 0.8226273298035802
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "query": "Welche Schritte sind notwendig, um die Grasfangbox des Rasentraktors korrekt zu montieren und einzustellen?",
+  "answer": "   Um die Grasfangbox des Rasentraktors korrekt zu montieren und einzustellen, sind folgende Schritte notwendig:\n\n1. **Abstand messen:** Messen Sie jeweils links und rechts den Abstand zwischen Grasfangbox und Rasentraktor. Bei einem Abstand > 0 mm müssen die Boxhaltearme entsprechend des gemessenen Abstands nachgestellt werden.\n2. **Boxhaltearme nachstellen:** Lösen Sie die 4 Sechskantschrauben an beiden Boxhaltearmen jeweils um eine halbe Umdrehung. Stellen Sie die Haltearme links und rechts nach oben und ziehen Sie die unteren Sechskantschrauben wieder fest.\n3. **Abstand einstellen:** Stellen Sie im 90°-Winkel von der Rückwand ausgehend zum Verbindungsstab der Boxhaltearme einen Abstand von 189 mm ein.\n4. **Schrauben anziehen:** Ziehen Sie die oberen Sechskantschrauben der Boxhaltearme mit 40 – 50 Nm wieder an.\n5. **Grasfangbox einhängen:** Überprüfen Sie den Abstand zwischen Grasfangbox und Rasentraktor. Gegebenenfalls nachstellen.\n\n**Hinweis:** Der Motor darf nicht starten, wenn die Grasfangbox montiert oder demontiert wird.",
+  "confidence_score": 0.54638671875,
+  "rouge1_precision": 0.22241379310344828,
+  "rouge1_recall": 0.8896551724137931,
+  "rouge1_f1": 0.35586206896551725,
+  "rougeL_precision": 0.19482758620689655,
+  "rougeL_recall": 0.7793103448275862,
+  "rougeL_f1": 0.3117241379310345,
+  "sorted_source_documents": [
+    {
+      "metadata": {
+        "source": "Traktor_BA.xml",
+        "chapter": "Grasfangbox anbauen (10 – 13)",
+        "page": "N/A"
+      },
+      "text": "Grasfangbox anbauen (10 – 13)\n\nDie Rasentraktoren werden mit Grasfangbox ausgeliefert. Bitte beachten Sie, dass die Bilder vom Original etwas abweichen können. Grasfangbox Füllstandsmelder einstellen Der Füllstandsmelder meldet über eine Hupe, wenn die Grasfangbox entleert werden muss. Der Füllstandsmelder kann auf die Beschaffenheit des Schnittguts in 6 Positionen eingestellt werden. Bei trockenem Schnittgut den Füllstandsmelder in die kleineren Positionen schieben. Bei nassem oder feuchtem Schnittgut den Füllstandsmelder länger einstellen. Dadurch wird die Befüllung der Grasfangbox beeinflusst. Stellen Sie den Motor ab ( ). Nehmen Sie die Grasfangbox ab ( ). Stellen Sie den Füllstandsmelder (10/1) auf das Schnittgut ein (10/a), bis er auf der gewünschten Position einrastet. Hängen Sie die Grasfangbox wieder ein. Grasfangbox einhängen Halten Sie die Grasfangbox mit einer Hand am Boxgriff (11/1) und mit der anderen Hand an der Halteöffnung an der Rückseite (11/2). Legen Sie die Grasfangbox symmetrisch auf die Führung (11/3). Kippen Sie die Grasfangbox mit der anderen Hand leicht nach vorne (12), so dass der vordere Teil der Grasfangbox einrastet. Schwenken Sie nun die Grasfangbox wieder nach unten (13/a). Überprüfen Sie den korrekten Sitz der Grasfangbox.",
+      "cosine_similarity": 0.9159786179233146
+    },
+    {
+      "metadata": {
+        "source": "Traktor_MA.xml",
+        "chapter": "Boxhalterung einstellen",
+        "page": "N/A"
+      },
+      "text": "Boxhalterung einstellen\n\nMessen Sie jeweils links und rechts den Abstand zwischen Grasfangbox und Rasentraktor (25). Bei einem Abstand &gt; 0 mm müssen die Boxhaltearme entsprechend des gemessenen Abstands nachgestellt werden! Grasfangbox abnehmen (26). Lösen Sie die 4 Sechskantschrauben an beiden Boxhaltearmen jeweils um eine halbe Umdrehung (27). Entsprechend des jeweils gemessenen Abstands die Haltearme links und rechts nach oben stellen und die unteren Sechskantschrauben an beiden Haltearmen wieder festziehen (28). Stellen Sie im 90°-Winkel von der Rückwand ausgehend zum Verbindungsstab der Boxhaltearme einen Abstand von 189 mm ein (29). Ziehen Sie die oberen Sechskantschrauben der Boxhaltearme mit 40 – 50 Nm wieder an (30). Grasfangbox wieder einhängen (31). Überprüfen Sie den Abstand zwischen Grasfangbox und Rasentraktor. Gegebenenfalls nachstellen (32)!",
+      "cosine_similarity": 0.9135476552986548
+    },
+    {
+      "metadata": {
+        "source": "Traktor_MA.xml",
+        "chapter": "Grasfangbox einhängen",
+        "page": "N/A"
+      },
+      "text": "Grasfangbox einhängen\n\nHalten Sie die Grasfangbox mit einer Hand am Boxgriff (20/1) und mit der anderen Hand an der Halteöffnung an der Rückseite (20/2). Legen Sie die Grasfangbox symmetrisch auf die Führung (20/3). Kippen Sie die Grasfangbox mit der anderen Hand leicht nach vorne (21), so dass der vordere Teil der Grasfangbox einrastet. Schwenken Sie nun die Grasfangbox wieder nach unten (22). Überprüfen Sie den korrekten Sitz der Grasfangbox.",
+      "cosine_similarity": 0.9066772604669096
+    },
+    {
+      "metadata": {
+        "source": "Traktor_BA.xml",
+        "chapter": "Grasfangbox entleeren",
+        "page": "N/A"
+      },
+      "text": "Grasfangbox entleeren\n\nJe nach Ausstattungsvariante verfügt Ihr Rasentraktor über eine elektrisch betätigte Grasfangbox-Entleerung oder eine manuell betätigte Grasfangbox mit Betätigungshebel. Für alle Boxenarten gilt: Das Entleeren der Grasfangbox kann vom Fahrersitz aus vorgenommen werden. Wird bei zugeschaltetem Mähwerk die Grasfangbox hochgeklappt bzw. ausgehängt, stirbt der Motor ab. Wenn die Grasfangbox nicht ordnungsgemäß eingerastet ist, kann das Mähwerk nicht zugeschaltet werden. Elektrisch betätigte Grasfangbox entleeren Zum Entleeren betätigen Sie den Kippschalter (07/1) auf der linken Seite des Fahrersitzes. Zum Schließen der Grasfangbox betätigen Sie wieder den Kippschalter. Grasfangbox mit Betätigungshebel entleeren Ziehen Sie den Betätigungshebel aus der Grasfangbox (17/a). Drücken Sie den Hebel in Fahrtrichtung, damit sich die Grasfangbox öffnet (17/b). Bewegen Sie die Grasfangbox mit dem Hebel nach hinten, bis die Box einrastet.",
+      "cosine_similarity": 0.9038466508536379
+    },
+    {
+      "metadata": {
+        "source": "Traktor_BA.xml",
+        "chapter": "Hinweis – Motor darf nicht starten",
+        "page": "N/A"
+      },
+      "text": "Hinweis – Motor darf nicht starten\n\nDer Motor darf nicht starten! Hinweis – Motor muss abschalten\n\nDer Motor muss sich abschalten!",
+      "cosine_similarity": 0.8164533588570304
+    },
+    {
+      "metadata": {
+        "source": "Traktor_BA.xml",
+        "chapter": "Hinweis – Anleitung Motorhersteller beachten",
+        "page": "N/A"
+      },
+      "text": "Hinweis – Anleitung Motorhersteller beachten\n\nBeachten Sie auch die beiliegende Betriebsanleitung des Benzinmotors.",
+      "cosine_similarity": 0.8042907238126356
+    },
+    {
+      "metadata": {
+        "source": "Traktor_BA.xml",
+        "chapter": "Hinweis – Kundendienst aufsuchen",
+        "page": "N/A"
+      },
+      "text": "Hinweis – Kundendienst aufsuchen\n\nWenden Sie sich bei Störungen, die nicht in dieser Tabelle aufgeführt sind oder nicht selbst behoben werden können, an unseren Kundendienst.",
+      "cosine_similarity": 0.7993670897653151
+    }
+  ]
+}

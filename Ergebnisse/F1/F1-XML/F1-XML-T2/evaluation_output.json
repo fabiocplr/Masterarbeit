@@ -1,0 +1,121 @@
+{
+  "query": "Welche Schritte sind notwendig, um die Grasfangbox des Rasentraktors korrekt zu montieren und einzustellen?",
+  "answer": "   Um die Grasfangbox des Rasentraktors korrekt zu montieren und einzustellen, sind die folgenden Schritte notwendig:\n\n1. **Abstand messen:** Messen Sie jeweils links und rechts den Abstand zwischen Grasfangbox und Rasentraktor. Wenn der Abstand größer als 0 mm ist, müssen die Boxhaltearme entsprechend des gemessenen Abstands nachgestellt werden.\n\n2. **Grasfangbox abnehmen:** Nehmen Sie die Grasfangbox ab, indem Sie die 4 Sechskantschrauben an beiden Boxhaltearmen jeweils um eine halbe Umdrehung lösen.\n\n3. **Boxhaltearme nachstellen:** Stellen Sie die Haltearme links und rechts nach oben, entsprechend des jeweils gemessenen Abstands, und ziehen Sie die unteren Sechskantschrauben der Haltearme wieder fest.\n\n4. **Abstand einstellen:** Stellen Sie im 90°-Winkel von der Rückwand ausgehend zum Verbindungsstab der Boxhaltearme einen Abstand von 189 mm ein.\n\n5. **Sechskantschrauben anziehen:** Ziehen Sie die oberen Sechskantschrauben der Boxhaltearme mit 40 – 50 Nm an.\n\n6. **Grasfangbox wieder einhängen:** Hängen Sie die Grasfangbox wieder ein.\n\n7. **Abstand überprüfen:** Überprüfen Sie den Abstand zwischen Grasfangbox und Rasentraktor. Falls notwendig, stellen Sie den Abstand nach.\n\nDurch diese Schritte wird sichergestellt, dass die Grasfangbox korrekt montiert und eingestellt ist, was für den ordnungsgemäßen Betrieb des Rasentraktors notwendig ist.",
+  "confidence_score": 0.62939453125,
+  "rouge1_precision": 0.27241379310344827,
+  "rouge1_recall": 0.8186528497409327,
+  "rouge1_f1": 0.408796895213454,
+  "rougeL_precision": 0.18448275862068966,
+  "rougeL_recall": 0.5544041450777202,
+  "rougeL_f1": 0.276843467011643,
+  "sorted_source_documents": [
+    {
+      "metadata": {
+        "source": "Traktor_BA.xml",
+        "chapter": "Grasfangbox anbauen (10 – 13)",
+        "page": "N/A"
+      },
+      "text": "Grasfangbox anbauen (10 – 13)\n\nDie Rasentraktoren werden mit Grasfangbox ausgeliefert. Bitte beachten Sie, dass die Bilder vom Original etwas abweichen können. Grasfangbox Füllstandsmelder einstellen Der Füllstandsmelder meldet über eine Hupe, wenn die Grasfangbox entleert werden muss. Der Füllstandsmelder kann auf die Beschaffenheit des Schnittguts in 6 Positionen eingestellt werden. Bei trockenem Schnittgut den Füllstandsmelder in die kleineren Positionen schieben. Bei nassem oder feuchtem Schnittgut den Füllstandsmelder länger einstellen. Dadurch wird die Befüllung der Grasfangbox beeinflusst. Stellen Sie den Motor ab ( ). Nehmen Sie die Grasfangbox ab ( ). Stellen Sie den Füllstandsmelder (10/1) auf das Schnittgut ein (10/a), bis er auf der gewünschten Position einrastet. Hängen Sie die Grasfangbox wieder ein. Grasfangbox einhängen Halten Sie die Grasfangbox mit einer Hand am Boxgriff (11/1) und mit der anderen Hand an der Halteöffnung an der Rückseite (11/2). Legen Sie die Grasfangbox symmetrisch auf die Führung (11/3). Kippen Sie die Grasfangbox mit der anderen Hand leicht nach vorne (12), so dass der vordere Teil der Grasfangbox einrastet. Schwenken Sie nun die Grasfangbox wieder nach unten (13/a). Überprüfen Sie den korrekten Sitz der Grasfangbox.",
+      "cosine_similarity": 0.9159786179233146
+    },
+    {
+      "metadata": {
+        "source": "Traktor_MA.xml",
+        "chapter": "Boxhalterung einstellen",
+        "page": "N/A"
+      },
+      "text": "Boxhalterung einstellen\n\nMessen Sie jeweils links und rechts den Abstand zwischen Grasfangbox und Rasentraktor (25). Bei einem Abstand &gt; 0 mm müssen die Boxhaltearme entsprechend des gemessenen Abstands nachgestellt werden! Grasfangbox abnehmen (26). Lösen Sie die 4 Sechskantschrauben an beiden Boxhaltearmen jeweils um eine halbe Umdrehung (27). Entsprechend des jeweils gemessenen Abstands die Haltearme links und rechts nach oben stellen und die unteren Sechskantschrauben an beiden Haltearmen wieder festziehen (28). Stellen Sie im 90°-Winkel von der Rückwand ausgehend zum Verbindungsstab der Boxhaltearme einen Abstand von 189 mm ein (29). Ziehen Sie die oberen Sechskantschrauben der Boxhaltearme mit 40 – 50 Nm wieder an (30). Grasfangbox wieder einhängen (31). Überprüfen Sie den Abstand zwischen Grasfangbox und Rasentraktor. Gegebenenfalls nachstellen (32)!",
+      "cosine_similarity": 0.9135476552986548
+    },
+    {
+      "metadata": {
+        "source": "Traktor_BA.xml",
+        "chapter": "Grasfangbox entleeren",
+        "page": "N/A"
+      },
+      "text": "Grasfangbox entleeren\n\nJe nach Ausstattungsvariante verfügt Ihr Rasentraktor über eine elektrisch betätigte Grasfangbox-Entleerung oder eine manuell betätigte Grasfangbox mit Betätigungshebel. Für alle Boxenarten gilt: Das Entleeren der Grasfangbox kann vom Fahrersitz aus vorgenommen werden. Wird bei zugeschaltetem Mähwerk die Grasfangbox hochgeklappt bzw. ausgehängt, stirbt der Motor ab. Wenn die Grasfangbox nicht ordnungsgemäß eingerastet ist, kann das Mähwerk nicht zugeschaltet werden. Elektrisch betätigte Grasfangbox entleeren Zum Entleeren betätigen Sie den Kippschalter (07/1) auf der linken Seite des Fahrersitzes. Zum Schließen der Grasfangbox betätigen Sie wieder den Kippschalter. Grasfangbox mit Betätigungshebel entleeren Ziehen Sie den Betätigungshebel aus der Grasfangbox (17/a). Drücken Sie den Hebel in Fahrtrichtung, damit sich die Grasfangbox öffnet (17/b). Bewegen Sie die Grasfangbox mit dem Hebel nach hinten, bis die Box einrastet.",
+      "cosine_similarity": 0.9038466508536379
+    },
+    {
+      "metadata": {
+        "source": "Traktor_MA.xml",
+        "chapter": "Zeichenerklärungen und Signalwörter Rasentraktor montieren",
+        "page": "N/A"
+      },
+      "text": "Zeichenerklärungen und Signalwörter Rasentraktor montieren\n\nBevor der Rasentraktor, wie in der Betriebsanleitung beschrieben, in Betrieb genommen werden kann, müssen die folgenden Montagearbeiten erfolgreich durchgeführt worden sein.",
+      "cosine_similarity": 0.880458693285332
+    },
+    {
+      "metadata": {
+        "source": "Traktor_BA.xml",
+        "chapter": "Kontaktschalter des Auswurfkanals prüfen",
+        "page": "N/A"
+      },
+      "text": "Kontaktschalter des Auswurfkanals prüfen\n\nDer Kontaktschalter des Auswurfkanals stellt sicher, dass sich der Rasentraktor bei ausgebautem Auswurfkanal nicht starten lässt. Grasfangbox abnehmen. Entfernen Sie den Auswurfkanal (18/2). Setzen Sie sich auf den Fahrersitz. Treten Sie das Bremspedal (05/1) und betätigen Sie die Feststellbremse (05/2). Starten Sie den Motor.",
+      "cosine_similarity": 0.8733979935672139
+    },
+    {
+      "metadata": {
+        "source": "Traktor_BA.xml",
+        "chapter": "Warnung – Unvollständige Montage",
+        "page": "N/A"
+      },
+      "text": "Warnung – Unvollständige Montage\n\nGefahren durch unvollständige Montage! Der Rasentraktor darf nicht betrieben werden, bevor er nicht komplett montiert ist! Führen Sie alle in der Montageanleitung beschriebenen Montagearbeiten durch. Fragen Sie im Zweifel vor der Inbetriebnahme einen Fachmann, ob die Montage korrekt ausgeführt wurde! Prüfen Sie alle Sicherheits- und Schutzeinrichtungen, dass sie vorhanden und funktionsfähig sind!",
+      "cosine_similarity": 0.8689733699390441
+    },
+    {
+      "metadata": {
+        "source": "Traktor_BA.xml",
+        "chapter": "Rasentraktor schieben (15, 16)",
+        "page": "N/A"
+      },
+      "text": "Rasentraktor schieben (15, 16)\n\nBei Fußhydrostat-Antrieb Der Bypasshebel (15/1) befindet sich im hinteren rechten Radkasten. Bypassentriegelung bei T3-Getriebe (Typ: T15, T16, T18): Bypasshebel (15/1) herausziehen und nach oben einhängen (16). Lösen Sie die Bremse. Der Rasentraktor kann jetzt geschoben werden. Bypassentriegelung bei G700-Getriebe (Typ: T20, T23): Bypasshebel (15/1) einschieben und nach oben einhängen (16). Lösen Sie die Bremse. Der Rasentraktor kann jetzt geschoben werden.",
+      "cosine_similarity": 0.8619779998756726
+    },
+    {
+      "metadata": {
+        "source": "Traktor_BA.xml",
+        "chapter": "Bestimmungsgemäße Verwendung",
+        "page": "N/A"
+      },
+      "text": "Bestimmungsgemäße Verwendung\n\nDer Rasentraktor ist zum Mähen privater Haus- und Hobbygärten mit max. 10° (18 %) Hangneigung bestimmt. Zusätzliche Anwendungen, wie z. B. Mulchen sind nur unter Verwendung des Original-Zubehörs und unter Einhaltung der maximalen Belastungswerte gestattet.",
+      "cosine_similarity": 0.8539166446579378
+    },
+    {
+      "metadata": {
+        "source": "Traktor_MA.xml",
+        "chapter": "476758 MA Rasentraktor_HA_C-Frame_Premium_sbA Original-Montageanleitung Deckblatt MA C-Frame Heckauswurf sbA",
+        "page": "N/A"
+      },
+      "text": "476758 MA Rasentraktor_HA_C-Frame_Premium_sbA Original-Montageanleitung Deckblatt MA C-Frame Heckauswurf sbA\n\n### Die nachfolgenden Bilder werden auf dem Deckblatt dargestellt. Zuerst kommt die Grafik, dann das Logo und dann das Kopfzeilenlogo. ### Deckblatt Deckblattlogo Kopfzeilenlogo Rückseitenlogo Notizen TO DO: 1 2 3… BUGS: 1 2 3… ### EOF ###",
+      "cosine_similarity": 0.8536478827134726
+    },
+    {
+      "metadata": {
+        "source": "Traktor_BA.xml",
+        "chapter": "Traktor auspacken und montieren",
+        "page": "N/A"
+      },
+      "text": "Traktor auspacken und montieren\n\nBeachten Sie die beiliegende Montageanleitung zum Auspacken und zur Montage des Traktors.",
+      "cosine_similarity": 0.8523731773791842
+    },
+    {
+      "metadata": {
+        "source": "Traktor_BA.xml",
+        "chapter": "Getriebebedienung (Fahrgeschwindigkeit) (04)",
+        "page": "N/A"
+      },
+      "text": "Getriebebedienung (Fahrgeschwindigkeit) (04)\n\nDie Rasentraktoren sind mit einem fußhydrostatischen Getriebe ausgestattet. Einige Modelle sind mit Tempomat ausgestattet. Für die Vorwärtsfahrt und die Rückwärtsfahrt sind auf der rechten Seite zwei separate Pedale angeordnet. Fahrt­richtung Beschreibung Vorwärts Betätigen Sie das rechte Pedal (04/2), um vorwärts zu fahren. Rückwärts Betätigen Sie das linke Pedal (04/1), um rückwärts zu fahren. Hinweis: Wird nur das Pedal für Rückwärtsfahrt betätigt, wird das Mähwerk ausgeschaltet. Mähbetrieb bei Rückwärtsfahrt: .",
+      "cosine_similarity": 0.8507878640833245
+    },
+    {
+      "metadata": {
+        "source": "Traktor_BA.xml",
+        "chapter": "Zeichenerklärungen und Signalwörter Instandhaltung Wartungsplan",
+        "page": "N/A"
+      },
+      "text": "Zeichenerklärungen und Signalwörter Instandhaltung Wartungsplan\n\nFolgende Arbeiten dürfen vom Benutzer selbst durchgeführt werden. Alle übrigen Wartungs-, Service und Instandsetzungsarbeiten müssen bei einer autorisierten Service-Werkstätte durchgeführt werden.  Bitte beachten Sie zusätzlich die empfohlenen, jährlichen Abschmierungen gemäß Schmierplan. Tätigkeit Vor jedem Einsatz Nach jedem Einsatz Nach den ersten 5 Stunden Alle 25 Betriebsstunden Alle 50 Betriebsstunden Vor jeder Einlagerung Motorölstand überprüfen )* X Motoröl wechseln )*   X   X Luftfilter reinigen )*    X Luftfilter austauschen )*     X Zündkerze überprüfen )*     X Bremse überprüfen (Probebremsung auf gerader Strecke) X Reifendruck überprüfen X Mähmesser überprüfen X Auf lose Teile überprüfen X     X Keilriemen überprüfen (Sichtkontrolle)    X Reinigen des Rasentraktors  X Luftansauggitter am Motor reinigen )* X Getriebe von Gras- und Mähresten reinigen  X  X )* siehe Bedienungsanleitung des Motorenherstellers",
+      "cosine_similarity": 0.8432718736768121
+    }
+  ]
+}

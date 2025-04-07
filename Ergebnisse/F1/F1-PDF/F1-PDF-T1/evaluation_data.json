@@ -1,0 +1,52 @@
+{
+  "query": "Welche Schritte sind notwendig, um die Grasfangbox des Rasentraktors korrekt zu montieren und einzustellen?",
+  "alternative_queries": [
+    "---",
+    "\"Welche Schritte sind erforderlich, um die Grasfangbox des Rasentraktors korrekt zu installieren und zu justieren?\""
+  ],
+  "answer": "   1. Messen Sie jeweils links und rechts den Abstand zwischen Grasfangbox und Rasentraktor. 2. Abnehmen der Grasfangbox. 3. Lösen Sie die 4 Sechskantschrauben an beiden Boxhaltearmen jeweils um eine halbe Umdrehung. 4. Nachstellen der Haltearme entsprechend des gemessenen Abstands nach oben. 5. Einrasten der Grasfangbox durch leichtes Kippen nach vorne und Schwenken nach unten. 6. Überprüfen Sie den korrekten Sitz der Grasfangbox.",
+  "Kontext": [
+    {
+      "text": "1.\nMessen Sie jeweils links und rechts den Ab-\nstand zwischen Grasfangbox und Rasentrak-\ntor (25). \nHinweis: Bei einem Abstand > 0 mm müs-\nsen die Boxhaltearme entsprechend des ge-\nmessenen Abstands nachgestellt werden!\n2.\nGrasfangbox abnehmen (26).\n3.\nLösen Sie die 4 Sechskantschrauben an bei-\nden Boxhaltearmen jeweils um eine halbe\nUmdrehung (27).\n4.\nEntsprechend des jeweils gemessenen Ab-\nstands die Haltearme links und rechts nach\noben stellen und die unteren Sechskant-",
+      "source": "Montageanleitung Rasentraktor.pdf",
+      "page": 8,
+      "chapter": "Unbekanntes Kapitel",
+      "id": "Montageanleitung Rasentraktor.pdf_29"
+    },
+    {
+      "text": "3.\nKippen Sie die Grasfangbox mit der anderen\nHand leicht nach vorne (21), so dass der vor-\ndere Teil der Grasfangbox einrastet.\n4.\nSchwenken Sie nun die Grasfangbox wieder\nnach unten (22).\n5.\nÜberprüfen Sie den korrekten Sitz der Gras-\nfangbox.\n3.8\nStarterbatterie anschließen\nIm Lieferumfang des Rasentraktors ist eine Star-\nterbatterie enthalten.\nDie Starterbatterie befindet sich unter der Motor-\nabdeckhaube.\nGrundsätzlich ist die Starterbatterie ab Werk ge-\nladen.",
+      "source": "Montageanleitung Rasentraktor.pdf",
+      "page": 9,
+      "chapter": "Unbekanntes Kapitel",
+      "id": "Montageanleitung Rasentraktor.pdf_32"
+    },
+    {
+      "text": "dere Teil der Grasfangbox einrastet.\n4.\nSchwenken Sie nun die Grasfangbox wieder\nnach unten (13/a).\n5.\nÜberprüfen Sie den korrekten Sitz der Gras-\nfangbox.\n6.6\nPrüfung der Sicherheitseinrichtungen\nDie Sicherheitseinrichtungen müssen vor jedem\nStart des Rasentraktors geprüft werden.\n WARNUNG! Gefahr bei der Prüfung der\nSicherheitseinrichtungen! Die Sicherheitsein-\nrichtungen dürfen nur vom Fahrersitz aus und\nwenn sich keine weiteren Personen oder Tiere in\nder Nähe aufhalten, durchgeführt werden!",
+      "source": "Betriebsanleitung Rasentraktor.pdf",
+      "page": 16,
+      "chapter": "Unbekanntes Kapitel",
+      "id": "Betriebsanleitung Rasentraktor.pdf_66"
+    },
+    {
+      "text": "należy skontaktować się z naszym działem ob-\nsługi klienta.",
+      "source": "Betriebsanleitung Rasentraktor.pdf",
+      "page": 213,
+      "chapter": "Unbekanntes Kapitel",
+      "id": "Betriebsanleitung Rasentraktor.pdf_1344"
+    },
+    {
+      "text": "X\nKontrola noży tnących\nX\nKontrola mocowania elemen-\ntów\nX\nX",
+      "source": "Betriebsanleitung Rasentraktor.pdf",
+      "page": 210,
+      "chapter": "Unbekanntes Kapitel",
+      "id": "Betriebsanleitung Rasentraktor.pdf_1322"
+    },
+    {
+      "text": "necessari intervalli inferiori a quanto indicato nel-\nla tabella di cui sopra.",
+      "source": "Betriebsanleitung Rasentraktor.pdf",
+      "page": 126,
+      "chapter": "Unbekanntes Kapitel",
+      "id": "Betriebsanleitung Rasentraktor.pdf_807"
+    }
+  ]
+}

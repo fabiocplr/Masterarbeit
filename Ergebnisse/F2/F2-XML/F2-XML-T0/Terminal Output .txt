@@ -1,0 +1,133 @@
+PS C:\Users\fabio.cappellaro\Documents\Masterarbeit Projekt\Masterarbeit_FC> & C:/Users/fabio.cappellaro/AppData/Local/Microsoft/WindowsApps/python3.11.exe "c:/Users/fabio.cappellaro/Documents/Masterarbeit Projekt/Masterarbeit_FC/PyProgramm/main.py"
+67 Dokument-Chunks wurden verarbeitet und in den Vektorspeicher geladen.
+Export abgeschlossen. Dateien gespeichert in: C:\Users\fabio.cappellaro\Documents\Masterarbeit Projekt\Masterarbeit_FC\ExportedData
+Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:04<00:00,  1.22s/it]
+Device set to use cuda:0
+
+Bitte geben Sie Ihre Frage ein: Warum fördert die Gartenpumpe trotz eingeschaltetem Motor kein Wasser und wie kann das Problem behoben werden?
+CustomMultiQueryRetriever: all_queries = ['Warum fördert die Gartenpumpe trotz eingeschaltetem Motor kein Wasser und wie kann das Problem behoben werden?', '1. "Welche Ursachen könnten dazu führen, dass die Gartenzentrifugalpumpe trotz laufendem Motor keine Flüssigkeit fördert und wie lässt sich diese Störung beheben?"', '2. "Warum pumpt die Gartenpumpe trotz aktiviertem Antrieb keine Flüssigkeit und wie kann dieses Problem gelöst werden?"', '3. "Welche Gründe könnten dafür verantwortlich sein, dass die Gartenwasserpumpe trotz eingeschalteter Antriebsmaschine keine Flüssigkeit fördert und wie kann diese Fehlfunktion behoben werden?"']
+
+==================================================
+Antwort auf deine Frage:
+==================================================
+   Die Pumpe fördert trotz eingeschaltetem Motor kein Wasser, wenn die Saugleitung nicht im Wasser ist oder die Saugleitung nicht ordnungsgemäß angeschlossen ist. Um das Problem zu beheben, sollte die Saugleitung mindestens 30 cm ins Wasser eintauchen und alle Anschlussverbindungen auf Dichtheit geprüft werden.
+
+--------------------------------------------------
+Quellen (Auszug):
+--------------------------------------------------
+1. Quelle: BETRIEBSANLEITUNG Pumpen.xml | Kapitel: Hinweis - Erstinbetriebnahme | Seite: N/A
+2. Quelle: BETRIEBSANLEITUNG Pumpen.xml | Kapitel: Bestimmungsgemäße Verwendung | Seite: N/A
+3. Quelle: BETRIEBSANLEITUNG Pumpen.xml | Kapitel: Hinweis - Störungen | Seite: N/A
+4. Quelle: BETRIEBSANLEITUNG Pumpen.xml | Kapitel: Hilfe bei Störungen | Seite: N/A
+5. Quelle: BETRIEBSANLEITUNG Pumpen.xml | Kapitel: Hinweis – Pumpe reinigen | Seite: N/A
+6. Quelle: BETRIEBSANLEITUNG Pumpen.xml | Kapitel: Möglicher Fehlgebrauch | Seite: N/A
+7. Quelle: BETRIEBSANLEITUNG Pumpen.xml | Kapitel: Achtung - Entnahmestelle | Seite: N/A
+8. Quelle: BETRIEBSANLEITUNG Pumpen.xml | Kapitel: Inbetriebnahme Pumpe befüllen | Seite: N/A
+--------------------------------------------------
+
+Evaluation-Daten gespeichert.
+
+PS C:\Users\fabio.cappellaro\Documents\Masterarbeit Projekt\Masterarbeit_FC> & C:/Users/fabio.cappellaro/AppData/Local/Microsoft/WindowsApps/python3.11.exe "c:/Users/fabio.cappellaro/Documents/Masterarbeit Projekt/Masterarbeit_FC/PyProgramm/evaluation.py"
+67 Dokument-Chunks wurden verarbeitet und in den Vektorspeicher geladen.
+Export abgeschlossen. Dateien gespeichert in: C:\Users\fabio.cappellaro\Documents\Masterarbeit Projekt\Masterarbeit_FC\ExportedData
+Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:04<00:00,  1.23s/it]
+Device set to use cuda:0
+
+=== EVALUATION-SKRIPT ===
+Query aus main.py war: 'Warum fördert die Gartenpumpe trotz eingeschaltetem Motor kein Wasser und wie kann das Problem behoben werden?'
+
+=== Vollständiger Kontext (sortiert nach Relevanz) ===
+
+--- Kontextblock 1 ---
+Quelle: BETRIEBSANLEITUNG Pumpen.xml, Kapitel: Hinweis - Erstinbetriebnahme, Seite: N/A
+Cosine Similarity: 0.8574
+
+Hinweis - Erstinbetriebnahme
+
+Sollte nach ca. 90 Sekunden noch kein Wasser über die Saugleitung angesaugt werden, schaltet der Trockenlaufschutz die Pumpe ab und die LED-Anzeige ALARM leuchtet. Überprüfen Sie die Saugleitung, das Filterglas und alle Verschraubungen auf Dichtheit, drücken Sie den RESET-Taster und führen Sie die Erstinbetriebnahme nochmals durch.
+
+--------------------------------------------------
+
+--- Kontextblock 2 ---
+Quelle: BETRIEBSANLEITUNG Pumpen.xml, Kapitel: Hilfe bei Störungen, Seite: N/A
+Cosine Similarity: 0.8451
+
+Hilfe bei Störungen
+
+Störung Mögliche Ursache Abhilfe Motor läuft nicht. Laufrad blockiert. Pumpe reinigen. Motorwelle des Laufrads mit Schraubendreher losdrehen. Schmutz im Ansaugbereich entfernen. Thermoschalter hat abgeschaltet. Wasserstand auf Saugseite prüfen. Förderflüssigkeit abkühlen lassen. Pumpe Instandsetzen oder austauschen. Warten, bis der Thermoschalter die Pumpe wieder einschaltet. Auf maximale Temperatur des Fördermediums achten. Pumpe prüfen lassen Keine Netzspannung vorhanden. Sicherungen prüfen, Stromversorgung von Elektrofachkraft prüfen lassen. Trockenlaufschutz aktiviert Saugseite prüfen. Pumpe läuft, aber fördert nicht. Die Saugleitung ist nicht im Wasser. Saugleitung min. 30 cm ins Wasser eintauchen. Druckleitung geschlossen. Verschluss-Aggregate in der Druckleitung öffnen. Pumpe saugt Luft. Alle Anschlussverbindungen und den Filterdeckel auf Dichtheit prüfen. Saugseitige Verstopfung. Schmutz im Ansaugbereich entfernen. Pumpe ist trocken gelaufen. Pumpengehäuse mit Wasser befüllen. Druckschlauch geknickt. Druckschlauch strecken. Trockenlaufschutz aktiviert. Saugseite prüfen. Pumpe schaltet zu oft ein und aus. Membrane ist beschädigt (HW 3600). Membrane durch AL-KO Service austauschen lassen. Geringer Luftdruck im Vorratsbehälter (HW 3600). Luft im Vorratsbehälter nachfüllen. (Membranvordruck auf 1,5 bar einstellen). Pumpe saugt Luft, Wassermangel saugseitig. Pumpe ausschalten und abkühlen lassen. Undichtigkeit auf der Druckseite (HWA 3600) Druckschlauch prüfen. Fördermenge zu gering Druckschlauch geknickt. Druckschlauch strecken. Saugseitige Verstopfung. Schmutz im Ansaugbereich entfernen. Schlauchdurchmesser zu klein. Größeren Druckschlauch verwenden. Förderhöhe zu groß. Max. Förderhöhe beachten, siehe technische Daten! Saugseitig zu geringe Wassermenge. Drosseln der Pumpe, um die Fördermenge anzupassen. Saughöhe zu groß. Saughöhe prüfen, max. Saughöhe beachten - siehe technische Daten.
+
+--------------------------------------------------
+
+--- Kontextblock 3 ---
+Quelle: BETRIEBSANLEITUNG Pumpen.xml, Kapitel: Bestimmungsgemäße Verwendung, Seite: N/A
+Cosine Similarity: 0.8389
+
+Bestimmungsgemäße Verwendung
+
+Die Pumpe ist für die private Nutzung in Haus und Garten bestimmt. Sie darf nur im Rahmen der Einsatzgrenzen gemäß den technischen Daten betrieben werden. Die Pumpe eignet sich für: Bewässerung der Garten- und Grundstücksfläche Um- und Auspumpen von Behältern (z. B. Schwimmbecken) Wasserentnahme aus Brunnen, Regentonnen und Zisternen. HW 3600 / HWA 3600 Automatische Wasserversorgung im Haus Druckerhöhung der Wasserversorgung.  Die Pumpe ist ausschließlich zum Fördern von folgenden Flüssigkeiten geeignet: Klarwasser, Regenwasser chlorhaltiges Wasser (z. B. Schwimmbecken) Eine andere oder darüber hinausgehende Verwendung gilt als nicht bestimmungsgemäß.
+
+--------------------------------------------------
+
+--- Kontextblock 4 ---
+Quelle: BETRIEBSANLEITUNG Pumpen.xml, Kapitel: Inbetriebnahme Pumpe befüllen, Seite: N/A
+Cosine Similarity: 0.8328
+
+Inbetriebnahme Pumpe befüllen
+
+Um die Ansaugzeit zu verkürzen, Saugschlauch vor dem Anschrauben mit Wasser füllen. Einfüllschraube (3) mit Filterschlüssel (19/A) öffnen. Über die Einfüllschraube Wasser einfüllen, bis das Pumpengehäuse (2) voll ist. Einfüllschraube einschrauben.
+
+--------------------------------------------------
+
+--- Kontextblock 5 ---
+Quelle: BETRIEBSANLEITUNG Pumpen.xml, Kapitel: Möglicher Fehlgebrauch, Seite: N/A
+Cosine Similarity: 0.8320
+
+Möglicher Fehlgebrauch
+
+Die Pumpe darf nicht im Dauerbetrieb eingesetzt werden. Sie ist nicht geeignet zur Förderung von: Trinkwasser Salzwasser Lebensmitteln Schmutzwasser aggressiven Medien, Chemikalien ätzenden, brennbaren, explosiven oder gasenden Flüssigkeiten Flüssigkeiten, die wärmer als 35 °C sind sandhaltigem Wasser und schmirgelnden Flüssigkeiten
+
+--------------------------------------------------
+
+--- Kontextblock 6 ---
+Quelle: BETRIEBSANLEITUNG Pumpen.xml, Kapitel: Hinweis – Pumpe reinigen, Seite: N/A
+Cosine Similarity: 0.8288
+
+Hinweis – Pumpe reinigen
+
+Nach Förderung von chlorhaltigem Schwimmbadwasser oder Flüssigkeiten, die Rückstände hinterlassen, muss die Pumpe mit klarem Wasser gespült werden.
+
+--------------------------------------------------
+
+--- Kontextblock 7 ---
+Quelle: BETRIEBSANLEITUNG Pumpen.xml, Kapitel: Achtung - Entnahmestelle, Seite: N/A
+Cosine Similarity: 0.8272
+
+Achtung - Entnahmestelle
+
+Gefahr von Geräteschäden! Die Pumpe funktioniert nicht ordnungsgemäß, wenn die Entnahmestelle 15 m höher als die Pumpe liegt. Achten Sie darauf, dass die Entnahmestelle nicht höher als 15 m über der Pumpe liegt.
+
+--------------------------------------------------
+
+--- Kontextblock 8 ---
+Quelle: BETRIEBSANLEITUNG Pumpen.xml, Kapitel: Hinweis - Störungen, Seite: N/A
+Cosine Similarity: 0.8226
+
+Hinweis - Störungen
+
+Bei nicht behebbaren Störungen wenden Sie sich bitte an unseren zuständigen Kundendienst.
+
+--------------------------------------------------
+
+=== Confidence Score ===
+Confidence Score der Antwort: 0.4727
+
+=== ROUGE Scores ===
+ROUGE-1 Precision: 0.2222
+ROUGE-1 Recall: 0.6222
+ROUGE-1 F1-Score: 0.3275
+
+ROUGE-L Precision: 0.1429
+ROUGE-L Recall: 0.4000
+ROUGE-L F1-Score: 0.2105
+
+Evaluation-Daten gespeichert in evaluation_output.json.
