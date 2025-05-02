@@ -5,3 +5,9 @@ Datenpool
 ExportedData
 debug_data.json
 evaluate.py
+evaluation_data.json
+evaluation_output.json
+Terminal Output.txt
+token_confidences.txt
+debug_data.json
+correct_answer.json
