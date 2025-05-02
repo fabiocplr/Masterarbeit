@@ -7,9 +7,8 @@ from langchain_core.output_parsers import BaseOutputParser
 
 from data import vectorstore
 
-
+# Output-Parser für eine Liste von Zeilen.
 class LineListOutputParser(BaseOutputParser[List[str]]):
-    """Output parser für eine Liste von Zeilen."""
 
     def parse(self, text: str) -> List[str]:
         lines = text.strip().split("\n")
@@ -63,25 +62,22 @@ class CustomMultiQueryRetriever(MultiQueryRetriever):
         return unique_docs
     
 # Für Template 0 [T0] (Basis)
-def create_multi_query_retriever(llm):
-    # Normaler Retriever
-    base_retriever = vectorstore.as_retriever(
-        search_type="mmr",
-        search_kwargs={'k': 4, 'lambda_mult': 0.5 })
+# def create_multi_query_retriever(llm):
+    # base_retriever = vectorstore.as_retriever(
+    #     search_type="mmr",
+    #     search_kwargs={'k': 4, 'lambda_mult': 0.5 })
 
 # Für Template 1 [T1] (Präzisiion)
 # def create_multi_query_retriever(llm):
-#      # Normaler Retriever
 #     base_retriever = vectorstore.as_retriever(
 #         search_type="similarity",
 #         search_kwargs={'k': 3 })
                         
 # Für Template 2 [T2] (Kreativ)    
-# def create_multi_query_retriever(llm):
-#     # Normaler Retriever
-#     base_retriever = vectorstore.as_retriever(
-#         search_type="mmr",
-#         search_kwargs={'k': 5 })
+def create_multi_query_retriever(llm):
+    base_retriever = vectorstore.as_retriever(
+        search_type="mmr",
+        search_kwargs={'k': 5 })
 
 #     # Output-Parser
     output_parser = LineListOutputParser()

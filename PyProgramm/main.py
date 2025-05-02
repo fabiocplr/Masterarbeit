@@ -19,8 +19,8 @@ def frage_und_antwort():
     # Chain ausführen
     result = qa_chain.invoke(query)
 
+    # Alternative Querys abrufen
     alternative_queries = retriever.raw_alternative_queries
-
 
     # Ergebnis-Parsing
     answer = result.get('result', "Keine Antwort gefunden.")
@@ -47,7 +47,7 @@ def frage_und_antwort():
 
 
 
-# Evaluation: Query und Result in einer Datei speichern
+# Evaluation: Query und Result in einer JSON-Datei speichern
     try:
         with open("evaluation_data.json", "w", encoding="utf-8") as f:
             json.dump({

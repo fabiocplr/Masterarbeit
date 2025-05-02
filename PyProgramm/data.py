@@ -36,8 +36,8 @@ namespaces = {
     "m": "http://www.schema.de/2004/ST4/XmlImportExport/Meta"
 }
 
+# Rekursive Extraktion des Textinhalts eines Elements
 def extract_content(element):
-    #Rekursive Extraktion des Textinhalts eines Elements
     content = []
     if element.text and element.text.strip():
         content.append(element.text.strip())
@@ -92,15 +92,13 @@ def merge_small_xml_chunks(chunks, threshold=100):
     i = 0
     while i < len(chunks):
         current = chunks[i].strip()
-        # Solange der aktuelle Chunk unter dem Schwellenwert liegt und es einen nächsten Chunk gibt,
-        # wird dieser an den aktuellen Chunk angehängt.
+        # Solange der aktuelle Chunk unter dem Schwellenwert liegt und es einen nächsten Chunk gibt, wird dieser an den aktuellen Chunk angehängt.
         while len(current) < threshold and i + 1 < len(chunks):
             i += 1
             current += " " + chunks[i].strip()
         merged.append(current)
         i += 1
-    # Falls der letzte Chunk immer noch zu klein ist und es bereits einen vorherigen Chunk gibt,
-    # wird der letzte Chunk an den vorangehenden Chunk angehängt.
+    # Falls der letzte Chunk immer noch zu klein ist und es bereits einen vorherigen Chunk gibt, wird der letzte Chunk an den vorangehenden Chunk angehängt.
     if merged and len(merged[-1]) < threshold and len(merged) > 1:
         merged[-2] = merged[-2] + " " + merged[-1]
         merged.pop()
@@ -120,7 +118,7 @@ def process_xmls(directory):
             chunks = merge_small_xml_chunks(chunks, threshold=100)
             for idx, chunk in enumerate(chunks):
                 cleaned_chunk = chunk.strip()
-                # Annahme: Die erste Zeile entspricht dem Kapitel-Titel
+                # Die erste Zeile wird als Metadatum für den Kapitel-Titel verwendet
                 lines = [line.strip() for line in cleaned_chunk.split("\n") if line.strip()]
                 chapter = lines[0] if lines else "Unbekanntes Kapitel"
                 unique_id = f"{filename}_{idx}"
@@ -162,7 +160,7 @@ def process_pdfs(directory):
 
     return documents
 
-
+# Pfad zum Datenverzeichnis
 data_directory = r"C:\Users\fabio.cappellaro\Documents\Masterarbeit Projekt\Masterarbeit_FC\Datenpool"
 
 # XML-Dokumente verarbeiten

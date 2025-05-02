@@ -11,27 +11,9 @@ def cosine_similarity(vector1, vector2):
     cos_sim = 1 - cosine(vector1, vector2)
     return cos_sim
 
-
-# def model_confidence(answer):
-#     """ Berechnet den Confidence Score der Antwort basierend auf Token-Wahrscheinlichkeiten. """
-#     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    
-#     inputs = tokenizer(answer, return_tensors="pt", truncation=True, max_length=512).to(device)
-
-#     with torch.no_grad():
-#         outputs = text_pipeline.model(**inputs)
-
-#     # Softmax auf Logits anwenden, um Wahrscheinlichkeiten zu erhalten
-#     probs = torch.nn.functional.softmax(outputs.logits, dim=-1)
-    
-#     # Berechnung des Confidence Scores (Durchschnitt der Top-1 Token-Wahrscheinlichkeiten)
-#     top_probs, _ = torch.max(probs, dim=-1)  
-#     confidence_score = top_probs.mean().item()
-    
-#     return confidence_score
-
+# Berechnet den Confidence Score der Antwort basierend auf den Wahrscheinlichkeiten der tatsächlich generierten Tokens.
 def model_confidence(answer):
-    """ Berechnet den Confidence Score der Antwort basierend auf den Wahrscheinlichkeiten der tatsächlich generierten Tokens. """
+    
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     
     inputs = tokenizer(answer, return_tensors="pt", truncation=True, max_length=512).to(device)
@@ -55,17 +37,23 @@ def model_confidence(answer):
     return confidence_score
 
 def show_token_confidences(answer, model, tokenizer, filename="token_confidences.txt"):
+    # GPU auswählen, falls verfügbar
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    # Tokenisieren der Antwort und vorbereiten für das Modell 
     inputs = tokenizer(answer, return_tensors="pt", truncation=True, max_length=512).to(device)
     input_ids = inputs.input_ids
 
+    #Inferenzmodus aktivieren, weil kein Training stattfindet
     with torch.no_grad():
         outputs = model(**inputs)
 
+    # Die letzten Logits werden entfernt, um sie an die Ziel-Tokens (target_ids) anzupassen
     logits = outputs.logits[:, :-1, :]
+    # Ziel-Tokens definieren: alle Tokens ab dem zweiten, da das Modell das nächste Token vorhersagen soll
     target_ids = input_ids[:, 1:]
-
+    # Umrechnung der Logits in Wahrscheinlichkeiten mittels Softmax-Funktion
     probs = torch.nn.functional.softmax(logits, dim=-1)
+    # Extraktion der Wahrscheinlichkeiten der Ziel-Tokens
     token_probs = probs.gather(2, target_ids.unsqueeze(-1)).squeeze(-1)
     tokens = tokenizer.convert_ids_to_tokens(input_ids[0])[1:]
 
@@ -82,7 +70,7 @@ def show_token_confidences(answer, model, tokenizer, filename="token_confidences
 
 #ROUGE Metrik
 def rouge_score(answer, correct_answer):
-    """ Berechnet ROUGE-1 und ROUGE-L"""
+    #Berechnet ROUGE-1 und ROUGE-L
     scorer = rouge_scorer.RougeScorer(['rouge1', 'rougeL'], use_stemmer=True)
     scores = scorer.score(answer, correct_answer)
     rouge1_precision = scores["rouge1"].precision
@@ -98,7 +86,7 @@ def rouge_score(answer, correct_answer):
 
 
 def evaluation_info(query, result_dict, correct_answer):
-    """ Zeigt Evaluation-Infos an: Kontext, Cosine Similarity, Confidence Score und ROUGE Score. """
+    # Zeigt Evaluation-Infos an: Kontext, Cosine Similarity, Confidence Score und ROUGE Score
     
     # Kontext ausgeben
     source_docs = result_dict.get("source_documents", [])
@@ -106,8 +94,10 @@ def evaluation_info(query, result_dict, correct_answer):
         print("Keine Dokumente in den Ergebnissen vorhanden!")
         return
 
+    # Embedding-Vektor der Frage berechnen
     query_vector = embeddings.embed_query(query)
     
+    # Berechnet die Cosine Similarity zwischen Frage und Dokument und speichert Text, Ähnlichkeit und Metadaten 
     similarity_results = []
     for doc in source_docs:
         doc_text = doc.get("text", "")
@@ -148,7 +138,7 @@ def evaluation_info(query, result_dict, correct_answer):
     show_token_confidences(answer, text_pipeline.model, tokenizer)
 
 
-    # ROUGE-1 & ROUGE-L Score berechnen
+    # ROUGE-1 & ROUGE-L Score aufrufen
     rouge1_precision, rouge1_recall, rouge1_f1, rougeL_precision, rougeL_recall, rougeL_f1 = rouge_score(answer, correct_answer)
 
 
@@ -203,7 +193,7 @@ if __name__ == "__main__":
         print("Fehler: correct_answer.json enthält ungültige JSON-Daten!")
         correct_answer_data = {}
     
-
+    # Liest Frage, Antwort und Kontextdokumente aus den Daten aus und speichert sie im Ergebnis-Dictionary
     query = data.get("query", "Keine Frage gefunden.")
     result_dict = {
         "result": data.get("answer", "Keine Antwort gefunden."),

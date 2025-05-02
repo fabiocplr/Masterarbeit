@@ -22,7 +22,7 @@ model = AutoModelForCausalLM.from_pretrained(
     torch_dtype=torch.float16,
     token=True
 )
-
+# Text-Pipeline erstellen, um den LLM zu kunfigurieren
 text_pipeline = pipeline(
     "text-generation",
     model=model,
@@ -32,15 +32,14 @@ text_pipeline = pipeline(
     temperature=0.8,
     return_full_text=False,
     top_k=50,
-    top_p=0.9,
-    
+    top_p=0.8,
     eos_token_id=tokenizer.eos_token_id,
     pad_token_id=tokenizer.eos_token_id
 )
 
 llm = HuggingFacePipeline(pipeline=text_pipeline)
 
-# # Prompt-Template Basis [T0]
+# Prompt-Template Basis [T0]
 # template_de_kurz = """Du bist ein KI-Assistent für technische Dokumentationen. Beantworte die Frage basierend auf dem Kontext.
 
 # - Falls keine direkte Antwort im Kontext vorhanden ist, gib **"Keine Antwort vorhanden."** zurück.
