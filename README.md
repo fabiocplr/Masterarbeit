@@ -10,7 +10,7 @@ Forschungs-, Innovations- und Technologiekommunikation (M.Eng.)
 Hochschule für angewandte Wissenschaften München  
 Fakultät für Technische Systeme, Prozesse und Kommunikation
 
-**Autor**  
+**Verfasser**  
 Fabio Cappellaro
 
 ---
