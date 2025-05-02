@@ -1,0 +1,530 @@
+493516 BA Rasentraktor_HA_C-Frame_Premium_sbA Original-Betriebsanleitung Sicherheitshinweise
+
+Kinder oder andere Personen, die die Betriebsanleitung nicht kennen, dürfen das Gerät nicht benutzen. Örtliche Bestimmungen zum Mindestalter der Bedienperson beachten. Kinder und Jugendliche anweisen, nicht mit dem Gerät zu spielen. Nur bei Tageslicht oder bei guter künstlicher Beleuchtung mähen. Dritte aus dem Gefahrenbereich fernhalten. Der Benutzer ist für Unfälle mit anderen Personen und deren Eigentum verantwortlich. Nur Original-Ersatzteile und Original-Zubehör verwenden. Reparaturen am Gerät müssen durch den Hersteller bzw. eine seiner Kundendienststellen erfolgen. Gehörschutz tragen. Der Rasentraktor hat keine Straßenzulassung und darf öffentliche Wege und Straßen nicht befahren. Mähen Sie nicht bei Gewitter. Kein Schutz vor Blitzschlag. Es dürfen keine Passagiere auf dem Gerät mitgenommen werden. Mähen Sie nicht an Hängen mit einer Neigung über 10° (18 %) Nach der Einnahme von Alkohol, von Medikamenten, die das Reaktionsvermögen beeinträchtigen, oder von Drogen darf nicht mit dem Rasentraktor und/oder mit einem daran befestigten Zubehör gearbeitet werden. Immer quer zum Hang mähen. Beachten Sie die örtlichen, kommunal erlaubten Betriebszeiten. Der Rasentraktor kann durch sein Eigengewicht schwere Verletzungen verursachen. Beim Auf- und Abladen des Rasentraktors zum Transport in einem Fahrzeug oder Anhänger ist mit besonderer Vorsicht vorzugehen. Dieser Rasentraktor darf nicht abgeschleppt werden. Für den Transport auf öffentlichen Verkehrswegen ein geeignetes Fahrzeug verwenden. Den Rasentraktor nicht in schlecht gelüfteten Arbeitsbereichen (z. B. Garage) betreiben. Die Abgase enthalten giftiges Kohlenmonoxid sowie andere Schadstoffe.
+
+Traktor auspacken und montieren
+
+Beachten Sie die beiliegende Montageanleitung zum Auspacken und zur Montage des Traktors.
+
+Transport
+
+Beim Transport des Rasentraktors mit Transportgeräten (z.B. Pkw-Anhänger), muss das Mähwerk zur Entlastung der Mähwerksaufhängung unterbaut werden. Achten Sie beim Transport auf ausreichende Traglast des Transportmittels und eine geeignete Sicherung des Rasentraktors.
+
+Lagerung
+
+Der Rasentraktor soll vor Witterungseinflüssen, insbesondere vor Feuchtigkeit, Regen und längerer direkter Sonneneinstrahlung geschützt, abgestellt werden. Bewahren Sie den Rasentraktor niemals mit Kraftstoff im Tank innerhalb eines Gebäudes auf, in dem möglicherweise Kraftstoffdämpfe mit offenem Feuer oder Funken in Berührung kommen können. Stellen Sie den Rasentraktor nur in Räumen ab, die für das Abstellen von Kraftfahrzeugen geeignet sind. Stellen Sie den Rasentraktor bei längeren Einlagerungen, wie Überwinterung, möglichst nicht mit vollem Kraftstofftank ab. Der Kraftstoff kann verdunsten. Vor Langzeiteinlagerung sollte der Kraftstoff aus dem Tank und dem Vergaser abgelassen werden, um Ablagerungen und damit Startschwierigkeiten vorzubeugen. Befragen Sie hierzu bitte Ihre Fachwerkstatt.
+
+Garantie
+
+Etwaige Material- oder Herstellungsfehler am Gerät beseitigen wir während der gesetzlichen Verjährungsfrist für Mängelansprüche entsprechend unserer Wahl durch Reparatur oder Ersatzlieferung. Die Verjährungsfrist bestimmt sich jeweils nach dem Recht des Landes, in dem das Gerät gekauft wurde. Unsere Garantiezusage gilt nur bei: Beachten dieser Betriebsanleitung Sachgemäßer Behandlung Verwenden von Original-Ersatzteilen Die Garantie erlischt bei: Eigenmächtigen Reparaturversuchen Eigenmächtigen technischen Veränderungen Nicht bestimmungsgemäßer Verwendung Von der Garantie ausgeschlossen sind: Lackschäden, die auf normale Abnutzung zurückzuführen sind Verschleißteile, die auf der Ersatzteilkarte mit Rahmen gekennzeichnet sind Verbrennungsmotoren (hier gelten die Garantiebestimmungen der jeweiligen Motorenhersteller) Die Garantiezeit beginnt mit dem Kauf durch den ersten Endabnehmer. Maßgebend ist das Datum auf dem Kaufbeleg. Wenden Sie sich bitte mit dieser Erklärung und dem Original-Kaufbeleg an Ihren Händler oder die nächste autorisierte Kundendienststelle. Die gesetzlichen Mängelansprüche des Käufers gegenüber dem Verkäufer bleiben durch diese Erklärung unberührt.
+
+493516_Deckblatt C-Frame Heckauswurf sbA
+
+### Die nachfolgenden Bilder werden auf dem Deckblatt dargestellt. Zuerst kommt die Grafik, dann das Logo und dann das Kopfzeilenlogo. ### Deckblatt Deckblattlogo Kopfzeilenlogo Rückseitenlogo Notizen TO DO: 1 2 3… BUGS: 1 2 3… ### EOF ###
+
+493516_Bildteil C-Frame Heckauswurf Information zur Konformitätserklärung
+
+Wir erklären hiermit in alleiniger Verantwortung, dass dieses Produkt in der auf dem Markt vertriebenen Form die Anforderungen der harmonisierten EU-Richtlinien, die EU-Sicherheitsstandards und die produktspezifischen Standards erfüllt. Die Konformitätserklärung ist Teil der Betriebsanleitung und liegt der Maschine bei.
+
+Kundendienst/Service
+
+Bei Fragen zu Garantie, Reparatur oder Ersatzteilen wenden Sie sich bitte an Ihre nächstgelegene AL-KO Servicestelle. Diese finden Sie im Internet unter folgender Adresse:  www.alko-garden.com/service-contacts Weitere Informationen zu Ersatzteilen finden Sie unter:  www.alko-garden.com/spareparts
+
+Produktbeschreibung
+
+Die Rasentraktoren mit Heckauswurf werden in unterschiedlichen Ausführungen hergestellt. Achten Sie bitte bei folgenden Beschreibungen in dieser Betriebsanleitung darauf, dass Sie die zu Ihrem Rasentraktor passende Beschreibung lesen. Merkmale Ihres Rasentraktors: Getriebe: Fußhydrostat Messerkupplung: elektromagnetisch Boxvolumen: 310 l Boxentleerung: elektrisch, Teleskophebel Außerdem gibt es Unterschiede bei Mulchsystemen, Motortyp, Motorleistung und Schnittbreite. Typunterschiede: Schnittbreite Getriebeart (T3 und G700) Getriebe-Bypass-Entriegelung
+
+Sicherheits- und Schutzeinrichtungen
+
+Zu den Schutzeinrichtungen zählen vor allem: Bremskontaktschalter Mähwerkskontaktschalter Kontaktschalter Grasfangbox Sitzkontaktschalter Mähwerkabdeckungen Kontaktschalter Auswurfkanal
+
+Produktbeschreibung
+
+Die Rasentraktoren mit Seitenauswurf werden in unterschiedlichen Ausführungen hergestellt. Achten Sie bitte bei folgenden Beschreibungen in dieser Betriebsanleitung darauf, dass Sie die zu Ihrem Rasentraktor passende Beschreibung lesen. Merkmale Ihres Rasentraktors: Getriebe: Fußhydrostat Messerkupplung: elektromagnetisch Mähwerk für Seitenauswurf inkl. Verschluss für Mulchmähen Typunterschiede: Motortyp Motorleistung Schnittbreite
+
+Bestimmungsgemäße Verwendung
+
+Der Rasentraktor ist zum Mähen privater Haus- und Hobbygärten mit max. 10° (18 %) Hangneigung bestimmt. Zusätzliche Anwendungen, wie z. B. Mulchen sind nur unter Verwendung des Original-Zubehörs und unter Einhaltung der maximalen Belastungswerte gestattet.
+
+Möglicher Fehlgebrauch
+
+Der Rasentraktor ist nicht für den gewerblichen Einsatz in öffentlichen Parks, Sportstätten, Land- und Forstwirtschaft konzipiert.
+
+Produktbeschreibung
+
+Die Rasentraktoren mit Seitenauswurf werden in unterschiedlichen Ausführungen hergestellt. Achten Sie bitte bei folgenden Beschreibungen in dieser Betriebsanleitung darauf, dass Sie die zu Ihrem Rasentraktor passende Beschreibung lesen. Merkmale Ihres Rasentraktors: Getriebe: Fußhydrostat Messerkupplung: elektromagnetisch Mähwerk für Seitenauswurf inkl. Verschluss für Mulchmähen Typunterschiede: Motortyp Motorleistung Schnittbreite
+
+Symbole am Gerät
+
+Vor Inbetriebnahme Gebrauchsanleitung lesen! Während des Mähens sind weitere Personen, besonders Kinder und Tiere vom Arbeitsbereich fernzuhalten. Vor Wartungs- und Reparaturarbeiten Zündschlüssel ziehen! Achtung Gefahr! Hände und Füße vom Schneidwerk fernhalten! Nicht an Hängen über 10° (18%) Neigung fahren! Gefahr: Hier nicht betreten! Verbrennungsgefahr durch heiße Oberflächen!
+
+Produktübersicht (01)
+
+Nr. Bauteil 1 Lenkrad 2 Armaturenbrett 3 Bremspedal 4 Motorhaube 5 Getriebebetätigung rückwärts 6 Getriebebetätigung vorwärts 7 Mähwerk 8 Schnitthöhenverstellung 9 Getriebe-Bypass 10 Grasfangboxsensor 11 Boxenbetätigung 12 Grasfangbox 13 Fahrersitz 14 Boxenbetätigung elektrisch* 15 Feststellhebel für Bremspedal 16 Tempomathebel* * Ausführung variiert und ist modellabhängig
+
+Bedienelemente
+
+Im Folgenden werden die Bedienelemente der Rasentraktoren mit Heckauswurf beschrieben. Achten Sie bitte darauf, dass Sie die zu Ihrem Rasentraktor passende Beschreibung lesen.
+
+Standard-Armaturenbrett (02)
+
+Im Folgenden werden die Elemente des Standard-Armaturenbrettes erläutert. Regelung der Motordrehzahl  Bei Regler mit integriertem Choke: Durch Verschieben des Reglers (02/2) wird die Motordrehzahl erhöht und verringert. In der obersten Stellung wird der Choke zugeschaltet. Choke zuschalten: Regler ganz nach oben zum Choke-Zeichen schieben. Diese Position ausschließlich zum Starten des Motors verwenden. Hinweis: Einige Traktorvarianten verfügen über einen separaten Choke-Knopf (02/1) am Armaturenbrett. Dieser muss dann zum Start des Traktors zusätzlich gezogen werden. Läuft der Motor, Knopf langsam wieder zurückschieben! Mähbetrieb: In dieser Position läuft der Motor mit der maximalen Drehzahl. Leerlauf: In dieser Position läuft der Motor mit der niedrigsten Drehzahl. Zündschloss (02/4) Stellung Funktion 0 Motor aus. Der Zündschlüssel kann abgezogen werden. I Scheinwerfer ein. Nach dem Start des Motors werden in dieser Stellung die Scheinwerfer zugeschaltet. II Betriebsstellung, wenn der Motor läuft. III Startstellung zum Anlassen des Motors. Sobald der Motor läuft, lassen Sie den Schlüssel los. Er springt dann auf die Betriebsstellung II zurück.
+
+Brems- und Kupplungspedal (05)
+
+Bremse: Wenn Sie das Bremspedal (05/1) ganz niederdrücken, wird die Bremse am Getriebe betätigt und der Traktor bremst ab. Feststellbremse: Wenn Sie bei niedergedrücktem Bremspedal (05/1) den Feststellhebel (05/2) nach oben ziehen, wird die Bremse arretiert. Durch erneutes Niederdrücken des Bremspedals wird die Bremse gelöst.
+
+Getriebebedienung (Fahrgeschwindigkeit) (04)
+
+Die Rasentraktoren sind mit einem fußhydrostatischen Getriebe ausgestattet. Einige Modelle sind mit Tempomat ausgestattet. Für die Vorwärtsfahrt und die Rückwärtsfahrt sind auf der rechten Seite zwei separate Pedale angeordnet. Fahrt­richtung Beschreibung Vorwärts Betätigen Sie das rechte Pedal (04/2), um vorwärts zu fahren. Rückwärts Betätigen Sie das linke Pedal (04/1), um rückwärts zu fahren. Hinweis: Wird nur das Pedal für Rückwärtsfahrt betätigt, wird das Mähwerk ausgeschaltet. Mähbetrieb bei Rückwärtsfahrt: .
+
+Fußhydrostat-Getriebe (04, 05)
+
+Das Fußhydrostat-Getriebe wird durch zwei Pedale (04/1 und 04/2) betätigt. Zum Anfahren lösen Sie bei laufendem Motor zuerst die Feststellbremse (05/2) und betätigen Sie danach das Pedal (04/2) zum Vorwärts- oder das Pedal (04/1) zum Rückwärtsfahren. Je weiter Sie das Pedal drücken umso schneller fahren Sie in die gewählte Richtung. Vorwärtsfahren: Drücken Sie auf der rechten Seite das äußere Pedal (04/2). Rückwärtsfahren: Drücken Sie auf der rechten Seite das innere Pedal (04/1).
+
+Mähwerkbedienung (06)
+
+Schnitthöhe einstellen Das Mähwerk des Traktors kann mit einem Hebel (06/2) rechts neben dem Fahrersitz in mehreren Stufen in der Höhe verstellt werden. Bewegen Sie den Verstellhebel (06/2) in die gewünschte Richtung. Hebel nach unten bedeutet niedrige Schnitthöhe, Hebel nach oben bedeutet große Schnitthöhe. Mähwerk zuschalten Elektrische Zuschaltung: Im Bereich des Armaturenbrettes befindet sich ein Schalter (02/5). Schalten Sie damit das Mähwerk ein (d. h. Position "1").
+
+Armaturenbrett mit Display (03)
+
+Lesen Sie dieses Kapitel, wenn Ihr Rasentraktor über ein Display oberhalb des Standard-Armaturenbretts verfügt.
+
+Funktionstasten und die Displayanzeige
+
+Pos. Bezeichnung Funktion 03/2  Im Display werden angezeigt: Tagesbetriebsstunden (Anzeige mit einer Kommastelle)  Hinweis: Die Tagesbetriebsstunden werden im Dezimalsystem angezeigt (1,5 h = 1 h 30 min). oder Gesamtbetriebsstunden (Anzeige ohne Kommastelle)  Hinweis: Die Gesamtbetriebsstunden beginnen zu zählen, sobald der Zündschlüssel in Position I gedreht wird. 03/5  Zum Umschalten der Displayanzeige: Gesamtbetriebsstunden Tagesbetriebsstunden Batteriespannung Hinweis: Verbleibt der Zündschlüssel im Zündschloss auf Position "I", laufen die Gesamtbetriebsstunden weiter. 03/13  Rückstellung der Tagesbetriebsstunden auf "0".  Hinweis: Es können nur die Tagesbetriebsstunden auf "0" zurückgestellt werden, nicht die Gesamtbetriebsstunden.
+
+Kontrollleuchten
+
+Pos. Bezeichnung Die Anzeige leuchtet: 03/1  bei laufendem Motor: bei defekter oder tief entladener Starterbatterie. Kabelzuleitung Motor – Batterie unterbrochen. Sicherung defekt (15 A-blau). Lichtmaschine am Motor defekt. bei stehendem Motor: bei tief entladener Starterbatterie. Hinweis: Suchen Sie bei Aufleuchten dieser Anzeige die Fachwerkstatt auf! 03/3  wenn die Grasfangbox gefüllt ist. Leeren Sie die Grasfangbox! 03/4  wenn das Mähwerk zugeschaltet ist. 03/6  wenn das Mähwerk für die Rückwärtsfahrt freigeschaltet wurde. 03/7  bei abgenommener Grasfangbox oder wenn diese nicht vorschriftsmäßig geschlossen ist. 03/8  bei eingeschalteten Scheinwerfern. 03/9  wenn die Bremse betätigt wird und bei arretierter Bremse. 03/10  wenn sich nur noch eine Kraftstoffrestmenge von ca. 1,5 Litern im Tank befindet. 03/11  wenn der Ölstand einen bestimmten Stand unterschreitet. 03/12  wenn der Fahrer vom Traktor absteigt bei: laufendem Motor (Bremse ist arretiert)
+
+Inbetriebnahme Inbetriebnahme Mähwerk prüfen
+
+Vor dem Gebrauch ist immer durch Sichtkontrolle zu prüfen, ob Schneidwerkzeug, Befestigungsbolzen und die gesamte Schneideinheit abgenutzt oder beschädigt sind. Zur Vermeidung einer Unwucht müssen abgenutzte oder beschädigte Messer durch neue ersetzt werden.
+
+Befüllung mit Öl
+
+Vor der Erstinbetriebnahme muss der Motor mit Öl befüllt werden. Beachten Sie hierzu bitte die Anleitung des Motorherstellers. Beachten Sie auch, dass der Ölstand in regelmäßigen Abständen kontrolliert und eventuell Öl aufgefüllt werden muss.
+
+Inbetriebnahme Reifendruck prüfen
+
+Kontrollieren Sie den Reifendruck in regelmäßigen Abständen. Lesen Sie den erforderlichen Luftdruck auf den Reifen ab (Empfehlung 1 bar).  Mit einer handelsüblichen Fußluftpumpe kann der Reifendruck kontrolliert und Luft nachgefüllt werden.
+
+Befüllung mit Kraftstoff (09)
+
+Verwenden Sie zum Betanken einen geeigneten Trichter oder ein Einfüllrohr, damit kein Kraftstoff auf den Motor, das Gehäuse oder die Erde verschüttet werden kann. Aus Sicherheitsgründen sind der Kraftstofftankverschluss und andere Tankverschlüsse bei Beschädigung auszutauschen. Falls Kraftstoff übergelaufen ist, darf der Motor nicht gestartet werden. Der Traktor ist von der kraftstoffverschmutzten Stelle zu entfernen, und der verschüttete Kraftstoff muss vom Boden, dem Motor und dem Gehäuse mit einem Lappen aufgesaugt und abgewischt werden. Jeglicher Startversuch ist zu vermeiden bis sich die Kraftstoffdämpfe verflüchtigt haben. Bewahren Sie Kraftstoff nur in den dafür vorgesehenen Behältern auf. Verwenden Sie bleifreies Benzin, min. ROZ 91. Tank befüllen Stellen Sie gegebenenfalls den Motor ab und ziehen Sie sicherheitshalber den Zündschlüssel ab. Warten Sie, bis der Motor etwas abgekühlt ist (Explosionsgefahr durch entzündeten Kraftstoff!). Drücken Sie auf die Tankverschlussabdeckung (09/1). Schwenken Sie die Tankverschlussabdeckung (09/1) nach oben. Die Tankverschlussabdeckung (09/1) wird entriegelt. Öffnen Sie den Tankverschluss (09/2) und füllen Sie den Kraftstoff ein. Vermeiden Sie ein Überfüllen des Kraftstoffbehälters! Verschließen Sie den Tankverschluss (09/2). Verschließen Sie die Tankverschlussabdeckung (09/1) so, dass sie einrastet.
+
+Grasfangbox anbauen (10 – 13)
+
+Die Rasentraktoren werden mit Grasfangbox ausgeliefert. Bitte beachten Sie, dass die Bilder vom Original etwas abweichen können. Grasfangbox Füllstandsmelder einstellen Der Füllstandsmelder meldet über eine Hupe, wenn die Grasfangbox entleert werden muss. Der Füllstandsmelder kann auf die Beschaffenheit des Schnittguts in 6 Positionen eingestellt werden. Bei trockenem Schnittgut den Füllstandsmelder in die kleineren Positionen schieben. Bei nassem oder feuchtem Schnittgut den Füllstandsmelder länger einstellen. Dadurch wird die Befüllung der Grasfangbox beeinflusst. Stellen Sie den Motor ab ( ). Nehmen Sie die Grasfangbox ab ( ). Stellen Sie den Füllstandsmelder (10/1) auf das Schnittgut ein (10/a), bis er auf der gewünschten Position einrastet. Hängen Sie die Grasfangbox wieder ein. Grasfangbox einhängen Halten Sie die Grasfangbox mit einer Hand am Boxgriff (11/1) und mit der anderen Hand an der Halteöffnung an der Rückseite (11/2). Legen Sie die Grasfangbox symmetrisch auf die Führung (11/3). Kippen Sie die Grasfangbox mit der anderen Hand leicht nach vorne (12), so dass der vordere Teil der Grasfangbox einrastet. Schwenken Sie nun die Grasfangbox wieder nach unten (13/a). Überprüfen Sie den korrekten Sitz der Grasfangbox.
+
+Prüfung der Sicherheitseinrichtungen
+
+Die Sicherheitseinrichtungen müssen vor jedem Start des Rasentraktors geprüft werden.  Führen Sie alle Prüfungen auf ebenem Untergrund durch, damit der Rasentraktor nicht ungewollt rollen kann.
+
+Bremskontaktschalter prüfen
+
+Der Bremskontaktschalter stellt sicher, dass der Motor nicht gestartet werden kann, wenn die Bremse nicht betätigt wird. Der Motor ist aus. Setzen Sie sich auf den Fahrersitz. Lösen Sie die Feststellbremse indem Sie das Bremspedal (05/1) betätigen. Versuchen Sie den Motor zu starten (Zündschlüssel in Position III).
+
+Mähwerkkontaktschalter prüfen
+
+Der Mähwerkkontaktschalter stellt sicher, dass sich der Motor nicht starten lässt, wenn das Mähwerk aktiviert ist. Motor ist aus. Setzen Sie sich auf den Fahrersitz. Treten Sie das Bremspedal (05/1) und betätigen Sie die Feststellbremse (05/2). Schalten Sie das Mähwerk zu (02/5, Position "1"). Versuchen Sie den Motor zu starten (Zündschlüssel in Position III).
+
+Sitzkontaktschalter prüfen
+
+Der Sitzkontaktschalter stellt sicher, dass sich der Motor abschaltet, sobald sich bei eingeschaltetem Mähwerk keine Person mehr auf dem Fahrersitz befindet. Setzen Sie sich auf den Fahrersitz. Treten Sie das Bremspedal (05/1) und betätigen Sie die Feststellbremse (05/2). Starten Sie den Motor und lassen Sie ihn mit maximaler Drehzahl laufen. Schalten Sie das Mähwerk zu (02/5, Position "1"). Entlasten Sie den Sitz, indem Sie aufstehen (nicht absteigen!).
+
+Kontaktschalter der Grasfangbox prüfen
+
+Der Kontaktschalter an der Grasfangbox stellt sicher, dass sich der Motor abschaltet, sobald die Grasfangbox bei eingeschaltetem Mähwerk nicht korrekt eingehängt ist. Setzen Sie sich auf den Fahrersitz. Treten Sie das Bremspedal (05/1) und betätigen Sie die Feststellbremse (05/2). Starten Sie den Motor und lassen Sie ihn mit maximaler Drehzahl laufen. Schalten Sie das Mähwerk zu (02/5, Position "1"). Heben Sie die leere Grasfangbox leicht an oder betätigen Sie den Öffnungsschalter.
+
+Kontaktschalter des Auswurfkanals prüfen
+
+Der Kontaktschalter des Auswurfkanals stellt sicher, dass sich der Rasentraktor bei ausgebautem Auswurfkanal nicht starten lässt. Grasfangbox abnehmen. Entfernen Sie den Auswurfkanal (18/2). Setzen Sie sich auf den Fahrersitz. Treten Sie das Bremspedal (05/1) und betätigen Sie die Feststellbremse (05/2). Starten Sie den Motor.
+
+Betrieb des Traktors Grundsätzliche vorbereitende Maßnahmen
+
+Tragen Sie während des Mähens immer festes Schuhwerk und lange Hosen. Niemals barfuß oder mit offenen Sandalen mähen. Überprüfen Sie vollständig das Gelände, auf dem der Rasentraktor eingesetzt wird. Entfernen Sie alle Steine, Stöcke, Drähte, Knochen und andere Fremdkörper, die erfasst und weggeschleudert werden könnten. Auch während des Mähens ist auf Fremdkörper zu achten. Führen Sie alle in der Inbetriebnahme beschriebenen Arbeiten durch. Dies gilt insbesondere für die Prüfung der Sicherheitseinrichtungen. Zum Ziehen von Lasten nur die Anhängevorrichtung verwenden! Die Stützlast nicht überschreiten. Der Transport von Gegenständen am Rasentraktor ist nicht gestattet!
+
+Verwendung von Zubehör
+
+Durch die Verwendung von nicht zugelassenem Zubehör oder die falsche Verwendung von Zubehör können große Gefahren für den Bediener und Dritte entstehen. Der Rasentraktor könnte überbelastet werden. Dies kann zu schweren Unfällen führen.
+
+Rasentraktor schieben (15, 16)
+
+Bei Fußhydrostat-Antrieb Der Bypasshebel (15/1) befindet sich im hinteren rechten Radkasten. Bypassentriegelung bei T3-Getriebe (Typ: T15, T16, T18): Bypasshebel (15/1) herausziehen und nach oben einhängen (16). Lösen Sie die Bremse. Der Rasentraktor kann jetzt geschoben werden. Bypassentriegelung bei G700-Getriebe (Typ: T20, T23): Bypasshebel (15/1) einschieben und nach oben einhängen (16). Lösen Sie die Bremse. Der Rasentraktor kann jetzt geschoben werden.
+
+Motor starten und abstellen
+
+Motor starten Nehmen Sie auf dem Fahrersitz Platz. Drücken Sie das Bremspedal (05/1) auf der linken Seite ganz durch und arretieren Sie es mit dem Feststellhebel (05/2). Vergewissern Sie sich, dass das Mähwerk NICHT zugeschaltet ist. Prüfen Sie dazu die Kippschalterstellung (02/5, Position „0“). Bewegen Sie den Regler (02/2) für die Motordrehzahl an den oberen Anschlag. Je nach Ausstattungsvariante befindet sich dort das Choke-Zeichen. Wenn nicht, ziehen Sie am separaten Choke-Knopf (02/1). Stecken Sie den Zündschlüssel in das Zündschloss (02/4). Drehen Sie den Zündschlüssel in Position „III“ und halten Sie ihn dort so lange, bis der Motor läuft. Zur Schonung der Starterbatterie sollte ein Startversuch nicht länger als ca. 5 Sekunden dauern. Lassen Sie dann den Zündschlüssel los, er springt automatisch in Position „II“. Bewegen Sie den Regler (02/2) für die Motordrehzahl in Betriebsstellung. Bei einer Ausstattungsvariante mit Choke-Knopf drücken Sie diesen wieder hinein (02/1). Motor abschalten Schalten Sie das Mähwerk ab (02/5). Stellen Sie den Regler (02/2) für die Motordrehzahl auf Leerlaufstellung. Drücken Sie das Bremspedal (05/1) und arretieren Sie es mit dem Feststellhebel (05/2). Drehen Sie den Zündschlüssel (02/4) in Position „0“. Ziehen Sie den Zündschlüssel ab.
+
+Fahren mit dem Traktor
+
+Ihr Traktor wird über ein Fußhydrostat-Getriebe angetrieben. Fahren und Mähen an Hängen
+
+Fahren Sie nicht an Hängen über 10° (18 %) Neigung. Beispiel: das entspricht 18 cm Höhenunterschied auf einen Meter Länge. Fahren Sie nicht ruckartig an. Bremsen Sie nicht ruckartig. Halten Sie die Fahrgeschwindigkeit niedrig. Fahren Sie nicht quer zum Hang. Beschleunigen Sie nicht stark. Lenken Sie nicht ruckartig.
+
+Fahrt vorbereiten bei Temperaturen unter 10 °C
+
+Vergewissern Sie sich, dass das Mähwerk NICHT zugeschaltet ist. Prüfen Sie dazu den Kippschalter (02/5, Position „0“). Starten Sie den Motor und lassen Sie ihn zur Optimierung der Getriebeölviskosität ca. 30 Sekunden lang warmlaufen. Danach können Sie mit dem Traktor fahren. Das Mähwerk sollte erst zugeschaltet werden, wenn der Motor einige Minuten gelaufen ist.
+
+Fahren mit Fußhydrostat-Getriebe
+
+Drücken Sie das Bremspedal (05/1) und arretieren Sie es mit dem Feststellhebel (05/2). Stellen Sie das Mähwerk auf die höchste Schnitthöhe (06/2). Starten Sie den Motor. Bremse betätigen (05/1). Drücken Sie langsam auf das Fußpedal für die gewünschte Fahrtrichtung: Vorwärts: Fußpedal (04/2) Rückwärts: Fußpedal (04/1) Je weiter Sie das Pedal drücken, desto schneller bewegt sich der Traktor in die gewählte Richtung. Zum Anhalten lassen Sie das Fußpedal los und drücken Sie das Bremspedal (05/1).
+
+Fahren mit Tempomat
+
+Tempomat ein-/ausschalten: Hebel (02/3) nach oben schwenken.  Der Tempomat wird eingeschaltet. Hebel (02/3) nach unten schwenken.  Der Tempomat wird ausgeschaltet.
+
+Mähen mit dem Rasentraktor
+
+Um ein sauberes Mähergebnis zu erhalten, ist die Fahrgeschwindigkeit den Rasenverhältnissen anzupassen. Wählen Sie zum Mähen maximal 2/3 der möglichen Fahrgeschwindigkeit am Pedal. Die maximale Geschwindigkeit des Traktors ist ausschließlich für den Fahrbetrieb ohne eingeschaltetes Mähwerk bestimmt. Im Normalfall beträgt die Schnitthöhe 4 - 5 cm. Dies entspricht der 2. oder 3. Raste der Höhenverstellung (06/2). Bei feuchtem und nassem Gras mähen Sie mit höherer Schnitthöhe. Bei sehr hohem Gras ist es zweckmäßig, in zwei Durchgängen zu mähen. Stellen Sie das Mähwerk beim ersten Durchgang auf maximale Schnitthöhe. Beim zweiten Durchgang können Sie dann auf die gewünschte Höhe einstellen.
+
+Zuschalten des Mähwerks
+
+Starten Sie den Motor. Bewegen Sie den Regler (02/2) für die Motordrehzahl in Betriebsstellung. Stellen Sie das Mähwerk auf die höchste Schnitthöhe (06/2). Schalten Sie das Mähwerk mit dem Kippschalter (02/5, Position „1“) ein. Stellen Sie mit dem Handhebel (06/2) die gewünschte Schnitthöhe ein. Fahren Sie mit dem Rasentraktor an.
+
+Mähbetrieb bei Rückwärtsfahrt
+
+Betätigen Sie die Taste "Rückwärtsmähen" (02/6) und innerhalb 5 sec. das Pedal (04/1) für die Rückwärtsfahrt.
+
+Abschalten des Mähwerks
+
+Schalten Sie das Mähwerk mit dem Kippschalter ab (02/5, Position „0“). Das Mähwerk kann sowohl im Stillstand als auch während der Fahrt des Traktors abgeschaltet werden.
+
+Grasfangbox entleeren
+
+Je nach Ausstattungsvariante verfügt Ihr Rasentraktor über eine elektrisch betätigte Grasfangbox-Entleerung oder eine manuell betätigte Grasfangbox mit Betätigungshebel. Für alle Boxenarten gilt: Das Entleeren der Grasfangbox kann vom Fahrersitz aus vorgenommen werden. Wird bei zugeschaltetem Mähwerk die Grasfangbox hochgeklappt bzw. ausgehängt, stirbt der Motor ab. Wenn die Grasfangbox nicht ordnungsgemäß eingerastet ist, kann das Mähwerk nicht zugeschaltet werden. Elektrisch betätigte Grasfangbox entleeren Zum Entleeren betätigen Sie den Kippschalter (07/1) auf der linken Seite des Fahrersitzes. Zum Schließen der Grasfangbox betätigen Sie wieder den Kippschalter. Grasfangbox mit Betätigungshebel entleeren Ziehen Sie den Betätigungshebel aus der Grasfangbox (17/a). Drücken Sie den Hebel in Fahrtrichtung, damit sich die Grasfangbox öffnet (17/b). Bewegen Sie die Grasfangbox mit dem Hebel nach hinten, bis die Box einrastet.
+
+Mulchen
+
+Für ein optimales Mulchergebnis sollte der Rasen regelmäßig gemäht werden (ca. 1 bis 2-mal wöchentlich). Dabei 1/3 der Grashöhe abschneiden (z. B. 6 cm Rasenhöhe, 2 cm mähen). Dadurch wird das Schnittgut sauber in den noch verbleibenden Rasen eingearbeitet.
+
+Mähintervall
+
+Berücksichtigen Sie, dass Gras zu verschiedenen Zeiten unterschiedlich wächst. Empfehlenswert ist zu Beginn des Frühjahrs ein kürzeres Mähintervall zu wählen. Vergrößern Sie das Mähintervall, wenn die Wachstumsrate des Grases im Laufe des Jahres abnimmt. Konnte der Rasen eine Zeit lang nicht gemäht werden, zunächst eine höhere Schnitthöheneinstellung wählen und dann zwei Tage später mit einer niedrigeren Schnitthöheneinstellung noch einmal mähen.
+
+Mähen von hohem Gras
+
+Mähen Sie, wenn das Gras länger als üblich gewachsen oder wenn es zu feucht ist, den Rasen mit einer höheren Schnitthöheneinstellung. Mähen Sie den Rasen anschließend mit der niedrigeren, normalen Einstellung noch einmal.
+
+Warten der Schneidmesser
+
+Sorgen Sie während der ganzen Mähsaison für ein scharfes Schneidmesser, um ein Abreißen und ein Zerfetzen der Grashalme zu vermeiden. Abgerissene Grashalme werden an den Kanten braun. Dadurch reduziert sich das Wachstum, und die Anfälligkeit des Rasens für Krankheiten steigt. Schneidmesser nach jedem Gebrauch auf Schärfe und Anzeichen von Abnutzung oder Schäden überprüfen! Gegebenenfalls Servicewerkstätte aufsuchen. Bei einem Ersatz der Messer nur Original-Ersatzmesser verwenden.
+
+Rasentraktor reinigen
+
+Für eine optimale Funktion und eine lange Lebensdauer muss der Rasentraktor regelmäßig gereinigt werden. Reinigen Sie nach jedem Betrieb den Rasentraktor von anhaftenden Verschmutzungen. Verwenden Sie zur Reinigung keinen Hochdruckreiniger. Der Wasserstrahl eines Hochdruckreinigers oder eines Gartenschlauchs kann zu Beschädigungen der Elektrik oder der Lager führen. Achten Sie darauf, dass insbesondere Motor, Getriebe und Umlenkrollen, sowie die komplette Elektrik nicht in Berührung mit Wasser kommen.
+
+Gehäuse, Motor und Getriebe reinigen
+
+Den Motor und alle Lagerstellen (Räder, Getriebe, Messerlagerung) nicht mit Wasser oder einem Hochdruckreiniger abspritzen. Eindringendes Wasser in die Zündanlage, in den Vergaser und in den Luftfilter kann Störungen verursachen. Wasser in den Lagerstellen kann zum Verlust der Schmierung und somit zur Zerstörung der Lager führen. Zum Entfernen von Schmutz und Grasresten einen Lappen, Handbesen, langstieligen Pinsel oder Ähnliches verwenden.
+
+Grasfangbox reinigen
+
+Nehmen Sie dazu die Grasfangbox ab und spritzen Sie die Box innen und außen mit einem Wasserschlauch ab. Fester anhaftende Verschmutzungen müssen vorsichtig, zum Beispiel mit einer Bürste, abgekratzt werden. Achten Sie insbesondere bei Grasfangboxen mit Gewebebezug darauf, das Gewebe nicht zu beschädigen.  Abnehmen einer Grasfangbox Stellen Sie den Motor ab. Heben Sie die Grasfangbox leicht an. Entnehmen Sie die Grasfangbox nach oben. Abnehmen einer elektrisch betätigten Grasfangbox Stellen Sie den Motor ab. Stellen Sie sicher, dass die elektrisch betätigte Grasfangbox geschlossen ist. Heben Sie die Grasfangbox an (ca. 30°). Entnehmen Sie die Grasfangbox nach oben.
+
+Reinigen des Auswurfkanals (18)
+
+Durch regelmäßiges Reinigen wird die Leichtgängigkeit der Schnitthöhenverstellung gewährleistet. Der Auswurfkanal besteht aus zwei ineinander geschobenen Teilen. Das untere Teil ist im Mähgehäuse fest eingerastet. Das obere Teil kann zur Reinigung herausgezogen werden. Entfernen Sie die Grasfangbox. Entfernen Sie die Schrauben (18/1) links und rechts am Auswurfkanal (18/2). Ziehen Sie den Auswurfkanal durch die Rückwand nach hinten heraus. Reinigen Sie den oberen und unteren Auswurfkanal gründlich. Stecken Sie den Auswurfkanal in die Rückwand. Dabei darauf achten, dass oberer und unterer Teil sauber zusammengeführt werden. Schrauben Sie ihn mit den beiden Befestigungsschrauben fest. Montieren Sie die Grasfangbox.
+
+Zu dieser Betriebsanleitung
+
+Bewahren Sie diese Betriebsanleitung immer so auf, dass Sie darin nachlesen können, wenn Sie eine Information zum Gerät benötigen. Geben Sie das Gerät nur mit dieser Betriebsanleitung an andere Personen weiter. Lesen und beachten Sie die Sicherheits- und Warnhinweise in dieser Betriebsanleitung. Die Rasentraktoren werden in unterschiedlichen Ausstattungsvarianten ausgeliefert. Bitte beachten Sie, dass die Bilder vom Original etwas abweichen können. Sollten Sie Schwierigkeiten haben die Beschreibungen nachzuvollziehen, wenden Sie sich bitte an eine Fachwerkstatt oder den Hersteller. Beachten Sie die beiliegende Montageanleitung und die Betriebsanleitung des Benzinmotors.
+
+Symbole auf der Titelseite
+
+Symbol Bedeutung Lesen Sie unbedingt vor der Inbetriebnahme diese Betriebsanleitung sorgfältig durch. Dies ist die Voraussetzung für sicheres Arbeiten und störungsfreie Handhabung. Betriebsanleitung Benzingerät nicht in der Nähe von offenen Flammen oder Hitzequellen betreiben.
+
+Zeichenerklärungen und Signalwörter Instandhaltung Wartungsplan
+
+Folgende Arbeiten dürfen vom Benutzer selbst durchgeführt werden. Alle übrigen Wartungs-, Service und Instandsetzungsarbeiten müssen bei einer autorisierten Service-Werkstätte durchgeführt werden.  Bitte beachten Sie zusätzlich die empfohlenen, jährlichen Abschmierungen gemäß Schmierplan. Tätigkeit Vor jedem Einsatz Nach jedem Einsatz Nach den ersten 5 Stunden Alle 25 Betriebsstunden Alle 50 Betriebsstunden Vor jeder Einlagerung Motorölstand überprüfen )* X Motoröl wechseln )*   X   X Luftfilter reinigen )*    X Luftfilter austauschen )*     X Zündkerze überprüfen )*     X Bremse überprüfen (Probebremsung auf gerader Strecke) X Reifendruck überprüfen X Mähmesser überprüfen X Auf lose Teile überprüfen X     X Keilriemen überprüfen (Sichtkontrolle)    X Reinigen des Rasentraktors  X Luftansauggitter am Motor reinigen )* X Getriebe von Gras- und Mähresten reinigen  X  X )* siehe Bedienungsanleitung des Motorenherstellers
+
+Schmierplan
+
+Um die Leichtgängigkeit der beweglichen Teile zu gewährleisten, empfehlen wir mindestens jährlich folgende Stellen nachzuschmieren. Reinigen Sie alle zu schmierenden Stellen vor dem Abschmieren oder Einsprühen mit einem Lappen. Verwenden Sie kein Wasser, um eventuelle Korrosion zu vermeiden. Schmierstellen: Schmiernippel am Achsschenkel rechts und links (21) mit Mehrzweckfett abschmieren. Lagerung der Vorderachse am Rahmen (21/1) mit Sprühöl einsprühen. Zahnsegment und Lenkritzel am Lenkgetriebe (22) mit Mehrzweckfett abschmieren. Rollenlager und Nabe an Vorder- und Hinterachse (23 / 20) mit Mehrzweckfett abschmieren.  Dreh- und Lagerstellen: Schmierung aller beweglichen Dreh- und Lagerstellen.
+
+Radwechsel
+
+Radwechsel darf nur auf einem waagrechten und festen Untergrund vorgenommen werden. Stellen Sie den Rasentraktor ab und ziehen Sie den Zündschlüssel ab. Drücken Sie das Bremspedal (05/1) ganz durch und arretieren Sie es mit dem Feststellhebel (05/2). Sichern Sie den Rasentraktor mit Unterlegkeilen gegen Wegrollen. Legen Sie die Keile auf der Seite unter, die nicht angehoben wird. Heben Sie den Rasentraktor mit einem geeigneten Hebezeug (z. B. Scherenwagenheber) auf der Seite an, auf der das Rad gewechselt werden soll. Heben Sie den Traktor so weit an, dass sich das zu wechselnde Rad frei drehen lässt.  Achtung! Gefahr von Geräteschäden. Achten Sie beim Anheben darauf keine Traktorelemente zu verbiegen. Setzen Sie das Hebewerkzeug nur an stabilen Metallteilen an. Sichern Sie den Rasentraktor an einem tragenden Element des Fahrgestells mit einer stabilen Unterlage (z. B. Kanthölzer) so ab, dass er sich auch bei abrutschen oder kippen des Hebezeugs nicht absenken kann. Ziehen Sie die Schutzkappe (19/1) ab. Drücken Sie die Sicherungsscheibe (19/2) mit Schraubendreher ab. Achten Sie darauf, dass sie nicht verloren geht. Ziehen Sie die Unterlegscheibe (19/3) ab. Ziehen Sie das Rad von der Achse. Beim Abziehen der Hinterräder von der Achse die Passfeder nicht verlieren! Reinigen Sie vor der Wiedermontage die Achse und die Bohrung im Rad und fetten Sie beides mit Mehrzweckfett ein. Stecken Sie das Rad auf die Achse. Beim Aufstecken der Hinterräder müssen die Nuten der Passfeder und des Hinterrades so übereinander stehen, so dass sich die Passfeder gewaltfrei einschieben lässt. Stecken Sie die Unterlegscheibe auf die Achse. Drücken Sie die Sicherungsscheibe in die Nut an der Achse. Wenn Sie hierzu eventuell eine Zange verwenden, achten Sie darauf mit der Zange nicht die Achse zu beschädigen. Stecken Sie die Schutzkappe auf die Achse. Entfernen Sie die Sicherungsunterlage und lassen Sie den Traktor vorsichtig mit dem Hebezeug auf den Boden sinken.
+
+Starterbatterie
+
+Im Lieferumfang des Rasentraktors ist kein Ladegerät für die Starterbatterie enthalten. Genaue Batteriebezeichnung: siehe Batteriekasten. Die Starterbatterie befindet sich unter der Motorabdeckhaube. Grundsätzlich ist die Starterbatterie ab Werk geladen. Sicherheitshinweise  Die Starterbatterie darf nicht in unmittelbarer Nähe von offenem Feuer gelagert, verbrannt oder auf Heizungen abgestellt werden. Es droht Explosionsgefahr. Bewahren Sie die Starterbatterie zur Wintereinlagerung in einem kühlen, trockenen Raum (10 – 15 °C) auf. Temperaturen unter dem Gefrierpunkt sollten bei der Lagerung vermieden werden. Lassen Sie die Starterbatterie nicht über einen längeren Zeitraum ungeladen. Wenn die Starterbatterie über einen längeren Zeitraum nicht benutzt wurde, sollte sie mit einem geeigneten Ladegerät aufgeladen werden. Die Starterbatterie nicht zerstören. Der Elektrolyt (Schwefelsäure) verursacht Verätzungen auf der Haut und Bekleidung – sofort mit viel Wasser auswaschen. Die Starterbatterie sauber halten. Nur mit einem trockenen Tuch abwischen. Kein Wasser, Benzin, Verdünnungsmittel oder ähnliches dazu verwenden! Die Anschlusspole sauber halten und mit Polfett einfetten. Anschlusspole nicht kurzschließen. Laden der Starterbatterie Die Aufladung ist erforderlich: Vor der Einlagerung zur Winterpause. Bei längerer Standzeit des Gerätes (länger als 3 Monate).  Wir empfehlen, diese wartungsfreie und gasdichte Starterbatterie mit einem speziell dafür geeigneten Ladegerät aufzuladen (zu beziehen über den Fachhandel). Beachten Sie vor dem Laden der Starterbatterie die Bedienungsanleitung des Ladegeräteherstellers.  Ziehen Sie den Zündschlüssel ab (02/4). Öffnen Sie die Motorhaube. Verbinden Sie die Klemmen des Ladegerätes mit den Anschlusspolen der Batterie. Beachten Sie die Polarität: Rote Klemme = Pluspol (+) Schwarze Klemme = Minuspol (-) Verbinden Sie das Ladegerät mit dem Stromnetz und schalten Sie es ein.
+
+Mähwerk ausbauen
+
+Für die Verwendung des Traktors im Winterdienst und für den Wechsel des Keilriemens ist das Mähwerk auszubauen. Lenkrad komplett nach links einschlagen (32). Grasfangbox entfernen (33). Auswurfkanal ausbauen (18). Zylinderschraube (34) der Schachthalterung mit 5 - 6 Umdrehungen lösen. Mähwerk auf die tiefste Einstellung ablassen (35). Zugfeder am Mähwerk aushängen (36). Mähwerk wieder ganz nach oben stellen (37). Keilriemen-Kanal aushängen (38). Keilriemen von der Keilriemenscheibe des Motors aushängen (39). Mähwerk wieder auf die tiefste Einstellung ablassen (40). Entfernen Sie die 4 Sicherungsstifte an den Haltebügeln des Mähwerks (41). Haltbügel über die Bolzen abziehen (41).
+
+Keilriemen auswechseln
+
+Lösen Sie 6 Sicherungsmuttern (24). Keilriemen-Kanal aushängen (25). Rechte Abdeckung des Mähwerks aushängen und entfernen (26). Linke Abdeckung des Mähwerks aushängen und entfernen (27). Schraube an der Spannrolle leicht lösen, bis der Keilriemen ausgefädelt werden kann (28). Keilriemen herausnehmen.  Neuen Keilriemen einsetzen Legen Sie den Keilriemen um die leicht gelöste Spannrolle und schrauben Sie die Spannrolle wieder an (30 / 31). Legen Sie den Keilriemen entsprechend der Reihenfolge um die Rollen und beachten Sie die Führung und Lage des Keilriemens.
+
+Hilfe bei Störungen
+
+Störung Ursache Beseitigung Motor springt nicht an. Kraftstoffmangel. Tank füllen; Tankentlüftung überprüfen; Kraftstofffilter überprüfen. Schlechter, verschmutzter Kraftstoff, alter Kraftstoff im Tank. Verwenden Sie stets frischen Kraftstoff aus sauberen Behältern; Vergaser reinigen (Kundendienstwerkstatt). Luftfilter verschmutzt. Luftfilter reinigen (siehe Bedienungsanleitung des Motorherstellers). Kein Zündfunke. Zündkerze reinigen, evtl. neue einsetzen, Zündkabel prüfen, Zündanlage prüfen (Kundendienstwerkstatt). Durch mehrmalige Startversuche zu viel Kraftstoff im Motorbrennraum. Zündkerze herausdrehen und abtrocknen. Anlasser funktioniert nicht. Leere oder schwache Starterbatterie. Starterbatterie aufladen. Sicherheitsschalter am Fahrersitz nicht in Funktion. Richtig auf dem Fahrersitz Platz nehmen; Schalter defekt. Sicherheitsschalter am Bremspedal nicht in Funktion. Bremspedal ganz niederdrücken. Mähwerk zugeschaltet. Mähwerk ausschalten. Sicherung am (+) Kabel der Starterbatterie. Sicherung überprüfen, gegebenenfalls tauschen. Motorleistung lässt nach. Zu hohes oder zu feuchtes Gras. Schnitthöhe korrigieren; Freiraum für das Mähwerk schaffen durch kurzes Zurückfahren. Auswurfkanal/Mähdeck verstopft. Motor abstellen und Zündschlüssel abziehen! Auswurfkanal/Mähdeck reinigen. Luftfilter verschmutzt. Luftfilter reinigen (siehe Bedienungsanleitung des Motorherstellers). Vergasereinstellung stimmt nicht. Einstellung überprüfen lassen (Kundendienstwerkstatt). Messer stark abgenutzt. Messer auswechseln (Kundendienstwerkstatt). Fahrgeschwindigkeit zu hoch. Fahrgeschwindigkeit verringern. Rasentraktor vibriert stark. Mähwerk ist beschädigt. Mähwerk prüfen (Kundendienstwerkstatt). Rasentraktor fährt nicht an. Bei Hydrostat-Antrieb: kein Fahrantrieb. Bypass-Hebel auf Betriebsstellung umstellen ( ). Unsauberer Schnitt. Messer abgenutzt, unscharf. Messer auswechseln oder nachschleifen. Nachgeschliffene Messer auswuchten (Kundendienstwerkstatt)! Falsche Schnitthöhe. Schnitthöhe korrigieren. Zu geringe Motordrehzahl. Maximale Motordrehzahl einstellen. Fahrgeschwindigkeit zu hoch. Fahrgeschwindigkeit vermindern. Unterschiedlicher Reifendruck auf den Rädern. Auf richtigen Luftdruck aufpumpen. Korrekten Reifendruck am Reifen ablesen. Grasfangbox füllt nicht. Schnitthöhe zu tief eingestellt. Schnitthöhe korrigieren. Gras ist feucht - ist zu schwer, um vom Luftstrom transportiert zu werden. Mähzeit verschieben, bis die Rasenfläche abgetrocknet ist. Messer stark abgenutzt. Messer auswechseln. (Kundendienstwerkstatt) Rasen zu hoch. Rasen 2-mal mähen: 1. Durchgang: max. Schnitthöhe 2. Durchgang: gewünschte Schnitthöhe. Gewebesack verstopft – kein Luftdurchlass. Gewebesack säubern. Auswurfkanal Mähdeck verschmutzt. Auswurfkanal/Mähdeck reinigen. Füllanzeige spricht nicht an. Mähreste am Füllanzeigehebel. Mähreste am Füllanzeigehebel entfernen. Dann auf Leichtgängigkeit überprüfen. Fahrantrieb, Bremse, Kupplung und Mähwerk.  Ausschließlich von einer Kundendienstwerkstatt überprüfen lassen!
+
+Fehleranzeige Display und Fehlerbehebung
+
+Anzeige Fehler Fehlerbeschreibung Fehlerbehebung Err 01 Sitzschalter Elektronik erkennt ungültigen Zustand des Sitzschalters. Zündung aus- und wieder einschalten (Position 2)** Sitz mehrmals be- und entlasten Selbstdiagnose, gegebenenfalls automatisches Löschen des Fehlers*, andernfalls Service kontaktieren Err 02 Bremsschalter Elektronik erkennt ungültigen Zustand des Bremsschalters. Zündung aus- und wieder einschalten (Position 2)** Bremspedal mehrmals betätigen Selbstdiagnose, gegebenenfalls automatisches Löschen des Fehlers*, andernfalls Service kontaktieren Err 03 Mähwerkschalter Elektronik erkennt ungültigen Zustand des Mähwerkschalters. Zündung aus- und wieder einschalten (Position 2)** Mähwerkschalter mehrmals betätigen Selbstdiagnose, gegebenenfalls automatisches Löschen des Fehlers*, andernfalls Service kontaktieren Err 04 Boxschalter Elektronik erkennt ungültigen Zustand des Boxschalters. Zündung aus- und wieder einschalten (Position 2)** Box mehrmals öffnen und schließen Selbstdiagnose, gegebenenfalls automatisches Löschen des Fehlers*, andernfalls Service kontaktieren Err 05 Getriebeschalter Elektronik erkennt ungültigen Zustand des Getriebeschalters. Zündung aus- und wieder einschalten (Position 2)** Rückwärtspedal mehrmals betätigen Selbstdiagnose, gegebenenfalls automatisches Löschen des Fehlers*, andernfalls Service kontaktieren Err 06 Kontaktschalter Auswurfkanal Elektronik erkennt ungültigen Zustand des Auswurfkanalschalters. Zündung aus- und wieder einschalten (Position 2)** Auswurfkanal aus - und wieder einbauen Selbstdiagnose, gegebenenfalls automatisches Löschen des Fehlers*, andernfalls Service kontaktieren Err 07 Kontaktschalter Mähwerk Elektronik erkennt falschen Zustand des Mähwerk-Ausgangs. Zündung aus- und wieder einschalten (Position 1) Selbstdiagnose, gegebenenfalls automatisches Löschen des Fehlers*, andernfalls Service kontaktieren Err 08 Startrelais Elektronik erkennt falschen Zustand des Startrelais-Ausgangs. Zündung aus- und wieder einschalten (Position 1) Selbstdiagnose, gegebenenfalls automatisches Löschen des Fehlers*, andernfalls Service kontaktieren Err 09 Magnetventil Motor-Elektronik erkennt falschen Zustand des Motor Magnetventil-Ausgangs. Zündung aus- und wieder einschalten (Position 1) Selbstdiagnose, gegebenenfalls automatisches Löschen des Fehlers*, andernfalls Service kontaktieren Err 10 Zündspule Elektronik erkennt falschen Zustand des Zündspulen-Ausgangs. Zündung aus- und wieder einschalten (Position 1) Selbstdiagnose, gegebenenfalls automatisches Löschen des Fehlers*, andernfalls Service kontaktieren Err 11 Interne Versorgungsspannung Elektronik erkennt falschen Zustand des internen Versorgungsspannungsausgangs. Zündung aus- und wieder einschalten (Position 1) Selbstdiagnose, gegebenenfalls automatisches Löschen des Fehlers*, andernfalls Service kontaktieren Err 12 Überwachung interne Versorgungsspannung Elektronik erkennt falschen Zustand der internen Versorgungsspannungs-Überwachung. Zündung aus- und wieder einschalten (Position 1) Selbstdiagnose, gegebenenfalls automatisches Löschen des Fehlers*, andernfalls Service kontaktieren * : Dabei erlischt das Display für ca. 4 Sekunden. **: Löschen des Fehlers durch Betätigung der Taste R (03/13).
+
+Warnung – Montage, unvollständig
+
+Gefahren durch unvollständige Montage! Der Betrieb eines unvollständig montierten Rasentraktors kann zu schweren Verletzungen und zur Beschädigung führen. Nehmen Sie den Rasentraktor nur in Betrieb, wenn er komplett montiert ist. Führen Sie alle in der Montageanleitung beschriebenen Montagearbeiten durch. Fragen Sie im Zweifel vor der Inbetriebnahme einen Fachmann, ob die Montage korrekt ausgeführt wurde! Prüfen Sie, ob alle Sicherheits- und Schutzeinrichtungen vorhanden und funktionsfähig sind!
+
+Hinweis – Anleitung Motorhersteller beachten
+
+Beachten Sie auch die beiliegende Betriebsanleitung des Benzinmotors.
+
+Solo by AL-KO Warnung – Manipulierte Schutzeinrichtungen
+
+Gefahr durch entfernte oder manipulierte Schutzeinrichtungen! Jeglicher Betrieb mit entfernten oder manipulierten Schutzeinrichtungen ist verboten. Defekte Schutzeinrichtungen müssen umgehend repariert oder ausgetauscht werden!
+
+Verfall der Gewährleistung
+
+Dieses Gerät ist ausschließlich für den Einsatz im privaten Bereich bestimmt. Jede andere Verwendung sowie unerlaubte Um- oder Anbauten werden als Zweckentfremdung angesehen und haben den Ausschluss der Gewährleistung sowie den Verlust der Konformität (CE-Zeichen) und die Ablehnung jeder Verantwortung gegenüber Schäden des Benutzers oder Dritter seitens des Herstellers zur Folge.
+
+Hinweis – Keine Straßenzulassung
+
+Beachten Sie, dass der Rasentraktor keine Straßenzulassung besitzt und damit nicht auf öffentlichen Straßen betrieben werden darf!
+
+Warnung – Überlastung Rasentraktor
+
+Gefahren durch Überbelastung des Rasentraktors! Achten Sie insbesondere bei der Verwendung eines Anhängers darauf, die zulässigen Zuglasten und Steigungen/Gefälle nicht zu überschreiten. Eine Überschreitung kann die Bremsleistung des Rasentraktors überfordern und zu gefährlichen Situationen führen!
+
+Hinweis – Geschwindigkeit Regler
+
+Beachten Sie, dass die Betätigung des Reglers im Fahrbetrieb die Geschwindigkeit beeinflusst!
+
+Warnung – Unvollständige Montage
+
+Gefahren durch unvollständige Montage! Der Rasentraktor darf nicht betrieben werden, bevor er nicht komplett montiert ist! Führen Sie alle in der Montageanleitung beschriebenen Montagearbeiten durch. Fragen Sie im Zweifel vor der Inbetriebnahme einen Fachmann, ob die Montage korrekt ausgeführt wurde! Prüfen Sie, ob alle Sicherheits- und Schutzeinrichtungen vorhanden und funktionsfähig sind!
+
+Warnung – Unvollständige Montage
+
+Gefahren durch unvollständige Montage! Der Rasentraktor darf nicht betrieben werden, bevor er nicht komplett montiert ist! Führen Sie alle in der Montageanleitung beschriebenen Montagearbeiten durch. Fragen Sie im Zweifel vor der Inbetriebnahme einen Fachmann, ob die Montage korrekt ausgeführt wurde! Prüfen Sie alle Sicherheits- und Schutzeinrichtungen, dass sie vorhanden und funktionsfähig sind!
+
+Hinweis – PSI bar
+
+1 PSI = 0,07 bar. Warnung – Kraftstoff, Handhabung
+
+Gefahren beim Umgang mit Kraftstoff! Kraftstoff ist hochgradig entflammbar. Kraftstofftank nur im Freien befüllen! Nicht rauchen! Nicht bei laufendem oder heißem Motor tanken!
+
+Warnung – Prüfung Sicherheitseinrichtungen
+
+Gefahr bei der Prüfung der Sicherheitseinrichtungen! Die Sicherheitseinrichtungen dürfen nur vom Fahrersitz aus und wenn sich keine weiteren Personen oder Tiere in der Nähe aufhalten, durchgeführt werden!
+
+Hinweis – Motor darf nicht starten
+
+Der Motor darf nicht starten! Hinweis – Motor muss abschalten
+
+Der Motor muss sich abschalten!
+
+Warnung – Unzureichende Kenntnis
+
+Gefahren durch unzureichende Kenntnis über den Rasentraktor! Lesen Sie sich die Betriebsanleitung genau durch, bevor Sie starten! Achten Sie insbesondere auf alle Sicherheitshinweise! Führen Sie alle Montagearbeiten und alle Arbeiten zur Inbetriebnahme gewissenhaft durch. Fragen Sie im Zweifel den Hersteller!
+
+Warnung – Falsches Zubehör
+
+Gefahr durch falsches Zubehör oder falsche Zubehörverwendung! Verwenden Sie immer nur Originalzubehör des Traktorherstellers! Beachten Sie die Vorschriften zur Verwendung in der jeweils beiliegenden Bedienungsanleitung!
+
+Vorsicht – Gefahr beim Schieben
+
+Gefahr beim Schieben an Schrägen! Schieben Sie den Rasentraktor nur auf waagerechten Flächen! An Schrägen könnte der Rasentraktor unkontrolliert bergab rollen.
+
+Warnung – Heißer Motor
+
+Gefahr durch heißen Motor! Achten Sie beim Abstellen des Motors darauf, dass heiße Motorteile (z. B. der Schalldämpfer) keine in der Nähe befindlichen Gegenstände oder Materialien entzünden können!
+
+Warnung – Unangepasste Geschwindigkeit
+
+Gefahr durch unangepasste Geschwindigkeit! Fahren Sie insbesondere am Anfang langsam, um sich an das Fahr- und Bremsverhalten des Traktors zu gewöhnen! Vor jeder Richtungsänderung ist die Fahrgeschwindigkeit so zu reduzieren, dass der Fahrer jederzeit die Kontrolle über den Rasentraktor behält und dieser dabei auch nicht umkippen kann!
+
+Warnung – Fahren an Hängen
+
+Gefahr durch Fehler beim Fahren an Hängen! Beim Fahren an Hängen ist besondere Vorsicht geboten! Es gibt keinen „sicheren“ Hang. Beachten Sie dazu besonders folgende Sicherheitshinweise! Wenn die Räder durchdrehen sollten oder wenn das Fahrzeug beim Befahren einer Steigung stecken bleibt, Mähwerk und Anbaugeräte auskuppeln. Danach in langsamer Abwärtsfahrt und gerader Richtung den Hang verlassen! Eine volle Grasfangbox erhöht durch ihr Gewicht die Kippgefahr des Rasentraktors!
+
+Hinweis – Feststellhebel gegen Wegrollen
+
+Betätigen Sie immer, wenn Sie den Traktor verlassen, den Feststellhebel bei getretenem Bremspedal, damit der Traktor nicht wegrollen kann!
+
+Hinweis – Tempomat vorwärts
+
+Der Tempomat kann nur in Vorwärtsfahrt eingeschaltet werden. Beim Betätigen der Bremse wird der Tempomat automatisch ausgeschaltet.
+
+Hinweis – Mähwerk zuschalten
+
+Das Mähwerk darf erst zugeschaltet werden, wenn der Motor bereits ca. eine Minute warmgelaufen ist! Beim Zuschalten des Mähwerkes sollte der Rasentraktor nicht in hohem Gras stehen.
+
+Hinweis – Getriebepedal Rückwärtsfahrt
+
+Wird nur das Getriebepedal für Rückwärtsfahrt betätigt, wird das Mähwerk ausgeschaltet.
+
+Warnung – Unfallgefahr Rückwärtsmähen
+
+Unfallgefahr beim Rückwärtsmähen! Beachten Sie das rückwärtige Umfeld beim Rückwärtsmähen! Rückwärtsmähen nur wenn erforderlich!
+
+Warnung – Herausschleudernde Gegenstände
+
+Verletzungsgefahr durch herausschleudernde Gegenstände! Beim Überqueren von Kies- und Schotterflächen können Gegenstände in das laufende Mähwerk eingezogen und dann herausgeschleudert werden. Schalten Sie das Mähwerk immer ab, wenn Sie andere Flächen als Rasen überfahren.
+
+Warnung – nachlaufende Messer
+
+Gefahr durch nachlaufende Messer! Ein drehendes/auslaufendes Schneidmesser kann Hände und Füße zerschneiden! Deshalb Hände und Füße von den Schneidwerkzeugen fernhalten!
+
+Hinweis – Grasfangbox entleeren
+
+Wenn die Grasfangbox gefüllt ist, ertönt ein akustisches Signal. Spätestens jetzt sollte die Box entleert werden.
+
+Hinweis - Mulchverschluss
+
+Entnehmen Sie den Mulchverschluss (25/1), indem Sie die Klammer (25/2) lösen und den Mulchverschluss aus der Arretierung (25/3) nehmen.
+
+Warnung – Mähwerkschutz umrüsten
+
+Gefahren beim Umrüsten des Mähwerkschutzes. Der Rasentraktor darf nur bei abgeschaltetem Motor und abgezogenem Zündschlüssel umgerüstet werden.
+
+Warnung – Mähwerk Schutz unvollständig
+
+Gefahren durch unvollständigen oder beschädigten Mähwerkschutz. Der Rasentraktor darf nur betrieben werden, wenn entweder der Auswurfschacht für den Seitenauswurf oder der Mulchverschluss für den Mulchbetrieb montiert ist. Wenn nicht eine der beiden Schutzeinrichtungen montiert ist, ist der Betrieb nicht erlaubt, da die Gefahr besteht, in die Messer des Mähwerks zu gelangen. Eine beschädigte Schutzeinrichtung ist umgehend durch ein Original-Ersatzteil zu ersetzen.
+
+Warnung – Gefahren bei Reinigung
+
+Gefahren bei der Reinigung! Bei allen Reinigungsarbeiten gilt: Stellen Sie den Motor aus und ziehen Sie den Zündschlüssel ab. Ziehen Sie den/die Zündkerzenstecker ab. Für die Reinigung entfernte Schutzeinrichtungen müssen nach der Reinigung wieder montiert werden. VERBRENNUNGSGEFAHR: Reinigen Sie den Rasentraktor erst, wenn er abgekühlt ist. Motor, Getriebe und Schalldämpfer sind sehr heiß! SCHNITTGEFAHR: Achten Sie bei Arbeiten an den Schneidwerkzeugen auf die scharfen Messer. Bei mehrschneidigen Mähwerkzeugen kann die Bewegung eines Schneidwerkzeuges zur Bewegung des Anderen führen!
+
+Achtung – Eindringendes Wasser Elektrik
+
+Beschädigung der elektrischen Anlage durch eindringendes Wasser! Achten Sie beim Reinigen des Traktors mit Wasser, dass kein Wasser in die elektrische Anlage gelangt!
+
+Hinweis – Grasfangbox entleeren vor Reinigung
+
+Entleeren Sie die Grasfangbox vor der Reinigung wie beschrieben. Eine volle Grasfangbox ist zu schwer, um sie sicher abnehmen zu können.
+
+Original Betriebsanleitung deutsch
+
+Bei der deutschen Version handelt es sich um die Original-Betriebsanleitung. Alle weiteren Sprachversionen sind Übersetzungen der Original-Betriebsanleitung.
+
+Definition der Sicherheitshinweise
+
+Zeigt eine unmittelbar gefährliche Situation an, die – wenn sie nicht vermieden wird – den Tod oder eine schwere Verletzung zur Folge hat. Zeigt eine potenziell gefährliche Situation an, die – wenn sie nicht vermieden wird – den Tod oder eine schwere Verletzung zur Folge haben könnte. Zeigt eine potenziell gefährliche Situation an, die – wenn sie nicht vermieden wird – eine geringfügige oder mäßige Verletzung zur Folge haben könnte. Zeigt eine Situation an, die – wenn sie nicht vermieden wird – Sachschäden zur Folge haben könnte. Spezielle Hinweise zur besseren Verständlichkeit und Handhabung.
+
+Warnung – Gefahren bei Instandhaltung
+
+Gefahren bei der Instandhaltung! Bei allen Instandhaltungsarbeiten gilt: Stellen Sie den Motor aus und ziehen Sie den Zündschlüssel ab. Ziehen Sie den/die Zündkerzenstecker ab. Für die Instandhaltung entfernte Schutzeinrichtungen müssen nach der Instandhaltung wieder montiert werden. VERBRENNUNGSGEFAHR: Arbeiten Sie am Rasentraktor erst, wenn er abgekühlt ist. Motor, Getriebe und Schalldämpfer sind sehr heiß! SCHNITTGEFAHR: Achten Sie bei Arbeiten an den Schneidwerkzeugen auf die scharfen Messer. Bei mehrschneidigen Mähwerkzeugen kann die Bewegung eines Schneidwerkzeuges zur Bewegung eines anderen Schneidwerkzeugs führen. Beim Austausch von Teilen dürfen nur Original-Ersatzteile verwendet werden. Suchen Sie im Zweifel immer eine Fachwerkstatt auf oder kontaktieren Sie den Hersteller.
+
+Hinweis – Kürzere Wartungsintervalle
+
+Bei starker Beanspruchung und bei hohen Temperaturen können kürzere Wartungsintervalle als in der oben angegebenen Tabelle erforderlich sein.
+
+Hinweis – Räder abbauen
+
+Die Vorder- und Hinterräder müssen zum Abschmieren der Achsen und Lager abgebaut werden.
+
+Vorsicht – Starterbatterie Kurzschlussgefahr
+
+Kurzschlussgefahr! Um einen Kurzschluss zu vermeiden, immer zuerst das Minuskabel (-) an der Batterie ab- und als letztes wieder anklemmen! Ziehen Sie bei Arbeiten an der Batterie immer den Zündschlüssel ab!
+
+Warnung - Starterbatterie
+
+Gefahr durch falschen Umgang mit der Starterbatterie! Zur Vermeidung von Gefahren, die vom falschen Umgang mit der Batterie ausgehen können, beachten Sie folgende Punkte!
+
+Warnung – Starterbatterie falsches Aufladen
+
+Gefahr durch falsches Aufladen der Starterbatterie! Der Ladestrom des Ladegerätes darf 5 A nicht überschreiten und die Ladespannung darf max. 14,4 V betragen. Bei höherer Ladespannung besteht Explosionsgefahr der Starterbatterie! Ziehen Sie bei Arbeiten an der Batterie immer den Zündschlüssel ab.
+
+Hinweis – Keilriemen auswechseln
+
+Die Führung und Lage des Keilriemens ist je nach Typ unterschiedlich. Beachten Sie die Hinweis-Aufkleber auf dem Mähwerk.
+
+Vorsicht – Scharfkantige Gegenstände_Wartung
+
+Verletzungsgefahr Scharfkantige und sich bewegende Geräteteile können zu Verletzungen führen. Tragen Sie bei Wartungs-, Pflege- und Reinigungsarbeiten immer Schutzhandschuhe!
+
+Hinweis – Kundendienst aufsuchen
+
+Wenden Sie sich bei Störungen, die nicht in dieser Tabelle aufgeführt sind oder nicht selbst behoben werden können, an unseren Kundendienst.
+
+476758 MA Rasentraktor_HA_C-Frame_Premium_sbA Original-Montageanleitung Deckblatt MA C-Frame Heckauswurf sbA
+
+### Die nachfolgenden Bilder werden auf dem Deckblatt dargestellt. Zuerst kommt die Grafik, dann das Logo und dann das Kopfzeilenlogo. ### Deckblatt Deckblattlogo Kopfzeilenlogo Rückseitenlogo Notizen TO DO: 1 2 3… BUGS: 1 2 3… ### EOF ###
+
+Bildteil MA C-Frame Heckauswurf Rasentraktor auspacken
+
+Der Rasentraktor wird auf einer soliden Holzpalette geliefert. Stellen Sie zum Auspacken des Traktors die Palette auf einen waagerechten Untergrund. Entfernen Sie die Beipackteile und die Verpackungsmaterialien. Entfernen Sie den Holzbügel und die vordere Latte (nur bei 20''-Bereifung). Entfernen Sie die beiden Holzklötze. Entfernen Sie die Nägel und Schrauben aus dem Brett oder schlagen Sie diese mit einem Hammer so um, dass die Reifen nicht beschädigt werden können. Schieben Sie den Traktor nach vorne aus der Palette. Sichern Sie den Traktor gegen Wegrollen (z. B. mit Unterlegkeilen).
+
+Zu dieser Montageanleitung
+
+Beachten Sie für den Betrieb des Rasentraktors die Betriebsanleitung des Rasentraktors. Bewahren Sie die Montageanleitung für den Gebrauch auf und geben Sie diese auch an Nachbenutzer weiter. Lesen und beachten Sie die Sicherheits- und Warnhinweise in dieser Montageanleitung. Die Rasentraktoren werden in unterschiedlichen Ausstattungsvarianten ausgeliefert. Bitte beachten Sie, dass die Bilder vom Original etwas abweichen können. Sollten Sie Schwierigkeiten haben die Beschreibungen nachzuvollziehen, wenden Sie sich bitte an eine Fachwerkstatt oder den Hersteller.
+
+Symbole auf der Titelseite
+
+Symbol Bedeutung Lesen Sie vor der Montage des Rasentraktors diese Montageanleitung sorgfältig durch und führen Sie alle Montagearbeiten gewissenhaft aus. Bei Fragen oder Unsicherheiten zur Montage fragen Sie bitte einen Fachhändler oder den Hersteller. Montageanleitung Benzingerät nicht in der Nähe von offenen Flammen oder Hitzequellen betreiben.
+
+Zeichenerklärungen und Signalwörter Rasentraktor montieren
+
+Bevor der Rasentraktor, wie in der Betriebsanleitung beschrieben, in Betrieb genommen werden kann, müssen die folgenden Montagearbeiten erfolgreich durchgeführt worden sein.
+
+Lenkrad montieren
+
+Stellen Sie die Vorderräder gerade in Fahrtrichtung. Setzen Sie die Spannhülse (01/1) auf die Lenksäule. Setzen Sie das Lenkrad (01/2) auf die Spannhülse. Beachten Sie die Position, die Speiche soll zum Fahrer zeigen. Setzen Sie die Scheibe (01/3) und die Tellerfeder (01/4) ein. Befestigen Sie das Lenkrad (01/2) mit der Sechskantschraube (01/5). Beachten Sie das Anzugsdrehmoment von 35 Nm +5 Nm. Verwenden Sie einen Drehmomentschlüssel. Stecken Sie die Abdeckung (01/6) auf.
+
+Fahrersitz montieren
+
+Sicherung der Achse (02/1) des Sitzes (02/3) entnehmen. Achse (02/2) herausziehen. Sitz (02/3) und Achse zusammen einfädeln und Sicherung der Achse (02/1) wieder montieren. Kontaktschalter (03/1) des Sitzes anschließen. Kabel (03/2) des Kontaktschalters (03/1) mit Kabelbindern an der Lasche (02/4) befestigen.
+
+Tempomat-Bedienhebel montieren
+
+Montieren Sie den Bedienhebel (04/1) für den Tempomat mittels einer Innensechskantschraube M5x20 und einer Scheibe.
+
+Grasfangbox montieren
+
+Stützbleche in den unteren Teil der Grasfangbox auf beiden Seiten einstecken (05). Waagerecht einführen und nach oben schwenken (06, 07 und 08). Vorderen Stützholm (09/1) in den unteren Teil der Grasfangbox (09/2) einklemmen und mit Schlossschrauben M6x35, Scheiben und selbstsichernden Muttern von außen verschrauben (10). Rahmen-Oberteil (11/1) auf den Stützholm mit Schlossschrauben M6x35, Scheiben und selbstsichernden Muttern festschrauben. Oberteil mit den Stützblechen verbinden und mit 2 Torx Tx30 und vier Schlossschrauben verschrauben (12 und 13). Gewebe der Grasfangbox in das Oberteil einklemmen (14). Den Boxdeckel aufsetzen und mit dem Boxrahmen verschrauben (16 und 17). Linsenkopfschraube (Torx) M6x22. Handhebel durch die Grasfangbox stecken (18), mit Linsenkopfschraube (Torx) M6x35 und selbstsichernder Mutter gegen Herausziehen sichern (19).
+
+Boxhalterung einstellen
+
+Messen Sie jeweils links und rechts den Abstand zwischen Grasfangbox und Rasentraktor (25). Bei einem Abstand &gt; 0 mm müssen die Boxhaltearme entsprechend des gemessenen Abstands nachgestellt werden! Grasfangbox abnehmen (26). Lösen Sie die 4 Sechskantschrauben an beiden Boxhaltearmen jeweils um eine halbe Umdrehung (27). Entsprechend des jeweils gemessenen Abstands die Haltearme links und rechts nach oben stellen und die unteren Sechskantschrauben an beiden Haltearmen wieder festziehen (28). Stellen Sie im 90°-Winkel von der Rückwand ausgehend zum Verbindungsstab der Boxhaltearme einen Abstand von 189 mm ein (29). Ziehen Sie die oberen Sechskantschrauben der Boxhaltearme mit 40 – 50 Nm wieder an (30). Grasfangbox wieder einhängen (31). Überprüfen Sie den Abstand zwischen Grasfangbox und Rasentraktor. Gegebenenfalls nachstellen (32)!
+
+Starterbatterie anschließen
+
+Im Lieferumfang des Rasentraktors ist eine Starterbatterie enthalten. Die Starterbatterie befindet sich unter der Motorabdeckhaube. Grundsätzlich ist die Starterbatterie ab Werk geladen.  Die Starterbatterie darf nicht in unmittelbarer Nähe von offenem Feuer gelagert, verbrannt oder auf Heizungen abgestellt werden. Es droht Explosionsgefahr. Bewahren Sie die Starterbatterie zur Wintereinlagerung in einem kühlen, trockenen Raum (10 – 15 °C) auf. Temperaturen unter dem Gefrierpunkt sollten bei der Lagerung vermieden werden. Lassen Sie die Starterbatterie nicht über einen längeren Zeitraum ungeladen. Wenn die Starterbatterie über einen längeren Zeitraum nicht benutzt wurde, sollte sie mit einem geeigneten Ladegerät aufgeladen werden. Die Starterbatterie nicht zerstören. Der Elektrolyt (Schwefelsäure) verursacht Verätzungen auf Haut und Bekleidung – sofort mit viel Wasser auswaschen. Die Starterbatterie sauber halten. Nur mit einem trockenen Tuch abwischen. Kein Wasser, Benzin, Verdünnungsmittel oder ähnliches dazu verwenden! Anschlusspole nicht kurzschließen.  Ziehen Sie den Zündschlüssel ab. Öffnen Sie die Motorhaube. Verbinden Sie die Batteriekabel mit den Anschlusspolen der Batterie (34). Beachten Sie die Polarität: Rote Klemme = Pluspol (+) Schwarze Klemme = Minuspol (-)
+
+Stützräder am Mähdeck montieren
+
+Die beiden Stützräder werden links und rechts am Mähdeck montiert. Radbolzen (33/1) durch das Stützrad (33/2) stecken. Radbolzen samt Stützrad in das mittlere Loch (33/3) am Träger (33/4) stecken. Mutter (33/5) auf dem Radbolzen festdrehen.
+
+Grasfangbox einhängen
+
+Halten Sie die Grasfangbox mit einer Hand am Boxgriff (20/1) und mit der anderen Hand an der Halteöffnung an der Rückseite (20/2). Legen Sie die Grasfangbox symmetrisch auf die Führung (20/3). Kippen Sie die Grasfangbox mit der anderen Hand leicht nach vorne (21), so dass der vordere Teil der Grasfangbox einrastet. Schwenken Sie nun die Grasfangbox wieder nach unten (22). Überprüfen Sie den korrekten Sitz der Grasfangbox.
+
+Solo by AL-KO Original Montageanleitung deutsch
+
+Bei der deutschen Version handelt es sich um die Original-Montageanleitung. Alle weiteren Sprachversionen sind Übersetzungen der Original-Montageanleitung.
+
+Definition der Sicherheitshinweise
+
+Zeigt eine unmittelbar gefährliche Situation an, die – wenn sie nicht vermieden wird – den Tod oder eine schwere Verletzung zur Folge hat. Zeigt eine potenziell gefährliche Situation an, die – wenn sie nicht vermieden wird – den Tod oder eine schwere Verletzung zur Folge haben könnte. Zeigt eine potenziell gefährliche Situation an, die – wenn sie nicht vermieden wird – eine geringfügige oder mäßige Verletzung zur Folge haben könnte. Zeigt eine Situation an, die – wenn sie nicht vermieden wird – Sachschäden zur Folge haben könnte. Spezielle Hinweise zur besseren Verständlichkeit und Handhabung.
+
+Warnung – Unvollständige Montage
+
+Gefahren durch unvollständige Montage! Der Rasentraktor darf nicht betrieben werden, bevor er nicht komplett montiert ist! Führen Sie alle in der Montageanleitung beschriebenen Montagearbeiten durch. Fragen Sie im Zweifel vor der Inbetriebnahme einen Fachmann, ob die Montage korrekt ausgeführt wurde! Prüfen Sie, ob alle Sicherheits- und Schutzeinrichtungen vorhanden und funktionsfähig sind!
+
+Hinweis – Akku-Schrauber Torxeinsatz
+
+Bei der Montage einen Akku-Schrauber mit Torxeinsatz TX30 verwenden.
+
+Hinweis – Grasfangbox Abstand 0mm
+
+Nach der Montage der Grasfangbox muss der Abstand zwischen Rasentraktor und Grasfangbox = 0 mm betragen (23, 24)!
+
+Vorsicht – Starterbatterie Kurzschlussgefahr
+
+Kurzschlussgefahr! Um einen Kurzschluss zu vermeiden, immer zuerst das Minuskabel (-) an der Batterie ab- und als letztes wieder anklemmen! Ziehen Sie bei Arbeiten an der Batterie immer den Zündschlüssel ab!
+
+Warnung - Starterbatterie
+
+Gefahr durch falschen Umgang mit der Starterbatterie! Zur Vermeidung von Gefahren, die vom falschen Umgang mit der Batterie ausgehen können, beachten Sie folgende Punkte!
+
+Warnung – Starterbatterie falsches Aufladen
+
+Gefahr durch falsches Aufladen der Starterbatterie! Der Ladestrom des Ladegerätes darf 5 A nicht überschreiten und die Ladespannung darf max. 14,4 V betragen. Bei höherer Ladespannung besteht Explosionsgefahr der Starterbatterie! Ziehen Sie bei Arbeiten an der Batterie immer den Zündschlüssel ab.
+

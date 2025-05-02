@@ -1,0 +1,52 @@
+{
+  "query": "Warum fördert die Gartenpumpe trotz eingeschaltetem Motor kein Wasser und wie kann das Problem behoben werden?",
+  "alternative_queries": [
+    "---",
+    "\"Welche Ursachen könnten dazu führen, dass die Gartenzentrifugalpumpe trotz laufendem Antriebsmotor keine Flüssigkeit fördert und welche Maßnahmen sind zur Behebung dieses Problems geeignet?\""
+  ],
+  "answer": "   **Die Gartenpumpe fördert trotz eingeschaltetem Motor kein Wasser, weil die Saugleitung nicht tief genug ins Wasser eintaucht. Um das Problem zu beheben, muss die Saugleitung mindestens 30 cm ins Wasser eingetaucht werden.**",
+  "Kontext": [
+    {
+      "text": "477634_d\n13\nLagerung\nStörung\nMögliche Ursache\nAbhilfe\nPumpe läuft, aber fördert\nnicht.\nDie Saugleitung ist nicht im\nWasser.\nSaugleitung min. 30 cm ins Wasser\neintauchen.\nDruckleitung geschlossen.\nVerschluss-Aggregate in der Druck-\nleitung öffnen.\nPumpe saugt Luft.\nAlle Anschlussverbindungen und\nden Filterdeckel auf Dichtheit prüfen.\nSaugseitige Verstopfung.\nSchmutz im Ansaugbereich entfer-\nnen.\nPumpe ist trocken gelaufen.\nPumpengehäuse mit Wasser befül-\nlen.\nDruckschlauch geknickt.",
+      "source": "Betriebsanleitung Pumpen.pdf",
+      "page": 12,
+      "chapter": "Unbekanntes Kapitel",
+      "id": "Betriebsanleitung Pumpen.pdf_59"
+    },
+    {
+      "text": "HINWEIS Bei nicht behebbaren Störungen\nwenden Sie sich bitte an unseren zuständigen\nKundendienst.\nStörung\nMögliche Ursache\nAbhilfe\nMotor läuft nicht.\nLaufrad blockiert.\n■\nPumpe reinigen. Motorwelle des\nLaufrads mit Schraubendreher\nlosdrehen.\n■\nSchmutz im Ansaugbereich ent-\nfernen.\nThermoschalter hat abgeschal-\ntet.\n■\nWasserstand auf Saugseite prü-\nfen. Förderflüssigkeit abkühlen\nlassen. Pumpe Instandsetzen\noder austauschen.\n■\nWarten, bis der Thermoschalter\ndie Pumpe wieder einschaltet.",
+      "source": "Betriebsanleitung Pumpen.pdf",
+      "page": 11,
+      "chapter": "Unbekanntes Kapitel",
+      "id": "Betriebsanleitung Pumpen.pdf_57"
+    },
+    {
+      "text": "Auf maximale Temperatur des\nFördermediums achten. Pumpe\nprüfen lassen\nKeine Netzspannung vorhan-\nden.\nSicherungen prüfen, Stromversor-\ngung von Elektrofachkraft prüfen\nlassen.\nTrockenlaufschutz aktiviert\nSaugseite prüfen.",
+      "source": "Betriebsanleitung Pumpen.pdf",
+      "page": 11,
+      "chapter": "Unbekanntes Kapitel",
+      "id": "Betriebsanleitung Pumpen.pdf_58"
+    },
+    {
+      "text": "BİLGİ Giderilemeyen arızalarda lütfen yetkili\nmüşteri hizmetlerimize başvurun.",
+      "source": "Betriebsanleitung Pumpen.pdf",
+      "page": 207,
+      "chapter": "Unbekanntes Kapitel",
+      "id": "Betriebsanleitung Pumpen.pdf_1284"
+    },
+    {
+      "text": "prosím obraťte na naši příslušnou zákaznickou\nslužbu.",
+      "source": "Betriebsanleitung Pumpen.pdf",
+      "page": 93,
+      "chapter": "Unbekanntes Kapitel",
+      "id": "Betriebsanleitung Pumpen.pdf_570"
+    },
+    {
+      "text": "galima materialinė žala.\n NUORODA Specialios nuorodos dėl geres-\nnio suprantamumo ir valdymo.",
+      "source": "Betriebsanleitung Pumpen.pdf",
+      "page": 155,
+      "chapter": "Unbekanntes Kapitel",
+      "id": "Betriebsanleitung Pumpen.pdf_959"
+    }
+  ]
+}

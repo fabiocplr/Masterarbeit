@@ -1,0 +1,85 @@
+{
+  "query": "Warum fördert die Gartenpumpe trotz eingeschaltetem Motor kein Wasser und wie kann das Problem behoben werden?",
+  "answer": "   Die Gartenpumpe fördert trotz eingeschaltetem Motor kein Wasser, weil die Saugleitung nicht tief genug im Wasser eingetaucht ist. Um das Problem zu beheben, muss die Saugleitung mindestens 30 cm ins Wasser eintauchen.",
+  "confidence_score": 0.501953125,
+  "rouge1_precision": 0.14285714285714285,
+  "rouge1_recall": 0.5454545454545454,
+  "rouge1_f1": 0.22641509433962262,
+  "rougeL_precision": 0.10317460317460317,
+  "rougeL_recall": 0.3939393939393939,
+  "rougeL_f1": 0.16352201257861637,
+  "sorted_source_documents": [
+    {
+      "metadata": {
+        "source": "Betriebsanleitung Pumpen.pdf",
+        "chapter": "Unbekanntes Kapitel",
+        "page": 12
+      },
+      "text": "477634_d\n13\nLagerung\nStörung\nMögliche Ursache\nAbhilfe\nPumpe läuft, aber fördert\nnicht.\nDie Saugleitung ist nicht im\nWasser.\nSaugleitung min. 30 cm ins Wasser\neintauchen.\nDruckleitung geschlossen.\nVerschluss-Aggregate in der Druck-\nleitung öffnen.\nPumpe saugt Luft.\nAlle Anschlussverbindungen und\nden Filterdeckel auf Dichtheit prüfen.\nSaugseitige Verstopfung.\nSchmutz im Ansaugbereich entfer-\nnen.\nPumpe ist trocken gelaufen.\nPumpengehäuse mit Wasser befül-\nlen.\nDruckschlauch geknickt.\nDruckschlauch strecken.\nTrockenlaufschutz aktiviert.\nSaugseite prüfen.\nPumpe schaltet zu oft ein\nund aus.",
+      "cosine_similarity": 0.8760448900332873
+    },
+    {
+      "metadata": {
+        "source": "Betriebsanleitung Pumpen.pdf",
+        "chapter": "Unbekanntes Kapitel",
+        "page": 9
+      },
+      "text": "■\nPrüfen Sie die Dichtheit der Leitungen.\n■\nPrüfen Sie die Installation der Saug- und\nDruckleitung.\n■\nNehmen Sie die Pumpe erst nach Beheben\naller Mängel wieder in Betrieb!",
+      "cosine_similarity": 0.8469693557164512
+    },
+    {
+      "metadata": {
+        "source": "Betriebsanleitung Pumpen.pdf",
+        "chapter": "Unbekanntes Kapitel",
+        "page": 10
+      },
+      "text": "vieren:\n■\nNetzstecker einste-\ncken.\n■\nRESET-Taste (06/1)\n8 Sekunden drücken\nAlle LED-Anzei-\ngen ( , \n, \n)\nleuchten auf und\nbleiben aus, wenn\nPumpe ausge-\nschaltet ist.\n■\nDie Pumpe startet beim Einstecken des Netzste-\nckers automatisch.\n7\nLED-ANZEIGEN (HWA 3600)\nLED\nSchaltzustand\n leuchtet\n■\nPumpe eingesteckt\n■\nHahn geöffnet\n blinkt\nWasserförderung unter\n200 l/h\n leuchtet\n■\nWasserdruck ist aufge-\nbaut\n■\nPumpe hat abgeschaltet\n blinkt langsam\nErster Ansaugversuch fehl-\ngeschlagen\n leuchtet\n■\nZweiter Ansaugversuch\nfehlgeschlagen\n■\nRESET-Taste (06/1)\ndrücken für erneuten\nVersuch\n blinkt schnell",
+      "cosine_similarity": 0.8456551027279515
+    },
+    {
+      "metadata": {
+        "source": "Betriebsanleitung Pumpen.pdf",
+        "chapter": "Unbekanntes Kapitel",
+        "page": 7
+      },
+      "text": "hen. Den Netzstecker vor Feuchtigkeit schüt-\nzen.\n■\nPumpe und Verlängerungskabel nur in tech-\nnisch einwandfreiem Zustand benutzen. Be-\nschädigte Geräte dürfen nicht betrieben wer-\nden.\n■\nHalten Sie einen Sicherheitsabstand zu Tie-\nren ein, bzw. schalten Sie die Pumpe aus,\nwenn sich Tiere nähern.",
+      "cosine_similarity": 0.8451150654138805
+    },
+    {
+      "metadata": {
+        "source": "Betriebsanleitung Pumpen.pdf",
+        "chapter": "Unbekanntes Kapitel",
+        "page": 5
+      },
+      "text": "9\n5.1\nPumpe befüllen..................................\n9\n5.2\nLuftdruck im Vorratsbehälter prüfen\n(HW 3600) .........................................\n10\n6\nBedienung................................................\n10\n6.1\nPumpe einschalten ............................\n10\n6.2\nPumpe ausschalten ...........................\n10\n6.3\nSondermodus (06).............................\n11\n7\nLED-Anzeigen (HWA 3600) .....................\n11\n8\nWartung und Pflege .................................\n11\n8.1\nLuftdruck im Vorratsbehälter prüfen\n(HW 3600) .........................................\n11\n8.2",
+      "cosine_similarity": 0.8416791426629906
+    },
+    {
+      "metadata": {
+        "source": "Betriebsanleitung Pumpen.pdf",
+        "chapter": "Unbekanntes Kapitel",
+        "page": 12
+      },
+      "text": "HINWEIS Bei Frostgefahr muss das System\nvollständig entleert und die Pumpe an einem\nfrostsicheren Ort gelagert werden.",
+      "cosine_similarity": 0.8406907028939811
+    },
+    {
+      "metadata": {
+        "source": "Betriebsanleitung Pumpen.pdf",
+        "chapter": "Unbekanntes Kapitel",
+        "page": 20
+      },
+      "text": "477634_d\n21\nHelp in case of malfunction\nMalfunction\nPossible cause\nRemedy\nMotor does not run.\nImpeller blocked.\n■\nClean the pump. Release the\nmotor shaft of the impeller with a\nscrewdriver.\n■\nRemove dirt from the suction area.\nThermal protection switch has\nswitched off.\n■\nCheck the water level on the\nsuction side. Allow the convey-\ning fluid to cool down. Repair or\nreplace the pump.\n■\nWait until the thermal protection\nswitch on the pump switches on\nagain. Take note of the maximum\ntemperature of the conveying me-\ndium. Have the pump inspected\nNo mains power.\nCheck the fuses, have the power sup-",
+      "cosine_similarity": 0.8305657838654485
+    },
+    {
+      "metadata": {
+        "source": "Betriebsanleitung Pumpen.pdf",
+        "chapter": "Unbekanntes Kapitel",
+        "page": 125
+      },
+      "text": "2.\nStäll upp pumpen vågrätt och översväm-\nningssäkert.",
+      "cosine_similarity": 0.8126770041991882
+    }
+  ]
+}

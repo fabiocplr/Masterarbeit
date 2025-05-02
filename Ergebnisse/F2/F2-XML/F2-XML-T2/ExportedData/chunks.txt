@@ -1,0 +1,274 @@
+Anzahl Chunks: 67
+
+[477634_BA_JET3600_HW3600_HWA3600 Original-Betriebsanleitung Garantie
+
+Etwaige Material- oder Herstellungsfehler am Gerät beseitigen wir während der gesetzlichen Verjährungsfrist für Mängelansprüche entsprechend unserer Wahl durch Reparatur oder Ersatzlieferung. Die Verjährungsfrist bestimmt sich jeweils nach dem Recht des Landes, in dem das Gerät gekauft wurde. Unsere Garantiezusage gilt nur bei: Beachten dieser Betriebsanleitung Sachgemäßer Behandlung Verwenden von Original-Ersatzteilen Die Garantie erlischt bei: Eigenmächtigen Reparaturversuchen Eigenmächtigen technischen Veränderungen Nicht bestimmungsgemäßer Verwendung Von der Garantie ausgeschlossen sind: Lackschäden, die auf normale Abnutzung zurückzuführen sind Verschleißteile, die auf der Ersatzteilkarte mit Rahmen gekennzeichnet sind Die Garantiezeit beginnt mit dem Kauf durch den ersten Endabnehmer. Maßgebend ist das Datum auf dem Kaufbeleg. Wenden Sie sich bitte mit dieser Erklärung und dem Original-Kaufbeleg an Ihren Händler oder die nächste autorisierte Kundendienststelle. Die gesetzlichen Mängelansprüche des Käufers gegenüber dem Verkäufer bleiben durch diese Erklärung unberührt.]
+
+[Sicherheitshinweise Zu dieser Betriebsanleitung
+
+Lesen Sie unbedingt vor der Inbetriebnahme diese Betriebsanleitung sorgfältig durch. Dies ist die Voraussetzung für sicheres Arbeiten und störungsfreie Handhabung. Bewahren Sie diese Betriebsanleitung immer so auf, dass Sie darin nachlesen können, wenn Sie eine Information zum Gerät benötigen. Geben Sie das Gerät nur mit dieser Betriebsanleitung an andere Personen weiter. Lesen und beachten Sie die Sicherheits- und Warnhinweise in dieser Betriebsanleitung.]
+
+[Zeichenerklärungen und Signalwörter Entsorgung Entsorgung – Elektro- und Elektronikgeräte
+
+Elektro- und Elektronikaltgeräte gehören nicht in den Hausmüll, sondern sind einer getrennten Erfassung bzw. Entsorgung zuzuführen! Verpackung, Gerät und Zubehör sind aus recyclingfähigen Materialien hergestellt und entsprechend zu entsorgen.]
+
+[Bildteil
+
+JET 3600 (Art. Nr. 113797) HW 3600 (Art. Nr. 113798) HWA 3600 (Art. Nr. 113799) 850 W 850 W 850 W 230 V AC/50 Hz 230 V AC/50 Hz 230 V AC/50 Hz X 4 X 4 X 4 77 dB (A) 77 dB (A) 77 dB (A) 8 m 8 m 8 m 38 m / 3,8 bar 38 m / 3,8 bar 38 m / 3,8 bar 3600 l/h 3600 l/h 3600 l/h 35 °C 35 °C 35 °C - 1,5 / 2,8 bar 1,5 / 3,8 bar 1" 1" 1" 8,0 kg 12,7 kg 8,1 kg 1 1 1 - 17 l -]
+
+[Hilfe bei Störungen
+
+Störung Mögliche Ursache Abhilfe Motor läuft nicht. Laufrad blockiert. Pumpe reinigen. Motorwelle des Laufrads mit Schraubendreher losdrehen. Schmutz im Ansaugbereich entfernen. Thermoschalter hat abgeschaltet. Wasserstand auf Saugseite prüfen. Förderflüssigkeit abkühlen lassen. Pumpe Instandsetzen oder austauschen. Warten, bis der Thermoschalter die Pumpe wieder einschaltet. Auf maximale Temperatur des Fördermediums achten. Pumpe prüfen lassen Keine Netzspannung vorhanden. Sicherungen prüfen, Stromversorgung von Elektrofachkraft prüfen lassen. Trockenlaufschutz aktiviert Saugseite prüfen. Pumpe läuft, aber fördert nicht. Die Saugleitung ist nicht im Wasser. Saugleitung min. 30 cm ins Wasser eintauchen. Druckleitung geschlossen. Verschluss-Aggregate in der Druckleitung öffnen. Pumpe saugt Luft. Alle Anschlussverbindungen und den Filterdeckel auf Dichtheit prüfen. Saugseitige Verstopfung. Schmutz im Ansaugbereich entfernen. Pumpe ist trocken gelaufen. Pumpengehäuse mit Wasser befüllen. Druckschlauch geknickt. Druckschlauch strecken. Trockenlaufschutz aktiviert. Saugseite prüfen. Pumpe schaltet zu oft ein und aus. Membrane ist beschädigt (HW 3600). Membrane durch AL-KO Service austauschen lassen. Geringer Luftdruck im Vorratsbehälter (HW 3600). Luft im Vorratsbehälter nachfüllen. (Membranvordruck auf 1,5 bar einstellen). Pumpe saugt Luft, Wassermangel saugseitig. Pumpe ausschalten und abkühlen lassen. Undichtigkeit auf der Druckseite (HWA 3600) Druckschlauch prüfen. Fördermenge zu gering Druckschlauch geknickt. Druckschlauch strecken. Saugseitige Verstopfung. Schmutz im Ansaugbereich entfernen. Schlauchdurchmesser zu klein. Größeren Druckschlauch verwenden. Förderhöhe zu groß. Max. Förderhöhe beachten, siehe technische Daten! Saugseitig zu geringe Wassermenge. Drosseln der Pumpe, um die Fördermenge anzupassen. Saughöhe zu groß. Saughöhe prüfen, max. Saughöhe beachten - siehe technische Daten.]
+
+[Lagerung
+
+Saug- (04/2) und Druckleitung (04/1) entleeren. Ablassschraube Pumpe (01-03/8) herausschrauben und das Wasser aus der Pumpe auslaufen lassen. Das Wasser im Vorratsbehälter wird gleichzeitig vom Luftbalg herausgedrückt (HW 3600). Ablassschraube wieder einschrauben und Pumpe und Zubehör frostfrei lagern. Bei Frostgefahr muss das System vollständig entleert und die Pumpe an einem frostsicheren Ort gelagert werden.]
+
+[LED-Anzeigen (HWA 3600)
+
+LED Schaltzustand leuchtet Pumpe eingesteckt Hahn geöffnet blinkt Wasserförderung unter 200 l/h leuchtet Wasserdruck ist aufgebaut Pumpe hat abgeschaltet blinkt langsam Erster Ansaugversuch fehlgeschlagen leuchtet Zweiter Ansaugversuch fehlgeschlagen RESET-Taste (06/1) drücken für erneuten Versuch blinkt schnell Tropfprogramm: Pumpe hat Verbraucher erkannt, der eine zu geringe Wassermenge abnimmt. , , leuchten Pumpe wurde durch Drücken der REST-Taste ausgeschaltet (Sondermodus).]
+
+[Information zur Konformitätserklärung
+
+Wir erklären hiermit in alleiniger Verantwortung, dass dieses Produkt in der auf dem Markt vertriebenen Form die Anforderungen der harmonisierten EU-Richtlinien, die EU-Sicherheitsstandards und die produktspezifischen Standards erfüllt. Die Konformitätserklärung ist Teil der Betriebsanleitung und liegt der Maschine bei.]
+
+[Deckblatt
+
+### Die nachfolgenden Bilder werden auf dem Deckblatt dargestellt. Zuerst kommt die Grafik, dann das Logo und dann das Kopfzeilenlogo. ### Deckblatt Deckblattlogo Kopfzeilenlogo Rückseitenlogo Notizen TO DO: 1 2 3… BUGS: 1 2 3… ### EOF ###]
+
+[Kundendienst/Service
+
+Bei Fragen zu Garantie, Reparatur oder Ersatzteilen wenden Sie sich bitte an Ihre nächstgelegene AL-KO Servicestelle. Diese finden Sie im Internet unter folgender Adresse:  www.alko-garden.com/service-contacts Weitere Informationen zu Ersatzteilen finden Sie unter:  www.alko-garden.com/spareparts]
+
+[Produktbeschreibung Produktübersicht (01 - 03)
+
+Nr. Bauteil 1 Filter Deckel 2 Einfüllschraube 3 Pumpenausgang/Druckleitungsanschluss 4 Motorgehäuse 5 Netzteil 6 Pumpengehäuse 7 Ablassschraube Pumpe 8 Pumpeneingang/Saugleitungsanschluss 9 Ein- / Aus-Schalter 10 Vorratsbehälter 11 Anschraubpunkte 12 Manometer 13 LED-Anzeige]
+
+[Möglicher Fehlgebrauch
+
+Die Pumpe darf nicht im Dauerbetrieb eingesetzt werden. Sie ist nicht geeignet zur Förderung von: Trinkwasser Salzwasser Lebensmitteln Schmutzwasser aggressiven Medien, Chemikalien ätzenden, brennbaren, explosiven oder gasenden Flüssigkeiten Flüssigkeiten, die wärmer als 35 °C sind sandhaltigem Wasser und schmirgelnden Flüssigkeiten]
+
+[Lieferumfang
+
+Die Pumpen werden betriebsfertig mit Netzkabel und Betriebsanleitung ausgeliefert. Sicherheits- und Schutzeinrichtung
+
+Thermoschutzschalter Die Pumpe ist mit einem Thermoschutzschalter ausgestattet, der den Motor bei Überhitzung abschaltet. Nach einer Abkühlphase von ca. 15 - 20 Minuten schaltet die Pumpe selbsttätig wieder ein.]
+
+[Funktion
+
+JET 3600 Die Pumpe saugt das Fördermedium durch den Saugleitungsanschluss direkt an und fördert es zum Pumpenausgang. Sie wird durch einen Ein- / Aus-Schalter ein- und ausgeschaltet. HW 3600 Das Gerät wird für die Wasserversorgung im und am Haus eingesetzt. Nach der Inbetriebnahme schaltet das Gerät druckabhängig die Pumpe ein und aus. Die Pumpe saugt Wasser über die Saugleitung an und fördert es in den Vorratsbehälter. Ist der Vorratsbehälter gefüllt, schaltet die Pumpe wieder ab. Wird Wasser entnommen, schaltet die Pumpe automatisch wieder ein und fördert das Wasser zur Entnahmestelle. Anschließend wird der Vorratsbehälter wieder gefüllt. HWA 3600 Das Gerät wird für die Wasserversorgung im und am Haus eingesetzt. Nach der Inbetriebnahme schaltet das Gerät druckabhängig die Pumpe ein und aus. Die Pumpe saugt Wasser über die Saugleitung an. Wird Wasser entnommen, schaltet die Pumpe automatisch wieder ein und fördert das Wasser zur Entnahmestelle.]
+
+[LED-Anzeige (HWA 3600)
+
+Zur Anzeige der Betriebszustände und Fehlermeldungen ist die Pumpe mit einer LED-Anzeige (03/13) ausgestattet. Betriebsstörungen können durch Drücken der Taste Reset (06/1) quittiert werden]
+
+[Bestimmungsgemäße Verwendung
+
+Die Pumpe ist für die private Nutzung in Haus und Garten bestimmt. Sie darf nur im Rahmen der Einsatzgrenzen gemäß den technischen Daten betrieben werden. Die Pumpe eignet sich für: Bewässerung der Garten- und Grundstücksfläche Um- und Auspumpen von Behältern (z. B. Schwimmbecken) Wasserentnahme aus Brunnen, Regentonnen und Zisternen. HW 3600 / HWA 3600 Automatische Wasserversorgung im Haus Druckerhöhung der Wasserversorgung.  Die Pumpe ist ausschließlich zum Fördern von folgenden Flüssigkeiten geeignet: Klarwasser, Regenwasser chlorhaltiges Wasser (z. B. Schwimmbecken) Eine andere oder darüber hinausgehende Verwendung gilt als nicht bestimmungsgemäß.]
+
+[Trockenlaufschutz (HWA 3600)
+
+Die Pumpe verfügt über einen Trockenlaufschutz. Der Trockenlaufschutz schaltet die Pumpe ab, wenn kein Wasser angesaugt wird oder die Saugleitung beschädigt ist. Danach versucht die Pumpe mehrmals sich automatisch wieder einzuschalten.]
+
+[Drucksensor (HWA 3600)
+
+Die Pumpe ist mit einem Drucksensor ausgestattet. Über diesen Sensor wird die Pumpe automatisch bei Erreichen des eingestellten Drucks aus- und eingeschaltet. Eingestellter Druck: siehe technische Daten.]
+
+[Inbetriebnahme Luftdruck im Vorratsbehälter prüfen
+
+Verschluss in der Druckleitung (13) öffnen. Verschlussdeckel Ventil (28) an der Rückseite des Vorratsbehälters nach oben schieben Luftdruck am Ventil mit einer Luftpumpe oder einem Reifenfüller, jeweils mit Druckanzeige, prüfen. Luftdruck gegebenenfalls auf 1,5 - 1,7 bar korrigieren. Verschlussdeckel Ventil an der Rückseite des Vorratsbehälters wieder schließen. Pumpe in Betrieb nehmen.]
+
+[Erstinbetriebnahme
+
+Bei der Erstinbetriebnahme leuchtet die LED-Anzeigen PUMP ON und die LED-Anzeige FLOW CONTROL blinkt.]
+
+[Hinweis - Erstinbetriebnahme
+
+Sollte nach ca. 90 Sekunden noch kein Wasser über die Saugleitung angesaugt werden, schaltet der Trockenlaufschutz die Pumpe ab und die LED-Anzeige ALARM leuchtet. Überprüfen Sie die Saugleitung, das Filterglas und alle Verschraubungen auf Dichtheit, drücken Sie den RESET-Taster und führen Sie die Erstinbetriebnahme nochmals durch.]
+
+[Luftdruck im Vorratsbehälter prüfen (HW 3600)
+
+Verschluss in der Druckleitung (04/1) öffnen. Verschlussdeckel (07/1) an der Rückseite des Vorratsbehälters (03/10) abschrauben Luftdruck am Ventil (07/2) mit einer Luftpumpe oder einem Reifenfüller, jeweils mit Druckanzeige, prüfen. Luftdruck gegebenenfalls auf 1,5 - 1,7 bar korrigieren. Verschlussdeckel Ventil an der Rückseite des Vorratsbehälters wieder schließen. Pumpe in Betrieb nehmen.]
+
+[Pumpe befüllen
+
+Um die Ansaugzeit zu verkürzen, Saugschlauch vor dem Anschrauben mit Wasser füllen. Einfüllschraube (01-03/2) öffnen. Über die Einfüllschraube Wasser einfüllen, bis das Pumpengehäuse (01-03/6) voll ist. Einfüllschraube einschrauben.]
+
+[Bedienung Pumpe einschalten
+
+Einen in der Druckleitung (11) vorhandenen Verschlüsse (Ventil, Spritzdüse, Wasserhahn) öffnen. Netzstecker des Anschlusskabels in die Steckdose stecken. Die Pumpe beginnt zu fördern. Verschluss in der Druckleitung schließen, wenn sich im austretenden Wasser keine Luft mehr befindet. Die Pumpe schaltet nach Druckaufbau und Erreichen des Abschaltdrucks automatisch ab. Die Pumpe ist betriebsbereit. Die LED-Anzeigen sind aus. Wird Wasser gefördert, leuchtet nur die LED-Anzeige PUMP ON.]
+
+[Pumpe einschalten
+
+JET 3600  Alle in der Druckleitung (04/1) vorhandenen Verschlüsse (Ventil, Spritzdüse, Wasserhahn) öffnen. Netzstecker des Anschlusskabels in die Steckdose stecken. Pumpe am Ein- / Aus-Schalter einschalten. HW 3600 Alle in der Druckleitung (04/01) vorhandenen Verschlüsse (Ventil, Spritzdüse, Wasserhahn) öffnen. Netzstecker des Anschlusskabels in die Steckdose stecken. Die Pumpe beginnt zu fördern. Verschluss in der Druckleitung schließen, wenn sich im austretenden Wasser keine Luft mehr befindet. Die Pumpe schaltet nach Druckaufbau und Erreichen des Abschaltdrucks automatisch ab. Die Pumpe ist betriebsbereit. HWA 3600 Alle in der Druckleitung (04/1) vorhandenen Verschlüsse (Ventil, Spritzdüse, Wasserhahn) öffnen. Netzstecker des Anschlusskabels in die Steckdose stecken. Die Pumpe beginnt zu fördern. Pumpe saugt für drei Minuten an. Pumpe schaltet für 30 Sekunden ab, wenn keine Wasserförderung möglich ist. LED-Anzeige (06/2) blinkt. Pumpe saugt erneut für drei Minuten an. Pumpe schaltet dauerhaft ab, wenn keine Wasserförderung möglich ist. LED-Anzeige (06/2) leuchtet. Pumpe abkühlen lassen und gegebenenfalls mit Wasser auffüllen. RESET-Taste (06/1) drücken um Vorgang zu wiederholen.]
+
+[Pumpe ausschalten
+
+Pumpe ausschalten. Ein-/Aus-Schalter ausschalten (JET 3600). Netzstecker aus der Steckdose ziehen (HW 3600 / HWA 3600). RESET-Taste (06/1) drücken (HWA 3600) Alle in der Druckleitung vorhandenen Verschlüsse schließen.]
+
+[Sondermodus (06)
+
+Um einen Hydrocontrol oder einen Funkfernschalter zu verwenden muss die Pumpe automatisch starten, dazu den Sondermodus aktivieren. Schaltzustand LED-Anzeige Funktion / Maßnahme Sondermodus aktivieren : Netzstecker einstecken. RESET-Taste (06/1) 8 Sekunden drücken. Alle LED-Anzeigen ( , , ) leuchten auf und bleiben an, wenn Pumpe ausgeschaltet ist. Die Pumpe startet beim Einstecken des Netzsteckers nicht automatisch. RESET-Taste zum Ein- und Ausschalten der Pumpe drücken. Sondermodus deaktivieren : Netzstecker einstecken. RESET-Taste (06/1) 8 Sekunden drücken Alle LED-Anzeigen ( , , ) leuchten auf und bleiben aus, wenn Pumpe ausgeschaltet ist. Die Pumpe startet beim Einstecken des Netzsteckers automatisch.]
+
+[Wartung und Pflege Luftdruck im Vorratsbehälter prüfen Filter reinigen
+
+Ablassschraube Filterraum (10) der Entleerungsöffnung abschrauben, Filterraum entleeren und Entleerungsöffnung wieder verschließen. Klarsichtdeckel Filter (1) mithilfe des Filterschlüssels (19) abschrauben. Filter (21) aus dem Filtergehäuse (2) herausnehmen und unter fließendem Wasser reinigen. Filtergehäuse und Klarsichtdeckel Filter reinigen. Vor dem Einbau des Filters die Dichtungen Filter (20) und die Dichtung Gehäuse (24) auf Beschädigung prüfen, bei Bedarf erneuern. Filter einbauen, Klarsichtdeckel Filter aufschrauben und mit dem Filterschlüssel handfest anziehen.]
+
+[Rückschlagventil reinigen
+
+Filter ausbauen (siehe Abschnitt „Filter reinigen“). Rückschlagventil (22) herausschrauben und unter fließendem Wasser reinigen. Dichtung (23) bei Bedarf erneuern. Rückschlagventil einbauen. Filter einbauen.]
+
+[Schwimmkörper reinigen
+
+Druckleitung (13) mit Winkelnippel (14) und Verbindungsnippel (16) ausschrauben. Einschraubnippel (25) mit Dichtung (26) ausschrauben. Einbaulage Schwimmkörper (27) merken. Schwimmerkörper herausziehen und reinigen. Schwimmkörper wieder einbauen – Einbaulage beachten.]
+
+[Verstopfung beseitigen
+
+Pumpe vom Netz trennen und gegen Wiedereinschalten sichern. Saugleitung am Pumpeneingang entfernen. Druckleitung an die Wasserleitung anschließen. Wasser durch das Pumpengehäuse laufen lassen, bis sich die Verstopfung auflöst. Durch kurzes Einschalten prüfen, ob die Pumpe freidreht.]
+
+[Luftdruck im Vorratsbehälter prüfen (HW 3600) Pumpe spülen
+
+Nach Förderung von chlorhaltigem Schwimmbadwasser oder Flüssigkeiten, die Rückstände hinterlassen, muss die Pumpe mit klarem Wasser gespült werden. Pumpe vom Netz trennen und gegen Wiedereinschalten sichern. Die Pumpe stoppt automatisch. Pumpe mit klarem Wasser spülen. Pumpe kann wieder in Betrieb genommen werden.]
+
+[Filter reinigen
+
+Ablassschraube Pumpe (01-03/8) der Entleerungsöffnung abschrauben, Filterraum entleeren und Entleerungsöffnung wieder verschließen. Filter Deckel (05/4) abschrauben. Gegebenenfalls geeignetes Werkzeug in die dafür vorgesehenen Vertiefungen des Filterglases einlegen. Filter (05/8) aus dem Pumpengehäuse (01-03/6) herausnehmen und unter fließendem Wasser reinigen. Filtergehäuse und Filter Deckel reinigen. Vor dem Einbau des Filters die Dichtung (05/5) auf Beschädigung prüfen, bei Bedarf erneuern. Filter einbauen, Klarsichtdeckel Filter aufschrauben und handfest anziehen.]
+
+[Rückschlagventil reinigen
+
+Filter ausbauen (siehe Abschnitt „Filter reinigen“). Rückschlagventil (05/6) herausschrauben und unter fließendem Wasser reinigen. Dichtung (05/7) bei Bedarf erneuern. Rückschlagventil einbauen. Filter einbauen.]
+
+[Durchflussmesser reinigen (HWA 3600)
+
+Druckleitung (04/1) ausschrauben. Einschraubnippel (05/1) mit Dichtung (05/2) ausschrauben. Durchflussmesser (05/3) herausziehen und reinigen. Einbaulage Durchflussmesser merken. Durchflussmesser wieder einbauen – Einbaulage beachten.]
+
+[Montage
+
+HW 3600 / HWA 3600 Pumpe aufstellen
+
+Ebenen und festen Standort vorbereiten. Pumpe waagerecht und überflutungssicher aufstellen. Pumpe gegebenenfalls an den Anschraubpunkten (01-03/11) festschrauben. Die Pumpe muss vor Regen und direktem Wasserstrahl geschützt sein. Gewindeschutzkappe am Pumpeneingang (01-03/7) und Pumpenausgang (01-03/3) entfernen. Schutzkappen für möglichen Transport aufbewahren.]
+
+[Saugleitung anschließen
+
+Länge der Saugleitung so auswählen, dass die Pumpe nicht trockenlaufen kann. Die Saugleitung muss sich immer mindestens 30 cm unter der Wasseroberfläche befinden. Saugleitung anschließen. Auf dichten Anschluss achten, ohne das Gewinde zu beschädigen. Saugleitung stets steigend verlegen.]
+
+[Druckleitung montieren
+
+Druckleitung (04/1) am Pumpenausgang befestigen. Alle in der Druckleitung vorhandenen Verschlüsse (Ventile, Spritzdüsen, Wasserhahn) öffnen.]
+
+[Gefahr – spannungsführende Teile
+
+Gefahr beim Berühren spannungsführender Teile! Ein Defekt an der Pumpe oder am Verlängerungskabel kann zu schweren Verletzungen führen! Trennen Sie den Stecker sofort vom Netz. Schließen Sie das Gerät über einen FI-Schutzschalter mit einem Nennfehlerstrom &lt; 30 mA an.]
+
+[Warnung – Sicherheits-Schutzeinrichungen_außerKraft
+
+Verletzungsgefahr Defekte und außer Kraft gesetzte Sicherheits- und Schutz­einrichtungen können zu schweren Verletzungen führen. Lassen Sie defekte Sicherheits- und Schutz­einrichtungen reparieren. Setzen Sie Sicherheits- und Schutzeinrichtungen nie außer Kraft.]
+
+[Vorsicht – heißes Wasser_neu
+
+Verletzungsgefahr durch heißes Wasser! Bei längerem Betrieb gegen die geschlossene Druckseite (&gt; 10 min) kann sich das Wasser in der Pumpe stark erhitzen und unkontrolliert austreten! Trennen Sie die Pumpe vom Netz und lassen Sie Pumpe und Wasser abkühlen. Prüfen Sie den Wasserstand saugseitig. Prüfen Sie die Dichtheit der Leitungen. Prüfen Sie die Installation der Saug- und Druckleitung. Nehmen Sie die Pumpe erst nach Beheben aller Mängel wieder in Betrieb!]
+
+[Original Betriebsanleitung deutsch
+
+Bei der deutschen Version handelt es sich um die Original-Betriebsanleitung. Alle weiteren Sprachversionen sind Übersetzungen der Original-Betriebsanleitung.]
+
+[Definition der Sicherheitshinweise
+
+Zeigt eine unmittelbar gefährliche Situation an, die – wenn sie nicht vermieden wird – den Tod oder eine schwere Verletzung zur Folge hat. Zeigt eine potenziell gefährliche Situation an, die – wenn sie nicht vermieden wird – den Tod oder eine schwere Verletzung zur Folge haben könnte. Zeigt eine potenziell gefährliche Situation an, die – wenn sie nicht vermieden wird – eine geringfügige oder mäßige Verletzung zur Folge haben könnte. Zeigt eine Situation an, die – wenn sie nicht vermieden wird – Sachschäden zur Folge haben könnte. Spezielle Hinweise zur besseren Verständlichkeit und Handhabung.]
+
+[Gefahr - Stromschlag
+
+Gefahr von Stromschlag! Bei Arbeiten an der Pumpe besteht die Gefahr, einen elektrischen Stromschlag zu bekommen. Vor allen Arbeiten zur Störungsbeseitigung den Netzstecker ziehen. Fehler in der elektrischen Anlage durch eine Elektrofachkraft beseitigen lassen.]
+
+[Hinweis - Störungen
+
+Bei nicht behebbaren Störungen wenden Sie sich bitte an unseren zuständigen Kundendienst.]
+
+[Deckblatt Produktbeschreibung - Modelle
+
+In dieser Betriebsanleitung werden verschiedene Modelle von Pumpen beschrieben. Identifizieren Sie Ihr Modell anhand des Typenschilds.]
+
+[Hinweis - Druckerhöhung
+
+Bei der Druckerhöhung der Wasserversorgung sind die örtlichen Vorschriften zu beachten. Auskünfte erhalten Sie von Ihrem Sanitärfachmann.]
+
+[Inbetriebnahme Pumpe befüllen
+
+Um die Ansaugzeit zu verkürzen, Saugschlauch vor dem Anschrauben mit Wasser füllen. Einfüllschraube (3) mit Filterschlüssel (19/A) öffnen. Über die Einfüllschraube Wasser einfüllen, bis das Pumpengehäuse (2) voll ist. Einfüllschraube einschrauben.]
+
+[Achtung - Membranvorratsdruck
+
+Gefahr von Geräteschäden! Die Pumpe darf nur mit einem Membranvorratsdruck von 1,5 - 1,7 bar im Vorratsbehälter in Betrieb genommen werden. Ein anderer Membranvorratsdruck kann zu Geräteschäden führen. Prüfen Sie vor der Inbetriebnahme den Luftdruck am Ventil an der Rückseite des Vorratsbehälters.]
+
+[Achtung - Membranvorratsdruck
+
+Gefahr von Geräteschäden! Die Pumpe darf nur mit einem Membranvorratsdruck von 1,5 - 1,7 bar im Vorratsbehälter in Betrieb genommen werden. Ein anderer Membranvorratsdruck kann zu Geräteschäden führen. Prüfen Sie vor der Inbetriebnahme den Luftdruck am Ventil an der Rückseite des Vorratsbehälters.]
+
+[Achtung – Trockenlauf Inbetriebnahme
+
+Gefahr von Geräteschäden! Trockenlauf zerstört die Pumpe! Die Pumpe muss vor jeder Inbetriebnahme bis zum Überlauf mit Wasser gefüllt sein, damit sie sofort ansaugen kann.]
+
+[Pumpe ausschalten
+
+Netzstecker aus der Steckdose ziehen. Alle in der Druckleitung vorhandenen Verschlüsse schließen.  Die Verletzungsgefahr durch heißes Wasser kann bei: unsachgemäßer Installation, geschlossener Druckseite, Wassermangel in der Saugleitung oder defektem Druckschalter entstehen. Vorgehen Pumpe vom Netz trennen und Pumpe und Wasser abkühlen lassen. Pumpe, Installation und Wasserstand prüfen. Pumpe erst nach Beheben aller Mängel wieder in Betrieb nehmen!]
+
+[Achtung - Druckleitung
+
+Gefahr von Geräteschäden! Eine geschlossene Druckleitung kann zu Schäden an der Pumpe führen! Lassen Sie die Pumpe nicht gegen eine geschlossene Druckleitung laufen.]
+
+[Vorsicht – heißes Wasser
+
+Verletzungsgefahr durch heißes Wasser Bei längerem Betrieb gegen die geschlossene Druckseite (&gt; 10 min) kann sich das Wasser in der Pumpe stark erhitzen und unkontrolliert austreten! Trennen Sie die Pumpe vom Netz und lassen Sie Pumpe und Wasser abkühlen. Nehmen Sie die Pumpe erst nach Beheben aller Mängel wieder in Betrieb!]
+
+[Vorsicht - Heißes Wasser
+
+Verletzungsgefahr durch heißes Wasser Bei längerem Betrieb gegen die geschlossene Druckseite (&gt; 10 min), unsachgemäßer Installation oder Wassermangel in der Saugleitung kann sich das Wasser in der Pumpe stark erhitzen und unkontrolliert austreten! Trennen Sie die Pumpe vom Netz und lassen Sie Pumpe und Wasser abkühlen. Prüfen Sie den Wasserstand saugseitig. Prüfen Sie die Dichtheit der Leitungen. Prüfen Sie die Installation der Saug- und Druckleitung. Nehmen Sie die Pumpe erst nach Beheben aller Mängel wieder in Betrieb!]
+
+[Pumpe reinigen
+
+Pumpe vom Netz trennen und gegen Wiedereinschalten sichern. Die Pumpe stoppt automatisch. Pumpe mit klarem Wasser spülen. Netzstecker in die Steckdose stecken. Pumpe mit dem Ein- / Ausschalter einschalten. Die Pumpe startet automatisch.]
+
+[Hinweis – Pumpe reinigen
+
+Nach Förderung von chlorhaltigem Schwimmbadwasser oder Flüssigkeiten, die Rückstände hinterlassen, muss die Pumpe mit klarem Wasser gespült werden.]
+
+[Verstopfung beseitigen
+
+Pumpe vom Netz trennen und gegen Wiedereinschalten sichern. Saugleitung am Pumpeneingang entfernen. Druckleitung an die Wasserleitung anschließen. Wasser durch das Pumpengehäuse laufen lassen, bis sich die Verstopfung auflöst. Durch kurzes Einschalten prüfen, ob die Pumpe freidreht. Pumpe wie beschrieben wieder in Betrieb nehmen.]
+
+[Hinweis - Luftdruck
+
+Prüfen Sie den Luftdruck im Vorratsbehälter regelmäßig. Er darf 1,5 bar nicht unterschreiten (siehe Abschnitt „Inbetriebnahme: Luftdruck im Vorratsbehälter prüfen“).]
+
+[Hinweis - Luftdruck
+
+Prüfen Sie den Luftdruck im Vorratsbehälter regelmäßig. Er darf 1,5 bar nicht unterschreiten (siehe Abschnitt „Inbetriebnahme: Luftdruck im Vorratsbehälter prüfen“).]
+
+[Hinweis – Pumpe spülen
+
+Nach Förderung von chlorhaltigem Schwimmbadwasser oder Flüssigkeiten, die Rückstände hinterlassen, muss die Pumpe mit klarem Wasser gespült werden.]
+
+[Achtung - Entnahmestelle
+
+Gefahr von Geräteschäden! Die Pumpe funktioniert nicht ordnungsgemäß, wenn die Entnahmestelle 15 m höher als die Pumpe liegt. Achten Sie darauf, dass die Entnahmestelle nicht höher als 15 m über der Pumpe liegt.]
+
+[Achtung - Überflutung
+
+Gefahr von Überflutung! Bei Störungen an der Pumpe kann Wasser austreten und Folgeschäden durch Überflutung verursachen. Schließen Sie durch geeignete Maßnahmen aus, dass bei Störungen an der Pumpe Folgeschäden durch Überflutungen entstehen.]
+
+[Hinweis - Ansaughöhe
+
+Beträgt die Ansaughöhe mehr als 4 m, muss ein Saugschlauch mit einem Durchmesser größer 1“ montiert werden. Wir empfehlen das Verwenden einer AL-KO Sauggarnitur mit Saugschlauch, Saugkorb und Rückflussstop. Fragen Sie Ihren Fachhändler.]
+
+[Hinweis – flexible Leitung
+
+Wir empfehlen den Einbau flexibler Leitungen am Pumpeneingang. So kann kein mechanischer Druck oder Zug auf die Pumpe ausgeübt werden.]
+
+[Hinweis - Display
+
+Bei der Erstinbetriebnahme erscheinen im Display alle Informationen in Englisch. Die gewünschte Sprache mit der MODE-Taste auswählen und mit der SET-Taste bestätigen. Der Luftdruck im Vorratsbehälter kann jetzt geprüft werden.]
+
+[Vorsicht – heißes Wasser
+
+Verletzungsgefahr durch heißes Wasser Bei längerem Betrieb gegen die geschlossene Druckseite (&gt;10 min) kann sich das Wasser in der Pumpe stark erhitzen und unkontrolliert austreten! Trennen Sie die Pumpe vom Netz und lassen Sie Pumpe und Wasser abkühlen. Nehmen Sie die Pumpe erst nach Beheben aller Mängel wieder in Betrieb!]
+

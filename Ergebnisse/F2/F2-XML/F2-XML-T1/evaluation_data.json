@@ -1,0 +1,66 @@
+{
+  "query": "Warum fördert die Gartenpumpe trotz eingeschaltetem Motor kein Wasser und wie kann das Problem behoben werden?",
+  "alternative_queries": [
+    "---",
+    "\"Welche Ursachen könnten dazu führen, dass die Gartenzentrifugalpumpe trotz laufendem Antriebsmotor keine Flüssigkeit fördert und welche Maßnahmen sind zur Behebung dieses Problems geeignet?\""
+  ],
+  "answer": "   Die Gartenpumpe fördert trotz eingeschaltetem Motor kein Wasser, weil die Saugleitung nicht im Wasser ist oder die Saugleitung verstopft ist. Um das Problem zu beheben, sollte die Saugleitung mindestens 30 cm ins Wasser eintauchen oder die Saugleitung gereinigt werden.",
+  "Kontext": [
+    {
+      "text": "Hinweis - Erstinbetriebnahme\n\nSollte nach ca. 90 Sekunden noch kein Wasser über die Saugleitung angesaugt werden, schaltet der Trockenlaufschutz die Pumpe ab und die LED-Anzeige ALARM leuchtet. Überprüfen Sie die Saugleitung, das Filterglas und alle Verschraubungen auf Dichtheit, drücken Sie den RESET-Taster und führen Sie die Erstinbetriebnahme nochmals durch.",
+      "source": "BETRIEBSANLEITUNG Pumpen.xml",
+      "page": "N/A",
+      "chapter": "Hinweis - Erstinbetriebnahme",
+      "id": "BETRIEBSANLEITUNG Pumpen.xml_20"
+    },
+    {
+      "text": "Verstopfung beseitigen\n\nPumpe vom Netz trennen und gegen Wiedereinschalten sichern. Saugleitung am Pumpeneingang entfernen. Druckleitung an die Wasserleitung anschließen. Wasser durch das Pumpengehäuse laufen lassen, bis sich die Verstopfung auflöst. Durch kurzes Einschalten prüfen, ob die Pumpe freidreht. Pumpe wie beschrieben wieder in Betrieb nehmen.",
+      "source": "BETRIEBSANLEITUNG Pumpen.xml",
+      "page": "N/A",
+      "chapter": "Verstopfung beseitigen",
+      "id": "BETRIEBSANLEITUNG Pumpen.xml_57"
+    },
+    {
+      "text": "Bedienung Pumpe einschalten\n\nEinen in der Druckleitung (11) vorhandenen Verschlüsse (Ventil, Spritzdüse, Wasserhahn) öffnen. Netzstecker des Anschlusskabels in die Steckdose stecken. Die Pumpe beginnt zu fördern. Verschluss in der Druckleitung schließen, wenn sich im austretenden Wasser keine Luft mehr befindet. Die Pumpe schaltet nach Druckaufbau und Erreichen des Abschaltdrucks automatisch ab. Die Pumpe ist betriebsbereit. Die LED-Anzeigen sind aus. Wird Wasser gefördert, leuchtet nur die LED-Anzeige PUMP ON.",
+      "source": "BETRIEBSANLEITUNG Pumpen.xml",
+      "page": "N/A",
+      "chapter": "Bedienung Pumpe einschalten",
+      "id": "BETRIEBSANLEITUNG Pumpen.xml_23"
+    },
+    {
+      "text": "Hinweis - Störungen\n\nBei nicht behebbaren Störungen wenden Sie sich bitte an unseren zuständigen Kundendienst.",
+      "source": "BETRIEBSANLEITUNG Pumpen.xml",
+      "page": "N/A",
+      "chapter": "Hinweis - Störungen",
+      "id": "BETRIEBSANLEITUNG Pumpen.xml_44"
+    },
+    {
+      "text": "Hinweis - Display\n\nBei der Erstinbetriebnahme erscheinen im Display alle Informationen in Englisch. Die gewünschte Sprache mit der MODE-Taste auswählen und mit der SET-Taste bestätigen. Der Luftdruck im Vorratsbehälter kann jetzt geprüft werden.",
+      "source": "BETRIEBSANLEITUNG Pumpen.xml",
+      "page": "N/A",
+      "chapter": "Hinweis - Display",
+      "id": "BETRIEBSANLEITUNG Pumpen.xml_65"
+    },
+    {
+      "text": "Sicherheitshinweise Zu dieser Betriebsanleitung\n\nLesen Sie unbedingt vor der Inbetriebnahme diese Betriebsanleitung sorgfältig durch. Dies ist die Voraussetzung für sicheres Arbeiten und störungsfreie Handhabung. Bewahren Sie diese Betriebsanleitung immer so auf, dass Sie darin nachlesen können, wenn Sie eine Information zum Gerät benötigen. Geben Sie das Gerät nur mit dieser Betriebsanleitung an andere Personen weiter. Lesen und beachten Sie die Sicherheits- und Warnhinweise in dieser Betriebsanleitung.",
+      "source": "BETRIEBSANLEITUNG Pumpen.xml",
+      "page": "N/A",
+      "chapter": "Sicherheitshinweise Zu dieser Betriebsanleitung",
+      "id": "BETRIEBSANLEITUNG Pumpen.xml_1"
+    },
+    {
+      "text": "Hilfe bei Störungen\n\nStörung Mögliche Ursache Abhilfe Motor läuft nicht. Laufrad blockiert. Pumpe reinigen. Motorwelle des Laufrads mit Schraubendreher losdrehen. Schmutz im Ansaugbereich entfernen. Thermoschalter hat abgeschaltet. Wasserstand auf Saugseite prüfen. Förderflüssigkeit abkühlen lassen. Pumpe Instandsetzen oder austauschen. Warten, bis der Thermoschalter die Pumpe wieder einschaltet. Auf maximale Temperatur des Fördermediums achten. Pumpe prüfen lassen Keine Netzspannung vorhanden. Sicherungen prüfen, Stromversorgung von Elektrofachkraft prüfen lassen. Trockenlaufschutz aktiviert Saugseite prüfen. Pumpe läuft, aber fördert nicht. Die Saugleitung ist nicht im Wasser. Saugleitung min. 30 cm ins Wasser eintauchen. Druckleitung geschlossen. Verschluss-Aggregate in der Druckleitung öffnen. Pumpe saugt Luft. Alle Anschlussverbindungen und den Filterdeckel auf Dichtheit prüfen. Saugseitige Verstopfung. Schmutz im Ansaugbereich entfernen. Pumpe ist trocken gelaufen. Pumpengehäuse mit Wasser befüllen. Druckschlauch geknickt. Druckschlauch strecken. Trockenlaufschutz aktiviert. Saugseite prüfen. Pumpe schaltet zu oft ein und aus. Membrane ist beschädigt (HW 3600). Membrane durch AL-KO Service austauschen lassen. Geringer Luftdruck im Vorratsbehälter (HW 3600). Luft im Vorratsbehälter nachfüllen. (Membranvordruck auf 1,5 bar einstellen). Pumpe saugt Luft, Wassermangel saugseitig. Pumpe ausschalten und abkühlen lassen. Undichtigkeit auf der Druckseite (HWA 3600) Druckschlauch prüfen. Fördermenge zu gering Druckschlauch geknickt. Druckschlauch strecken. Saugseitige Verstopfung. Schmutz im Ansaugbereich entfernen. Schlauchdurchmesser zu klein. Größeren Druckschlauch verwenden. Förderhöhe zu groß. Max. Förderhöhe beachten, siehe technische Daten! Saugseitig zu geringe Wassermenge. Drosseln der Pumpe, um die Fördermenge anzupassen. Saughöhe zu groß. Saughöhe prüfen, max. Saughöhe beachten - siehe technische Daten.",
+      "source": "BETRIEBSANLEITUNG Pumpen.xml",
+      "page": "N/A",
+      "chapter": "Hilfe bei Störungen",
+      "id": "BETRIEBSANLEITUNG Pumpen.xml_4"
+    },
+    {
+      "text": "Verstopfung beseitigen\n\nPumpe vom Netz trennen und gegen Wiedereinschalten sichern. Saugleitung am Pumpeneingang entfernen. Druckleitung an die Wasserleitung anschließen. Wasser durch das Pumpengehäuse laufen lassen, bis sich die Verstopfung auflöst. Durch kurzes Einschalten prüfen, ob die Pumpe freidreht.",
+      "source": "BETRIEBSANLEITUNG Pumpen.xml",
+      "page": "N/A",
+      "chapter": "Verstopfung beseitigen",
+      "id": "BETRIEBSANLEITUNG Pumpen.xml_30"
+    }
+  ]
+}

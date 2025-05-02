@@ -1,0 +1,119 @@
+PS C:\Users\fabio.cappellaro\Documents\Masterarbeit Projekt\Masterarbeit_FC> & C:/Users/fabio.cappellaro/AppData/Local/Microsoft/WindowsApps/python3.11.exe "c:/Users/fabio.cappellaro/Documents/Masterarbeit Projekt/Masterarbeit_FC/PyProgramm/main.py"
+131 Dokument-Chunks wurden verarbeitet und in den Vektorspeicher geladen.
+Export abgeschlossen. Dateien gespeichert in: C:\Users\fabio.cappellaro\Documents\Masterarbeit Projekt\Masterarbeit_FC\ExportedData
+Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:04<00:00,  1.23s/it]
+Device set to use cuda:0
+
+Bitte geben Sie Ihre Frage ein: Welche Schritte sind notwendig, um die Grasfangbox des Rasentraktors korrekt zu montieren und einzustellen?
+CustomMultiQueryRetriever: all_queries = ['Welche Schritte sind notwendig, um die Grasfangbox des Rasentraktors korrekt zu montieren und einzustellen?', '1. "Wie lauten die erforderlichen Schritte zur korrekten Installation und Justierung der Grasfangbox am Rasentraktor?"', '2. "Welche Maßnahmen sind notwendig, um die Grasfangbox des Rasentraktors ordnungsgemäß zu montieren und einzustellen?"', '3. "Welche Vorgehensweisen sind erforderlich, um die Grasfangbox des Rasentraktors korrekt zu installieren und zu kalibrieren?"']
+
+==================================================
+Antwort auf deine Frage:
+==================================================
+   Die Schritte zur korrekten Montage und Einstellung der Grasfangbox des Rasentraktors sind wie folgt:
+
+1. **Abstand messen:** Messen Sie jeweils links und rechts den Abstand zwischen Grasfangbox und Rasentraktor (25). Bei einem Abstand > 0 mm müssen die Boxhaltearme entsprechend des gemessenen Abstands nachgestellt werden!
+2. **Box abnehmen:** Nehmen Sie die Grasfangbox ab (26).
+3. **Schrauben lösen:** Lösen Sie die 4 Sechskantschrauben an beiden Boxhaltearmen jeweils um eine halbe Umdrehung (27).
+4. **Haltearme nachstellen:** Stellen Sie die Haltearme links und rechts entsprechend des gemessenen Abstands nach oben und ziehen Sie die unteren Sechskantschrauben wieder fest (28).
+5. **Abstand einstellen:** Stellen Sie im 90°-Winkel von der Rückwand ausgehend zum Verbindungsstab der Boxhaltearme einen Abstand von 189 mm ein (29).
+6. **Schrauben anziehen:** Ziehen Sie die oberen Sechskantschrauben der Boxhaltearme mit 40 – 50 Nm wieder an (30).
+7. **Box einhängen:** Hängen Sie die Grasfangbox wieder ein (31).
+8. **Abstand überprüfen:** Überprüfen Sie den Abstand zwischen Grasfangbox und Rasentraktor. Gegebenenfalls nachstellen (32)!
+
+--------------------------------------------------
+Quellen (Auszug):
+--------------------------------------------------
+1. Quelle: Traktor_MA.xml | Kapitel: Boxhalterung einstellen | Seite: N/A
+2. Quelle: Traktor_MA.xml | Kapitel: Zeichenerklärungen und Signalwörter Rasentraktor montieren | Seite: N/A
+3. Quelle: Traktor_BA.xml | Kapitel: Kontaktschalter des Auswurfkanals prüfen | Seite: N/A
+4. Quelle: Traktor_BA.xml | Kapitel: Grasfangbox entleeren | Seite: N/A
+5. Quelle: Traktor_MA.xml | Kapitel: 476758 MA Rasentraktor_HA_C-Frame_Premium_sbA Original-Montageanleitung Deckblatt MA C-Frame Heckauswurf sbA | Seite: N/A
+6. Quelle: Traktor_BA.xml | Kapitel: Betrieb des Traktors Grundsätzliche vorbereitende Maßnahmen | Seite: N/A
+--------------------------------------------------
+
+Evaluation-Daten gespeichert.
+PS C:\Users\fabio.cappellaro\Documents\Masterarbeit Projekt\Masterarbeit_FC> & C:/Users/fabio.cappellaro/AppData/Local/Microsoft/WindowsApps/python3.11.exe "c:/Users/fabio.cappellaro/Documents/Masterarbeit Projekt/Masterarbeit_FC/PyProgramm/evaluation.py"
+131 Dokument-Chunks wurden verarbeitet und in den Vektorspeicher geladen.
+Export abgeschlossen. Dateien gespeichert in: C:\Users\fabio.cappellaro\Documents\Masterarbeit Projekt\Masterarbeit_FC\ExportedData
+Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:04<00:00,  1.18s/it]
+Device set to use cuda:0
+
+=== EVALUATION-SKRIPT ===
+Query aus main.py war: 'Welche Schritte sind notwendig, um die Grasfangbox des Rasentraktors korrekt zu montieren und einzustellen?'
+
+=== Vollständiger Kontext (sortiert nach Relevanz) ===
+
+--- Kontextblock 1 ---
+Quelle: Traktor_MA.xml, Kapitel: Boxhalterung einstellen, Seite: N/A
+Cosine Similarity: 0.9135
+
+Boxhalterung einstellen
+
+Messen Sie jeweils links und rechts den Abstand zwischen Grasfangbox und Rasentraktor (25). Bei einem Abstand &gt; 0 mm müssen die Boxhaltearme entsprechend des gemessenen Abstands nachgestellt werden! Grasfangbox abnehmen (26). Lösen Sie die 4 Sechskantschrauben an beiden Boxhaltearmen jeweils um eine halbe Umdrehung (27). Entsprechend des jeweils gemessenen Abstands die Haltearme links und rechts nach oben stellen und die unteren Sechskantschrauben an beiden Haltearmen wieder festziehen (28). Stellen Sie im 90°-Winkel von der Rückwand ausgehend zum Verbindungsstab der Boxhaltearme einen Abstand von 189 mm ein (29). Ziehen Sie die oberen Sechskantschrauben der Boxhaltearme mit 40 – 50 Nm wieder an (30). Grasfangbox wieder einhängen (31). Überprüfen Sie den Abstand zwischen Grasfangbox und Rasentraktor. Gegebenenfalls nachstellen (32)!
+
+--------------------------------------------------
+
+--- Kontextblock 2 ---
+Quelle: Traktor_BA.xml, Kapitel: Grasfangbox entleeren, Seite: N/A
+Cosine Similarity: 0.9038
+
+Grasfangbox entleeren
+
+Je nach Ausstattungsvariante verfügt Ihr Rasentraktor über eine elektrisch betätigte Grasfangbox-Entleerung oder eine manuell betätigte Grasfangbox mit Betätigungshebel. Für alle Boxenarten gilt: Das Entleeren der Grasfangbox kann vom Fahrersitz aus vorgenommen werden. Wird bei zugeschaltetem Mähwerk die Grasfangbox hochgeklappt bzw. ausgehängt, stirbt der Motor ab. Wenn die Grasfangbox nicht ordnungsgemäß eingerastet ist, kann das Mähwerk nicht zugeschaltet werden. Elektrisch betätigte Grasfangbox entleeren Zum Entleeren betätigen Sie den Kippschalter (07/1) auf der linken Seite des Fahrersitzes. Zum Schließen der Grasfangbox betätigen Sie wieder den Kippschalter. Grasfangbox mit Betätigungshebel entleeren Ziehen Sie den Betätigungshebel aus der Grasfangbox (17/a). Drücken Sie den Hebel in Fahrtrichtung, damit sich die Grasfangbox öffnet (17/b). Bewegen Sie die Grasfangbox mit dem Hebel nach hinten, bis die Box einrastet.
+
+--------------------------------------------------
+
+--- Kontextblock 3 ---
+Quelle: Traktor_MA.xml, Kapitel: Zeichenerklärungen und Signalwörter Rasentraktor montieren, Seite: N/A
+Cosine Similarity: 0.8805
+
+Zeichenerklärungen und Signalwörter Rasentraktor montieren
+
+Bevor der Rasentraktor, wie in der Betriebsanleitung beschrieben, in Betrieb genommen werden kann, müssen die folgenden Montagearbeiten erfolgreich durchgeführt worden sein.
+
+--------------------------------------------------
+
+--- Kontextblock 4 ---
+Quelle: Traktor_BA.xml, Kapitel: Kontaktschalter des Auswurfkanals prüfen, Seite: N/A
+Cosine Similarity: 0.8734
+
+Kontaktschalter des Auswurfkanals prüfen
+
+Der Kontaktschalter des Auswurfkanals stellt sicher, dass sich der Rasentraktor bei ausgebautem Auswurfkanal nicht starten lässt. Grasfangbox abnehmen. Entfernen Sie den Auswurfkanal (18/2). Setzen Sie sich auf den Fahrersitz. Treten Sie das Bremspedal (05/1) und betätigen Sie die Feststellbremse (05/2). Starten Sie den Motor.
+
+--------------------------------------------------
+
+--- Kontextblock 5 ---
+Quelle: Traktor_BA.xml, Kapitel: Betrieb des Traktors Grundsätzliche vorbereitende Maßnahmen, Seite: N/A
+Cosine Similarity: 0.8563
+
+Betrieb des Traktors Grundsätzliche vorbereitende Maßnahmen
+
+Tragen Sie während des Mähens immer festes Schuhwerk und lange Hosen. Niemals barfuß oder mit offenen Sandalen mähen. Überprüfen Sie vollständig das Gelände, auf dem der Rasentraktor eingesetzt wird. Entfernen Sie alle Steine, Stöcke, Drähte, Knochen und andere Fremdkörper, die erfasst und weggeschleudert werden könnten. Auch während des Mähens ist auf Fremdkörper zu achten. Führen Sie alle in der Inbetriebnahme beschriebenen Arbeiten durch. Dies gilt insbesondere für die Prüfung der Sicherheitseinrichtungen. Zum Ziehen von Lasten nur die Anhängevorrichtung verwenden! Die Stützlast nicht überschreiten. Der Transport von Gegenständen am Rasentraktor ist nicht gestattet!
+
+--------------------------------------------------
+
+--- Kontextblock 6 ---
+Quelle: Traktor_MA.xml, Kapitel: 476758 MA Rasentraktor_HA_C-Frame_Premium_sbA Original-Montageanleitung Deckblatt MA C-Frame Heckauswurf sbA, Seite: N/A
+Cosine Similarity: 0.8536
+
+476758 MA Rasentraktor_HA_C-Frame_Premium_sbA Original-Montageanleitung Deckblatt MA C-Frame Heckauswurf sbA
+
+### Die nachfolgenden Bilder werden auf dem Deckblatt dargestellt. Zuerst kommt die Grafik, dann das Logo und dann das Kopfzeilenlogo. ### Deckblatt Deckblattlogo Kopfzeilenlogo Rückseitenlogo Notizen TO DO: 1 2 3… BUGS: 1 2 3… ### EOF ###
+
+--------------------------------------------------
+
+=== Confidence Score ===
+Confidence Score der Antwort: 0.6069
+
+=== ROUGE Scores ===
+ROUGE-1 Precision: 0.2517
+ROUGE-1 Recall: 0.8743
+ROUGE-1 F1-Score: 0.3909
+
+ROUGE-L Precision: 0.1948
+ROUGE-L Recall: 0.6766
+ROUGE-L F1-Score: 0.3025
+
+Evaluation-Daten gespeichert in evaluation_output.json.

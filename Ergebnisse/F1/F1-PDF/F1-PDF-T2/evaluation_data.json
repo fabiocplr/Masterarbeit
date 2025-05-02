@@ -1,0 +1,139 @@
+{
+  "query": "Welche Schritte sind notwendig, um die Grasfangbox des Rasentraktors korrekt zu montieren und einzustellen?",
+  "alternative_queries": [
+    "1. \"Welche Prozeduren sind erforderlich, um die Grassammelvorrichtung des Rasenmähers korrekt zu installieren und zu justieren?\"",
+    "2. \"Welche Schritte sind notwendig, um die Grassammelbox des Rasenmähers korrekt zu montieren und einzustellen?\"",
+    "3. \"Welche Handlungen sind erforderlich, um die Grasfangeinrichtung des Rasentraktors korrekt zu installieren und zu kalibrieren?\"",
+    "4. \"Welche Maßnahmen sind notwendig, um die Grassammelkiste des Rasenmähers korrekt zu befestigen und zu einstellen?\"",
+    "5. \"Welche Schritte sind erforderlich, um die Grassammelvorrichtung des Rasentraktors korrekt zu montieren und zu konfigurieren?\""
+  ],
+  "answer": "   Um die Grasfangbox des Rasentraktors korrekt zu montieren und einzustellen, sind folgende Schritte notwendig:\n\n1. **Grasfangbox halten:**\n   - Halten Sie die Grasfangbox mit einer Hand am Boxgriff (20/1) und mit der anderen Hand an der Halteöffnung an der Rückseite (20/2).\n\n2. **Grasfangbox auf Führung legen:**\n   - Legen Sie die Grasfangbox symmetrisch auf die Führung (20/3).\n\n3. **Grasfangbox kippen:**\n   - Kippen Sie die Grasfangbox mit der anderen Hand leicht nach vorne (21), so dass der vordere Teil der Grasfangbox einrastet.\n\n4. **Grasfangbox nach unten schwenken:**\n   - Schwenken Sie die Grasfangbox wieder nach unten (22).\n\n5. **Korrekten Sitz überprüfen:**\n   - Überprüfen Sie den korrekten Sitz der Grasfangbox.\n\nZusätzlich zu diesen Schritten sollten Sie sicherstellen, dass der Abstand zwischen der Grasfangbox und dem Rasentraktor korrekt ist. Dies kann durch Nachstellen der Haltearme erreicht werden.",
+  "Kontext": [
+    {
+      "text": "3.7\nGrasfangbox einhängen\n1.\nHalten Sie die Grasfangbox mit einer Hand\nam Boxgriff (20/1) und mit der anderen Hand\nan der Halteöffnung an der Rückseite (20/2).\n2.\nLegen Sie die Grasfangbox symmetrisch auf\ndie Führung (20/3).\n3.\nKippen Sie die Grasfangbox mit der anderen\nHand leicht nach vorne (21), so dass der vor-\ndere Teil der Grasfangbox einrastet.\n4.\nSchwenken Sie nun die Grasfangbox wieder\nnach unten (22).\n5.\nÜberprüfen Sie den korrekten Sitz der Gras-\nfangbox.\n3.8\nStarterbatterie anschließen\nIm Lieferumfang des Rasentraktors ist eine Star-\nterbatterie enthalten.\nDie Starterbatterie befindet sich unter der Motor-\nabdeckhaube.\nGrundsätzlich ist die Starterbatterie ab Werk ge-\nladen.\n WARNUNG! Gefahr durch falschen Um-\ngang mit der Starterbatterie! Zur Vermeidung",
+      "source": "Montageanleitung Rasentraktor.pdf",
+      "page": 9,
+      "chapter": "Unbekanntes Kapitel",
+      "id": "Montageanleitung Rasentraktor.pdf_23"
+    },
+    {
+      "text": "messenen Abstands nachgestellt werden!\n2.\nGrasfangbox abnehmen (26).\n3.\nLösen Sie die 4 Sechskantschrauben an bei-\nden Boxhaltearmen jeweils um eine halbe\nUmdrehung (27).\n4.\nEntsprechend des jeweils gemessenen Ab-\nstands die Haltearme links und rechts nach\noben stellen und die unteren Sechskant-",
+      "source": "Montageanleitung Rasentraktor.pdf",
+      "page": 8,
+      "chapter": "Unbekanntes Kapitel",
+      "id": "Montageanleitung Rasentraktor.pdf_21"
+    },
+    {
+      "text": "8\nSchnitthöhenverstellung\n9\nGetriebe-Bypass\n10\nGrasfangboxsensor\n11\nBoxenbetätigung\n12\nGrasfangbox\n13\nFahrersitz\n14\nBoxenbetätigung elektrisch*\n15\nFeststellhebel für Bremspedal\n16\nTempomathebel*\n* Ausführung variiert und ist modellabhängig\n3\nSICHERHEITSHINWEISE\n■\nKinder oder andere Personen, die die Be-\ntriebsanleitung nicht kennen, dürfen das Ge-\nrät nicht benutzen.\n■\nÖrtliche Bestimmungen zum Mindestalter der\nBedienperson beachten.",
+      "source": "Betriebsanleitung Rasentraktor.pdf",
+      "page": 11,
+      "chapter": "Unbekanntes Kapitel",
+      "id": "Betriebsanleitung Rasentraktor.pdf_26"
+    },
+    {
+      "text": "DE\n10\n476758_c\nRasentraktor montieren\nschrauben an beiden Haltearmen wieder\nfestziehen (28).\n5.\nStellen Sie im 90°-Winkel von der Rückwand\nausgehend zum Verbindungsstab der\nBoxhaltearme einen Abstand von 189 mm\nein (29).\n6.\nZiehen Sie die oberen Sechskantschrauben\nder Boxhaltearme mit 40 – 50 Nm wieder an\n(30).\n7.\nGrasfangbox wieder einhängen (31).\n8.\nÜberprüfen Sie den Abstand zwischen Gras-\nfangbox und Rasentraktor. Gegebenenfalls\nnachstellen (32)!\n3.6\nStützräder am Mähdeck montieren\nDie beiden Stützräder werden links und rechts\nam Mähdeck montiert.\n1.\nRadbolzen (33/1) durch das Stützrad (33/2)\nstecken.\n2.\nRadbolzen samt Stützrad in das mittlere Loch\n(33/3) am Träger (33/4) stecken.\n3.\nMutter (33/5) auf dem Radbolzen festdrehen.\n3.7\nGrasfangbox einhängen\n1.",
+      "source": "Montageanleitung Rasentraktor.pdf",
+      "page": 9,
+      "chapter": "Unbekanntes Kapitel",
+      "id": "Montageanleitung Rasentraktor.pdf_22"
+    },
+    {
+      "text": "Kabelbindern an der Lasche (02/4) befesti-\ngen.\n3.3\nTempomat-Bedienhebel montieren\n1.\nMontieren Sie den Bedienhebel (04/1) für\nden Tempomat mittels einer Innensechskant-\nschraube M5x20 und einer Scheibe.\n3.4\nGrasfangbox montieren\n HINWEIS Bei der Montage einen Akku-\nSchrauber mit Torxeinsatz TX30 verwenden.\n1.\nStützbleche in den unteren Teil der Gras-\nfangbox auf beiden Seiten einstecken (05).\n2.\nWaagerecht einführen und nach oben\nschwenken (06, 07 und 08).\n3.\nVorderen Stützholm (09/1) in den unteren\nTeil der Grasfangbox (09/2) einklemmen und\nmit Schlossschrauben M6x35, Scheiben und\nselbstsichernden Muttern von außen ver-\nschrauben (10).\n4.\nRahmen-Oberteil (11/1) auf den Stützholm\nmit Schlossschrauben M6x35, Scheiben und\nselbstsichernden Muttern festschrauben.\n5.",
+      "source": "Montageanleitung Rasentraktor.pdf",
+      "page": 8,
+      "chapter": "Unbekanntes Kapitel",
+      "id": "Montageanleitung Rasentraktor.pdf_19"
+    },
+    {
+      "text": "14\n5.2.1\nFunktionstasten und die Display-\nanzeige........................................\n14\n5.2.2\nKontrollleuchten...........................\n14\n5.3\nBrems- und Kupplungspedal (05)......\n15\n5.4\nGetriebebedienung (Fahrgeschwin-\ndigkeit) (04)........................................\n15\n5.5\nFußhydrostat-Getriebe (04, 05) .........\n15\n5.6\nMähwerkbedienung (06)....................\n16\n6\nInbetriebnahme ........................................\n16\n6.1\nMähwerk prüfen.................................\n16\n6.2\nBefüllung mit Öl .................................\n16\n6.3\nBefüllung mit Kraftstoff (09) ...............\n16\n6.4\nReifendruck prüfen ............................\n16\n6.5\nGrasfangbox anbauen (10 – 13)........\n17\n6.6\nPrüfung der Sicherheitseinrichtungen\n17\n6.6.1\nBremskontaktschalter prüfen.......\n17",
+      "source": "Betriebsanleitung Rasentraktor.pdf",
+      "page": 9,
+      "chapter": "Unbekanntes Kapitel",
+      "id": "Betriebsanleitung Rasentraktor.pdf_15"
+    },
+    {
+      "text": "birleşmesine dikkat edin.\n6.\nSabitleme cıvataları ile yerine vidalayın.\n7.\nÇim toplama haznesini monte edin.",
+      "source": "Betriebsanleitung Rasentraktor.pdf",
+      "page": 545,
+      "chapter": "Unbekanntes Kapitel",
+      "id": "Betriebsanleitung Rasentraktor.pdf_2196"
+    },
+    {
+      "text": "Ta av gräsuppsamlaren(33).\n3.\nDemontera utkastkanalen (18).\n4.\nLossa cylinderskruven (34) i schakthållaren\nmed 5–6 varv.\n5.\nSänk klippanordningen till den lägsta inställ-\nningen (35).\n6.\nHaka ut dragfjädern vid klippanordningen\n(36).\n7.\nStäll upp klippanordningen helt igen (37).\n8.\nHaka ur kilremskanalen (38).\n9.\nHaka ur kilremmen från motorns kilremskiva\n(39).\n10. Sänk åter klippanordningen till den lägsta in-\nställningen (40).",
+      "source": "Betriebsanleitung Rasentraktor.pdf",
+      "page": 312,
+      "chapter": "Unbekanntes Kapitel",
+      "id": "Betriebsanleitung Rasentraktor.pdf_1270"
+    },
+    {
+      "text": "Den Motor und alle Lagerstellen (Räder, Getrie-\nbe, Messerlagerung) nicht mit Wasser oder ei-\nnem Hochdruckreiniger abspritzen.\nEindringendes Wasser in die Zündanlage, in den\nVergaser und in den Luftfilter kann Störungen\nverursachen. Wasser in den Lagerstellen kann\nzum Verlust der Schmierung und somit zur Zer-\nstörung der Lager führen.\nZum Entfernen von Schmutz und Grasresten ei-\nnen Lappen, Handbesen, langstieligen Pinsel\noder Ähnliches verwenden.\n8.3\nReinigen des Auswurfkanals (18)\nDurch regelmäßiges Reinigen wird die Leichtgän-\ngigkeit der Schnitthöhenverstellung gewährleis-\ntet.\nDer Auswurfkanal besteht aus zwei ineinander\ngeschobenen Teilen. Das untere Teil ist im Mäh-\ngehäuse fest eingerastet. Das obere Teil kann\nzur Reinigung herausgezogen werden.\n1.\nEntfernen Sie die Grasfangbox.",
+      "source": "Betriebsanleitung Rasentraktor.pdf",
+      "page": 21,
+      "chapter": "Unbekanntes Kapitel",
+      "id": "Betriebsanleitung Rasentraktor.pdf_69"
+    },
+    {
+      "text": "\"Motor starten und abstellen\", Seite 18).\n2.\nNehmen Sie die Grasfangbox ab (siehe Kapi-\ntel 8.1 \"Grasfangbox reinigen\", Seite 21).\n3.\nStellen Sie den Füllstandsmelder (10/1) auf\ndas Schnittgut ein (10/a), bis er auf der ge-\nwünschten Position einrastet.\n4.\nHängen Sie die Grasfangbox wieder ein.\nGrasfangbox einhängen\n1.\nHalten Sie die Grasfangbox mit einer Hand\nam Boxgriff (11/1) und mit der anderen Hand\nan der Halteöffnung an der Rückseite (11/2).\n2.\nLegen Sie die Grasfangbox symmetrisch auf\ndie Führung (11/3).\n3.\nKippen Sie die Grasfangbox mit der anderen\nHand leicht nach vorne (12), so dass der vor-\ndere Teil der Grasfangbox einrastet.\n4.\nSchwenken Sie nun die Grasfangbox wieder\nnach unten (13/a).\n5.\nÜberprüfen Sie den korrekten Sitz der Gras-\nfangbox.\n6.6",
+      "source": "Betriebsanleitung Rasentraktor.pdf",
+      "page": 16,
+      "chapter": "Unbekanntes Kapitel",
+      "id": "Betriebsanleitung Rasentraktor.pdf_44"
+    },
+    {
+      "text": "8.\nPasser le levier à main à travers le bac de ra-\nmassage (18), sécuriser la vis sans tête\n(Torx) M6x35 et l'écrou autobloquant (19).\n3.5\nRégler le support de boîte\n REMARQUE Une fois le bac de ramas-\nsage d'herbe installé, la distance entre la ton-\ndeuse et le bac doit être nulle (23, 24) !\n1.\nMesurer la distance à droite et à gauche\nentre le bac et la tondeuse (25). \nRemarque: Si la distance est > 0 mm, il faut\nreplacer le bac afin d'ajuster la distance !",
+      "source": "Montageanleitung Rasentraktor.pdf",
+      "page": 17,
+      "chapter": "Unbekanntes Kapitel",
+      "id": "Montageanleitung Rasentraktor.pdf_60"
+    },
+    {
+      "text": "Außerdem gibt es Unterschiede bei Mulchsyste-\nmen, Motortyp, Motorleistung und Schnittbreite.\nTypunterschiede:\n■\nSchnittbreite\n■\nGetriebeart (T3 und G700)\n■\nGetriebe-Bypass-Entriegelung\n2.1\nBestimmungsgemäße Verwendung\nDer Rasentraktor ist zum Mähen privater Haus-\nund Hobbygärten mit max. 10° (18 %) Hangnei-\ngung bestimmt. Zusätzliche Anwendungen, wie\nz. B. Mulchen sind nur unter Verwendung des\nOriginal-Zubehörs und unter Einhaltung der maxi-\nmalen Belastungswerte gestattet.\nDieses Gerät ist ausschließlich für den Einsatz im\nprivaten Bereich bestimmt. Jede andere Verwen-\ndung sowie unerlaubte Um- oder Anbauten wer-\nden als Zweckentfremdung angesehen und ha-\nben den Ausschluss der Gewährleistung sowie\nden Verlust der Konformität (CE-Zeichen) und die\nAblehnung jeder Verantwortung gegenüber",
+      "source": "Betriebsanleitung Rasentraktor.pdf",
+      "page": 10,
+      "chapter": "Unbekanntes Kapitel",
+      "id": "Betriebsanleitung Rasentraktor.pdf_22"
+    },
+    {
+      "text": "be................................................. 19\n7.5.3\nFahren mit Tempomat.................. 19\n7.5.4\nFahren und Mähen an Hängen.... 20\n7.5.5\nMähen mit dem Rasentraktor....... 20\n8\nRasentraktor reinigen ............................... 21\n8.1\nGrasfangbox reinigen......................... 21\n8.2\nGehäuse, Motor und Getriebe reini-\ngen ..................................................... 22\n8.3\nReinigen des Auswurfkanals (18) ...... 22\n9\nInstandhaltung .......................................... 22\n9.1\nWartungsplan ..................................... 22\n9.2\nSchmierplan ....................................... 23\n9.3\nRadwechsel........................................ 23\n9.4\nStarterbatterie .................................... 24\n9.5\nMähwerk ausbauen............................ 25\n9.6",
+      "source": "Betriebsanleitung Rasentraktor.pdf",
+      "page": 9,
+      "chapter": "Unbekanntes Kapitel",
+      "id": "Betriebsanleitung Rasentraktor.pdf_17"
+    },
+    {
+      "text": "36\n6.5\nFitting the grass catcher (10 – 13).....\n36\n6.6\nChecking the safety devices..............\n37\n6.6.1\nChecking the brake contact\nswitch ..........................................\n37\n6.6.2\nChecking the mower mechanism\ncontact switch..............................\n37\n6.6.3\nChecking the seat contact switch\n37\n6.6.4\nChecking the grass catcher con-\ntact switch....................................\n37\n6.6.5\nChecking the discharge channel\ncontact switch..............................\n37\n7\nOperating the tractor................................. 37\n7.1\nFundamental preparatory measures .. 37\n7.2\nUse of accessories............................. 38\n7.3\nPushing the lawn tractor (15, 16) ....... 38\n7.4\nStarting and stopping the engine ....... 38\n7.5\nDriving with the tractor ....................... 38",
+      "source": "Betriebsanleitung Rasentraktor.pdf",
+      "page": 29,
+      "chapter": "Unbekanntes Kapitel",
+      "id": "Betriebsanleitung Rasentraktor.pdf_101"
+    },
+    {
+      "text": "schädigt werden können.\n5.\nSchieben Sie den Traktor nach vorne aus der\nPalette.",
+      "source": "Montageanleitung Rasentraktor.pdf",
+      "page": 7,
+      "chapter": "Unbekanntes Kapitel",
+      "id": "Montageanleitung Rasentraktor.pdf_16"
+    },
+    {
+      "text": "ZU DIESER MONTAGEANLEITUNG\n■\nBei der deutschen Version handelt es sich\num die Original-Montageanleitung. Alle weite-\nren Sprachversionen sind Übersetzungen der\nOriginal-Montageanleitung.\n■\nBeachten Sie für den Betrieb des Rasentrak-\ntors die Betriebsanleitung des Rasentraktors.\n■\nBewahren Sie die Montageanleitung für den\nGebrauch auf und geben Sie diese auch an\nNachbenutzer weiter.\n■\nLesen und beachten Sie die Sicherheits- und\nWarnhinweise in dieser Montageanleitung.\n■\nDie Rasentraktoren werden in unterschiedli-\nchen Ausstattungsvarianten ausgeliefert. Bit-\nte beachten Sie, dass die Bilder vom Original\netwas abweichen können. Sollten Sie\nSchwierigkeiten haben die Beschreibungen\nnachzuvollziehen, wenden Sie sich bitte an\neine Fachwerkstatt oder den Hersteller.\n1.1",
+      "source": "Montageanleitung Rasentraktor.pdf",
+      "page": 7,
+      "chapter": "Unbekanntes Kapitel",
+      "id": "Montageanleitung Rasentraktor.pdf_13"
+    },
+    {
+      "text": "DE\n24\n493516_c\nInstandhaltung\n5.\nSichern Sie den Rasentraktor an einem tra-\ngenden Element des Fahrgestells mit einer\nstabilen Unterlage (z. B. Kanthölzer) so ab,\ndass er sich auch bei abrutschen oder kippen\ndes Hebezeugs nicht absenken kann.\n6.\nZiehen Sie die Schutzkappe (19/1) ab.\n7.\nDrücken Sie die Sicherungsscheibe (19/2)\nmit Schraubendreher ab. Achten Sie darauf,\ndass sie nicht verloren geht.\n8.\nZiehen Sie die Unterlegscheibe (19/3) ab.\n9.\nZiehen Sie das Rad von der Achse. \nHinweis: Beim Abziehen der Hinterräder von\nder Achse die Passfeder nicht verlieren!\n10. Reinigen Sie vor der Wiedermontage die\nAchse und die Bohrung im Rad und fetten\nSie beides mit Mehrzweckfett ein.\n11. Stecken Sie das Rad auf die Achse. \nHinweis: Beim Aufstecken der Hinterräder",
+      "source": "Betriebsanleitung Rasentraktor.pdf",
+      "page": 23,
+      "chapter": "Unbekanntes Kapitel",
+      "id": "Betriebsanleitung Rasentraktor.pdf_76"
+    },
+    {
+      "text": "DE\n18\n493516_c\nBetrieb des Traktors\n2.\nTreten Sie das Bremspedal (05/1) und betäti-\ngen Sie die Feststellbremse (05/2).\n3.\nStarten Sie den Motor und lassen Sie ihn mit\nmaximaler Drehzahl laufen.\n4.\nSchalten Sie das Mähwerk zu (02/5, Position\n\"1\").\n5.\nHeben Sie die leere Grasfangbox leicht an\noder betätigen Sie den Öffnungsschalter.\n HINWEIS Der Motor muss sich abschalten!\n6.6.5\nKontaktschalter des Auswurfkanals\nprüfen\nDer Kontaktschalter des Auswurfkanals stellt si-\ncher, dass sich der Rasentraktor bei ausgebau-\ntem Auswurfkanal nicht starten lässt.\n1.\nGrasfangbox abnehmen.\n2.\nEntfernen Sie den Auswurfkanal (18/2).\n3.\nSetzen Sie sich auf den Fahrersitz.\n4.\nTreten Sie das Bremspedal (05/1) und betäti-\ngen Sie die Feststellbremse (05/2).\n5.\nStarten Sie den Motor.",
+      "source": "Betriebsanleitung Rasentraktor.pdf",
+      "page": 17,
+      "chapter": "Unbekanntes Kapitel",
+      "id": "Betriebsanleitung Rasentraktor.pdf_48"
+    }
+  ]
+}

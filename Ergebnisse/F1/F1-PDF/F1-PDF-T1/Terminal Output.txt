@@ -1,0 +1,154 @@
+PS C:\Users\fabio.cappellaro\Documents\Masterarbeit Projekt\Masterarbeit_FC> & C:/Users/fabio.cappellaro/AppData/Local/Microsoft/WindowsApps/python3.11.exe "c:/Users/fabio.cappellaro/Documents/Masterarbeit Projekt/Masterarbeit_FC/PyProgramm/main.py"
+4140 Dokument-Chunks wurden verarbeitet und in den Vektorspeicher geladen.
+Export abgeschlossen. Dateien gespeichert in: C:\Users\fabio.cappellaro\Documents\Masterarbeit Projekt\Masterarbeit_FC\ExportedData
+Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:05<00:00,  1.25s/it]
+Device set to use cuda:0
+
+Bitte geben Sie Ihre Frage ein: Welche Schritte sind notwendig, um die Grasfangbox des Rasentraktors korrekt zu montieren und einzustellen?
+CustomMultiQueryRetriever: all_queries = ['Welche Schritte sind notwendig, um die Grasfangbox des Rasentraktors korrekt zu montieren und einzustellen?', '---', '"Welche Schritte sind erforderlich, um die Grasfangbox des Rasentraktors korrekt zu installieren und zu justieren?"']
+
+==================================================
+Antwort auf deine Frage:
+==================================================
+   1. Messen Sie jeweils links und rechts den Abstand zwischen Grasfangbox und Rasentraktor. 2. Abnehmen der Grasfangbox. 3. Lösen Sie die 4 Sechskantschrauben an beiden Boxhaltearmen jeweils um eine halbe Umdrehung. 4. Nachstellen der Haltearme entsprechend des gemessenen Abstands nach oben. 5. Einrasten der Grasfangbox durch leichtes Kippen nach vorne und Schwenken nach unten. 6. Überprüfen Sie den korrekten Sitz der Grasfangbox.
+
+--------------------------------------------------
+Quellen (Auszug):
+--------------------------------------------------
+1. Quelle: Montageanleitung Rasentraktor.pdf | Kapitel: Unbekanntes Kapitel | Seite: 8
+2. Quelle: Montageanleitung Rasentraktor.pdf | Kapitel: Unbekanntes Kapitel | Seite: 9
+3. Quelle: Betriebsanleitung Rasentraktor.pdf | Kapitel: Unbekanntes Kapitel | Seite: 16
+4. Quelle: Betriebsanleitung Rasentraktor.pdf | Kapitel: Unbekanntes Kapitel | Seite: 213
+5. Quelle: Betriebsanleitung Rasentraktor.pdf | Kapitel: Unbekanntes Kapitel | Seite: 210
+6. Quelle: Betriebsanleitung Rasentraktor.pdf | Kapitel: Unbekanntes Kapitel | Seite: 126
+--------------------------------------------------
+
+Evaluation-Daten gespeichert.
+PS C:\Users\fabio.cappellaro\Documents\Masterarbeit Projekt\Masterarbeit_FC> & C:/Users/fabio.cappellaro/AppData/Local/Microsoft/WindowsApps/python3.11.exe "c:/Users/fabio.cappellaro/Documents/Masterarbeit Projekt/Masterarbeit_FC/PyProgramm/evaluation.py"
+4140 Dokument-Chunks wurden verarbeitet und in den Vektorspeicher geladen.
+Export abgeschlossen. Dateien gespeichert in: C:\Users\fabio.cappellaro\Documents\Masterarbeit Projekt\Masterarbeit_FC\ExportedData
+Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:05<00:00,  1.27s/it]
+Device set to use cuda:0
+
+=== EVALUATION-SKRIPT ===
+Query aus main.py war: 'Welche Schritte sind notwendig, um die Grasfangbox des Rasentraktors korrekt zu montieren und einzustellen?'
+
+=== Vollständiger Kontext (sortiert nach Relevanz) ===
+
+--- Kontextblock 1 ---
+Quelle: Montageanleitung Rasentraktor.pdf, Kapitel: Unbekanntes Kapitel, Seite: 8
+Cosine Similarity: 0.9217
+
+1.
+Messen Sie jeweils links und rechts den Ab-
+stand zwischen Grasfangbox und Rasentrak-
+tor (25).
+Hinweis: Bei einem Abstand > 0 mm müs-
+sen die Boxhaltearme entsprechend des ge-
+messenen Abstands nachgestellt werden!
+2.
+Grasfangbox abnehmen (26).
+3.
+Lösen Sie die 4 Sechskantschrauben an bei-
+den Boxhaltearmen jeweils um eine halbe
+Umdrehung (27).
+4.
+Entsprechend des jeweils gemessenen Ab-
+stands die Haltearme links und rechts nach
+oben stellen und die unteren Sechskant-
+
+--------------------------------------------------
+
+--- Kontextblock 2 ---
+Quelle: Montageanleitung Rasentraktor.pdf, Kapitel: Unbekanntes Kapitel, Seite: 9
+Cosine Similarity: 0.9197
+
+3.
+Kippen Sie die Grasfangbox mit der anderen
+Hand leicht nach vorne (21), so dass der vor-
+dere Teil der Grasfangbox einrastet.
+4.
+Schwenken Sie nun die Grasfangbox wieder
+nach unten (22).
+5.
+Überprüfen Sie den korrekten Sitz der Gras-
+fangbox.
+3.8
+Starterbatterie anschließen
+Im Lieferumfang des Rasentraktors ist eine Star-
+terbatterie enthalten.
+Die Starterbatterie befindet sich unter der Motor-
+abdeckhaube.
+Grundsätzlich ist die Starterbatterie ab Werk ge-
+laden.
+
+--------------------------------------------------
+
+--- Kontextblock 3 ---
+Quelle: Betriebsanleitung Rasentraktor.pdf, Kapitel: Unbekanntes Kapitel, Seite: 16
+Cosine Similarity: 0.9135
+
+dere Teil der Grasfangbox einrastet.
+4.
+Schwenken Sie nun die Grasfangbox wieder
+nach unten (13/a).
+5.
+Überprüfen Sie den korrekten Sitz der Gras-
+fangbox.
+6.6
+Prüfung der Sicherheitseinrichtungen
+Die Sicherheitseinrichtungen müssen vor jedem
+Start des Rasentraktors geprüft werden.
+ WARNUNG! Gefahr bei der Prüfung der
+Sicherheitseinrichtungen! Die Sicherheitsein-
+richtungen dürfen nur vom Fahrersitz aus und
+wenn sich keine weiteren Personen oder Tiere in
+der Nähe aufhalten, durchgeführt werden!
+
+--------------------------------------------------
+
+--- Kontextblock 4 ---
+Quelle: Betriebsanleitung Rasentraktor.pdf, Kapitel: Unbekanntes Kapitel, Seite: 210
+Cosine Similarity: 0.7811
+
+X
+Kontrola noży tnących
+X
+Kontrola mocowania elemen-
+tów
+X
+X
+
+--------------------------------------------------
+
+--- Kontextblock 5 ---
+Quelle: Betriebsanleitung Rasentraktor.pdf, Kapitel: Unbekanntes Kapitel, Seite: 213
+Cosine Similarity: 0.7622
+
+należy skontaktować się z naszym działem ob-
+sługi klienta.
+
+--------------------------------------------------
+
+--- Kontextblock 6 ---
+Quelle: Betriebsanleitung Rasentraktor.pdf, Kapitel: Unbekanntes Kapitel, Seite: 126
+Cosine Similarity: 0.7526
+
+necessari intervalli inferiori a quanto indicato nel-
+la tabella di cui sopra.
+
+--------------------------------------------------
+
+=== Confidence Score ===
+Confidence Score der Antwort: 0.5009
+
+=== ROUGE Scores ===
+ROUGE-1 Precision: 0.1069
+ROUGE-1 Recall: 0.9688
+ROUGE-1 F1-Score: 0.1925
+
+ROUGE-L Precision: 0.0724
+ROUGE-L Recall: 0.6562
+ROUGE-L F1-Score: 0.1304
+
+Evaluation-Daten gespeichert in evaluation_output.json.

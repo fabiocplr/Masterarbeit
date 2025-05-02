@@ -1,0 +1,132 @@
+PS C:\Users\fabio.cappellaro\Documents\Masterarbeit Projekt\Masterarbeit_FC> & C:/Users/fabio.cappellaro/AppData/Local/Microsoft/WindowsApps/python3.11.exe "c:/Users/fabio.cappellaro/Documents/Masterarbeit Projekt/Masterarbeit_FC/PyProgramm/main.py"
+67 Dokument-Chunks wurden verarbeitet und in den Vektorspeicher geladen.
+Export abgeschlossen. Dateien gespeichert in: C:\Users\fabio.cappellaro\Documents\Masterarbeit Projekt\Masterarbeit_FC\ExportedData
+Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:04<00:00,  1.20s/it]
+Device set to use cuda:0
+
+Bitte geben Sie Ihre Frage ein: Warum fördert die Gartenpumpe trotz eingeschaltetem Motor kein Wasser und wie kann das Problem behoben werden?
+CustomMultiQueryRetriever: all_queries = ['Warum fördert die Gartenpumpe trotz eingeschaltetem Motor kein Wasser und wie kann das Problem behoben werden?', '---', '"Welche Ursachen könnten dazu führen, dass die Gartenzentrifugalpumpe trotz laufendem Antriebsmotor keine Flüssigkeit fördert und welche Maßnahmen sind zur Behebung dieses Problems geeignet?"']
+
+==================================================
+Antwort auf deine Frage:
+==================================================
+   Die Gartenpumpe fördert trotz eingeschaltetem Motor kein Wasser, weil die Saugleitung nicht im Wasser ist oder die Saugleitung verstopft ist. Um das Problem zu beheben, sollte die Saugleitung mindestens 30 cm ins Wasser eintauchen oder die Saugleitung gereinigt werden.
+
+--------------------------------------------------
+Quellen (Auszug):
+--------------------------------------------------
+1. Quelle: BETRIEBSANLEITUNG Pumpen.xml | Kapitel: Hinweis - Erstinbetriebnahme | Seite: N/A
+2. Quelle: BETRIEBSANLEITUNG Pumpen.xml | Kapitel: Verstopfung beseitigen | Seite: N/A
+3. Quelle: BETRIEBSANLEITUNG Pumpen.xml | Kapitel: Bedienung Pumpe einschalten | Seite: N/A
+4. Quelle: BETRIEBSANLEITUNG Pumpen.xml | Kapitel: Hinweis - Störungen | Seite: N/A
+5. Quelle: BETRIEBSANLEITUNG Pumpen.xml | Kapitel: Hinweis - Display | Seite: N/A
+6. Quelle: BETRIEBSANLEITUNG Pumpen.xml | Kapitel: Sicherheitshinweise Zu dieser Betriebsanleitung | Seite: N/A
+7. Quelle: BETRIEBSANLEITUNG Pumpen.xml | Kapitel: Hilfe bei Störungen | Seite: N/A
+8. Quelle: BETRIEBSANLEITUNG Pumpen.xml | Kapitel: Verstopfung beseitigen | Seite: N/A
+--------------------------------------------------
+
+Evaluation-Daten gespeichert.
+PS C:\Users\fabio.cappellaro\Documents\Masterarbeit Projekt\Masterarbeit_FC> & C:/Users/fabio.cappellaro/AppData/Local/Microsoft/WindowsApps/python3.11.exe "c:/Users/fabio.cappellaro/Documents/Masterarbeit Projekt/Masterarbeit_FC/PyProgramm/evaluation.py"
+67 Dokument-Chunks wurden verarbeitet und in den Vektorspeicher geladen.
+Export abgeschlossen. Dateien gespeichert in: C:\Users\fabio.cappellaro\Documents\Masterarbeit Projekt\Masterarbeit_FC\ExportedData
+Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:04<00:00,  1.17s/it]
+Device set to use cuda:0
+
+=== EVALUATION-SKRIPT ===
+Query aus main.py war: 'Warum fördert die Gartenpumpe trotz eingeschaltetem Motor kein Wasser und wie kann das Problem behoben werden?'
+
+=== Vollständiger Kontext (sortiert nach Relevanz) ===
+
+--- Kontextblock 1 ---
+Quelle: BETRIEBSANLEITUNG Pumpen.xml, Kapitel: Hinweis - Erstinbetriebnahme, Seite: N/A
+Cosine Similarity: 0.8574
+
+Hinweis - Erstinbetriebnahme
+
+Sollte nach ca. 90 Sekunden noch kein Wasser über die Saugleitung angesaugt werden, schaltet der Trockenlaufschutz die Pumpe ab und die LED-Anzeige ALARM leuchtet. Überprüfen Sie die Saugleitung, das Filterglas und alle Verschraubungen auf Dichtheit, drücken Sie den RESET-Taster und führen Sie die Erstinbetriebnahme nochmals durch.
+
+--------------------------------------------------
+
+--- Kontextblock 2 ---
+Quelle: BETRIEBSANLEITUNG Pumpen.xml, Kapitel: Bedienung Pumpe einschalten, Seite: N/A
+Cosine Similarity: 0.8545
+
+Bedienung Pumpe einschalten
+
+Einen in der Druckleitung (11) vorhandenen Verschlüsse (Ventil, Spritzdüse, Wasserhahn) öffnen. Netzstecker des Anschlusskabels in die Steckdose stecken. Die Pumpe beginnt zu fördern. Verschluss in der Druckleitung schließen, wenn sich im austretenden Wasser keine Luft mehr befindet. Die Pumpe schaltet nach Druckaufbau und Erreichen des Abschaltdrucks automatisch ab. Die Pumpe ist betriebsbereit. Die LED-Anzeigen sind aus. Wird Wasser gefördert, leuchtet nur die LED-Anzeige PUMP ON.
+
+--------------------------------------------------
+
+--- Kontextblock 3 ---
+Quelle: BETRIEBSANLEITUNG Pumpen.xml, Kapitel: Verstopfung beseitigen, Seite: N/A
+Cosine Similarity: 0.8519
+
+Verstopfung beseitigen
+
+Pumpe vom Netz trennen und gegen Wiedereinschalten sichern. Saugleitung am Pumpeneingang entfernen. Druckleitung an die Wasserleitung anschließen. Wasser durch das Pumpengehäuse laufen lassen, bis sich die Verstopfung auflöst. Durch kurzes Einschalten prüfen, ob die Pumpe freidreht. Pumpe wie beschrieben wieder in Betrieb nehmen.
+
+--------------------------------------------------
+
+--- Kontextblock 4 ---
+Quelle: BETRIEBSANLEITUNG Pumpen.xml, Kapitel: Verstopfung beseitigen, Seite: N/A
+Cosine Similarity: 0.8516
+
+Verstopfung beseitigen
+
+Pumpe vom Netz trennen und gegen Wiedereinschalten sichern. Saugleitung am Pumpeneingang entfernen. Druckleitung an die Wasserleitung anschließen. Wasser durch das Pumpengehäuse laufen lassen, bis sich die Verstopfung auflöst. Durch kurzes Einschalten prüfen, ob die Pumpe freidreht.
+
+--------------------------------------------------
+
+--- Kontextblock 5 ---
+Quelle: BETRIEBSANLEITUNG Pumpen.xml, Kapitel: Hilfe bei Störungen, Seite: N/A
+Cosine Similarity: 0.8451
+
+Hilfe bei Störungen
+
+Störung Mögliche Ursache Abhilfe Motor läuft nicht. Laufrad blockiert. Pumpe reinigen. Motorwelle des Laufrads mit Schraubendreher losdrehen. Schmutz im Ansaugbereich entfernen. Thermoschalter hat abgeschaltet. Wasserstand auf Saugseite prüfen. Förderflüssigkeit abkühlen lassen. Pumpe Instandsetzen oder austauschen. Warten, bis der Thermoschalter die Pumpe wieder einschaltet. Auf maximale Temperatur des Fördermediums achten. Pumpe prüfen lassen Keine Netzspannung vorhanden. Sicherungen prüfen, Stromversorgung von Elektrofachkraft prüfen lassen. Trockenlaufschutz aktiviert Saugseite prüfen. Pumpe läuft, aber fördert nicht. Die Saugleitung ist nicht im Wasser. Saugleitung min. 30 cm ins Wasser eintauchen. Druckleitung geschlossen. Verschluss-Aggregate in der Druckleitung öffnen. Pumpe saugt Luft. Alle Anschlussverbindungen und den Filterdeckel auf Dichtheit prüfen. Saugseitige Verstopfung. Schmutz im Ansaugbereich entfernen. Pumpe ist trocken gelaufen. Pumpengehäuse mit Wasser befüllen. Druckschlauch geknickt. Druckschlauch strecken. Trockenlaufschutz aktiviert. Saugseite prüfen. Pumpe schaltet zu oft ein und aus. Membrane ist beschädigt (HW 3600). Membrane durch AL-KO Service austauschen lassen. Geringer Luftdruck im Vorratsbehälter (HW 3600). Luft im Vorratsbehälter nachfüllen. (Membranvordruck auf 1,5 bar einstellen). Pumpe saugt Luft, Wassermangel saugseitig. Pumpe ausschalten und abkühlen lassen. Undichtigkeit auf der Druckseite (HWA 3600) Druckschlauch prüfen. Fördermenge zu gering Druckschlauch geknickt. Druckschlauch strecken. Saugseitige Verstopfung. Schmutz im Ansaugbereich entfernen. Schlauchdurchmesser zu klein. Größeren Druckschlauch verwenden. Förderhöhe zu groß. Max. Förderhöhe beachten, siehe technische Daten! Saugseitig zu geringe Wassermenge. Drosseln der Pumpe, um die Fördermenge anzupassen. Saughöhe zu groß. Saughöhe prüfen, max. Saughöhe beachten - siehe technische Daten.
+
+--------------------------------------------------
+
+--- Kontextblock 6 ---
+Quelle: BETRIEBSANLEITUNG Pumpen.xml, Kapitel: Hinweis - Störungen, Seite: N/A
+Cosine Similarity: 0.8226
+
+Hinweis - Störungen
+
+Bei nicht behebbaren Störungen wenden Sie sich bitte an unseren zuständigen Kundendienst.
+
+--------------------------------------------------
+
+--- Kontextblock 7 ---
+Quelle: BETRIEBSANLEITUNG Pumpen.xml, Kapitel: Sicherheitshinweise Zu dieser Betriebsanleitung, Seite: N/A
+Cosine Similarity: 0.8160
+
+Sicherheitshinweise Zu dieser Betriebsanleitung
+
+Lesen Sie unbedingt vor der Inbetriebnahme diese Betriebsanleitung sorgfältig durch. Dies ist die Voraussetzung für sicheres Arbeiten und störungsfreie Handhabung. Bewahren Sie diese Betriebsanleitung immer so auf, dass Sie darin nachlesen können, wenn Sie eine Information zum Gerät benötigen. Geben Sie das Gerät nur mit dieser Betriebsanleitung an andere Personen weiter. Lesen und beachten Sie die Sicherheits- und Warnhinweise in dieser Betriebsanleitung.
+
+--------------------------------------------------
+
+--- Kontextblock 8 ---
+Quelle: BETRIEBSANLEITUNG Pumpen.xml, Kapitel: Hinweis - Display, Seite: N/A
+Cosine Similarity: 0.8130
+
+Hinweis - Display
+
+Bei der Erstinbetriebnahme erscheinen im Display alle Informationen in Englisch. Die gewünschte Sprache mit der MODE-Taste auswählen und mit der SET-Taste bestätigen. Der Luftdruck im Vorratsbehälter kann jetzt geprüft werden.
+
+--------------------------------------------------
+
+=== Confidence Score ===
+Confidence Score der Antwort: 0.5117
+
+=== ROUGE Scores ===
+ROUGE-1 Precision: 0.1667
+ROUGE-1 Recall: 0.5250
+ROUGE-1 F1-Score: 0.2530
+
+ROUGE-L Precision: 0.1111
+ROUGE-L Recall: 0.3500
+ROUGE-L F1-Score: 0.1687
+
+Evaluation-Daten gespeichert in evaluation_output.json.

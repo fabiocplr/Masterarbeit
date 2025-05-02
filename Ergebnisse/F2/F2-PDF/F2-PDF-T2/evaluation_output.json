@@ -1,0 +1,121 @@
+{
+  "query": "Warum fördert die Gartenpumpe trotz eingeschaltetem Motor kein Wasser und wie kann das Problem behoben werden?",
+  "answer": "   Eine Gartenpumpe kann trotz eines eingeschalteten Motors kein Wasser fördern, wenn die Saugleitung nicht tief genug im Wasser steht. Dies kann dazu führen, dass die Pumpe Luft ansaugt, anstatt Wasser, was zu einem blockierten Laufrad und somit zu keinem Wasserfluss führt.\n\nUm das Problem zu beheben, sollten Sie sicherstellen, dass die Saugleitung mindestens 30 cm tief im Wasser steht. Dies kann durch Überprüfung und gegebenenfalls Anpassung der Position der Saugleitung erreicht werden.\n\nZusätzlich sollten Sie die gesamte Anschlussverbindung und den Filterdeckel auf Dichtheit prüfen, um sicherzustellen, dass keine Luft in die Pumpe gelangt. Wenn die Saugleitung verstopft ist, sollten Sie den Schmutz im Ansaugbereich entfernen.\n\nFalls die Pumpe trocken gelaufen ist, müssen Sie das Pumpengehäuse mit Wasser befüllen. Dies kann durch Überprüfen und Reinigen der Saugseite sowie durch Nachfüllen von Wasser im Vorratsbehälter (falls vorhanden) erreicht werden.\n\nWenn der Druckschlauch geknickt ist, sollten Sie ihn strecken, um sicherzustellen, dass der Druck richtig übertragen wird. Der Trockenlaufschutz kann ebenfalls aktiviert sein, was darauf hinweist, dass die Saugseite nicht richtig funktioniert. In diesem Fall sollten Sie die Saugseite überprüfen und sicherstellen, dass sie korrekt installiert ist.\n\nFalls die Pumpe zu oft ein- und ausschaltet, kann dies auf eine beschädigte Membran hinweisen. In diesem Fall sollten Sie die Membran durch AL-KO Service austauschen lassen. Geringer Luftdruck im Vorratsbehälter kann ebenfalls ein Problem sein, das durch Nachfüllen von Luft im Vorratsbehälter behoben werden kann.\n\nZusammengefasst sind die wichtigsten Schritte zur Behebung des Problems:\n1. Überprüfen Sie, ob die Saugleitung tief genug im Wasser steht.\n2. Prüfen Sie die gesamte Anschlussverbindung und den Filterdeckel auf Dichtheit.\n3. Entfernen Sie Schmutz im Ansaugbereich.\n4. Befüllen Sie das Pumpengehäuse mit Wasser, wenn die Pumpe trocken gelaufen ist.\n5. Strecken Sie den Druckschlauch, falls er geknickt ist.\n6. Überprüfen Sie die Saugseite und stellen Sie sicher, dass sie korrekt installiert ist.\n7. Tauschen Sie die Membran aus, falls diese beschädigt ist.\n8. Füllen Sie den Vorratsbehälter mit Luft auf, falls der Luftdruck zu niedrig ist.",
+  "confidence_score": 0.65673828125,
+  "rouge1_precision": 0.5158730158730159,
+  "rouge1_recall": 0.18413597733711048,
+  "rouge1_f1": 0.27139874739039666,
+  "rougeL_precision": 0.3888888888888889,
+  "rougeL_recall": 0.1388101983002833,
+  "rougeL_f1": 0.20459290187891438,
+  "sorted_source_documents": [
+    {
+      "metadata": {
+        "source": "Betriebsanleitung Pumpen.pdf",
+        "chapter": "Unbekanntes Kapitel",
+        "page": 11
+      },
+      "text": "Kundendienst.\nStörung\nMögliche Ursache\nAbhilfe\nMotor läuft nicht.\nLaufrad blockiert.\n■\nPumpe reinigen. Motorwelle des\nLaufrads mit Schraubendreher\nlosdrehen.\n■\nSchmutz im Ansaugbereich ent-\nfernen.\nThermoschalter hat abgeschal-\ntet.\n■\nWasserstand auf Saugseite prü-\nfen. Förderflüssigkeit abkühlen\nlassen. Pumpe Instandsetzen\noder austauschen.\n■\nWarten, bis der Thermoschalter\ndie Pumpe wieder einschaltet.\nAuf maximale Temperatur des\nFördermediums achten. Pumpe\nprüfen lassen\nKeine Netzspannung vorhan-\nden.\nSicherungen prüfen, Stromversor-\ngung von Elektrofachkraft prüfen\nlassen.\nTrockenlaufschutz aktiviert\nSaugseite prüfen.",
+      "cosine_similarity": 0.8685173187624324
+    },
+    {
+      "metadata": {
+        "source": "Betriebsanleitung Pumpen.pdf",
+        "chapter": "Unbekanntes Kapitel",
+        "page": 12
+      },
+      "text": "477634_d\n13\nLagerung\nStörung\nMögliche Ursache\nAbhilfe\nPumpe läuft, aber fördert\nnicht.\nDie Saugleitung ist nicht im\nWasser.\nSaugleitung min. 30 cm ins Wasser\neintauchen.\nDruckleitung geschlossen.\nVerschluss-Aggregate in der Druck-\nleitung öffnen.\nPumpe saugt Luft.\nAlle Anschlussverbindungen und\nden Filterdeckel auf Dichtheit prüfen.\nSaugseitige Verstopfung.\nSchmutz im Ansaugbereich entfer-\nnen.\nPumpe ist trocken gelaufen.\nPumpengehäuse mit Wasser befül-\nlen.\nDruckschlauch geknickt.\nDruckschlauch strecken.\nTrockenlaufschutz aktiviert.\nSaugseite prüfen.\nPumpe schaltet zu oft ein\nund aus.\nMembrane ist beschädigt\n(HW 3600).\nMembrane durch AL-KO Service\naustauschen lassen.\nGeringer Luftdruck im Vorrats-\nbehälter (HW 3600).\nLuft im Vorratsbehälter nachfüllen.\n(Membranvordruck auf 1,5 bar ein-",
+      "cosine_similarity": 0.8610970662087634
+    },
+    {
+      "metadata": {
+        "source": "Betriebsanleitung Pumpen.pdf",
+        "chapter": "Unbekanntes Kapitel",
+        "page": 6
+      },
+      "text": "2.7\nLED-Anzeige (HWA 3600)\nZur Anzeige der Betriebszustände und Fehler-\nmeldungen ist die Pumpe mit einer LED-Anzeige\n(03/13) ausgestattet. Betriebsstörungen können\ndurch Drücken der Taste Reset (06/1) quittiert\nwerden\n2.8\nBestimmungsgemäße Verwendung\nDie Pumpe ist für die private Nutzung in Haus\nund Garten bestimmt. Sie darf nur im Rahmen\nder Einsatzgrenzen gemäß den technischen Da-\nten betrieben werden.\nDie Pumpe eignet sich für:\n■\nBewässerung der Garten- und Grundstücks-\nfläche\n■\nUm- und Auspumpen von Behältern (z. B.\nSchwimmbecken)\n■\nWasserentnahme aus Brunnen, Regenton-\nnen und Zisternen.\nHW 3600 / HWA 3600\n■\nAutomatische Wasserversorgung im Haus\n■\nDruckerhöhung der Wasserversorgung.",
+      "cosine_similarity": 0.8411185135140254
+    },
+    {
+      "metadata": {
+        "source": "Betriebsanleitung Pumpen.pdf",
+        "chapter": "Unbekanntes Kapitel",
+        "page": 6
+      },
+      "text": "HW 3600\nDas Gerät wird für die Wasserversorgung im und\nam Haus eingesetzt. Nach der Inbetriebnahme\nschaltet das Gerät druckabhängig die Pumpe ein\nund aus. Die Pumpe saugt Wasser über die\nSaugleitung an und fördert es in den Vorratsbe-\nhälter. Ist der Vorratsbehälter gefüllt, schaltet die\nPumpe wieder ab. Wird Wasser entnommen,\nschaltet die Pumpe automatisch wieder ein und\nfördert das Wasser zur Entnahmestelle. Anschlie-\nßend wird der Vorratsbehälter wieder gefüllt.\nHWA 3600\nDas Gerät wird für die Wasserversorgung im und\nam Haus eingesetzt. Nach der Inbetriebnahme\nschaltet das Gerät druckabhängig die Pumpe ein\nund aus. Die Pumpe saugt Wasser über die\nSaugleitung an. Wird Wasser entnommen, schal-\ntet die Pumpe automatisch wieder ein und fördert\ndas Wasser zur Entnahmestelle.\n2.4",
+      "cosine_similarity": 0.8396320431642219
+    },
+    {
+      "metadata": {
+        "source": "Betriebsanleitung Pumpen.pdf",
+        "chapter": "Unbekanntes Kapitel",
+        "page": 8
+      },
+      "text": "477634_d\n9\nMontage\n3.2\nElektrische Sicherheit\n■\nWenn sich Personen im Schwimmbecken\noder Gartenteich befinden, darf die Pumpe\nnicht betrieben werden.\n■\nDie Haus-Netzspannung muss mit den Anga-\nben zur Netzspannung in den Technischen\nDaten übereinstimmen, keine andere Versor-\ngungsspannung verwenden.\n■\nDas Gerät darf nur an einer elektrischen Ein-\nrichtung gemäß DIN/VDE 0100, Teil 737, 738\nund 702 betrieben werden. Zur Absicherung\nmuss ein Leitungs-Schutzschalter 10 A ins-\ntalliert werden.\n■\nNur Verlängerungskabel verwenden, die für\nden Gebrauch im Freien vorgesehen sind -\nMindestquerschnitt 3 x 1,5 mm2 der Qualität\nH07RN-F nach DIN 57282/57245 mit\nspritzwassergeschützter Steckvorrichtung.\nKabeltrommeln immer vollständig abrollen.\n■\nKontrollieren Sie vor jeder Inbetriebnahme",
+      "cosine_similarity": 0.8379820178141705
+    },
+    {
+      "metadata": {
+        "source": "Betriebsanleitung Pumpen.pdf",
+        "chapter": "Unbekanntes Kapitel",
+        "page": 20
+      },
+      "text": "477634_d\n21\nHelp in case of malfunction\nMalfunction\nPossible cause\nRemedy\nMotor does not run.\nImpeller blocked.\n■\nClean the pump. Release the\nmotor shaft of the impeller with a\nscrewdriver.\n■\nRemove dirt from the suction area.\nThermal protection switch has\nswitched off.\n■\nCheck the water level on the\nsuction side. Allow the convey-\ning fluid to cool down. Repair or\nreplace the pump.\n■\nWait until the thermal protection\nswitch on the pump switches on\nagain. Take note of the maximum\ntemperature of the conveying me-\ndium. Have the pump inspected\nNo mains power.\nCheck the fuses, have the power sup-\nply checked by a qualified electrician.\nDry running protection activated\nCheck the suction side.\nPump running but does not\nfeed.\nThe suction line is not in the\nwater.",
+      "cosine_similarity": 0.8360678079804789
+    },
+    {
+      "metadata": {
+        "source": "Betriebsanleitung Pumpen.pdf",
+        "chapter": "Unbekanntes Kapitel",
+        "page": 7
+      },
+      "text": "den.\n■\nHalten Sie einen Sicherheitsabstand zu Tie-\nren ein, bzw. schalten Sie die Pumpe aus,\nwenn sich Tiere nähern.",
+      "cosine_similarity": 0.8351244841907742
+    },
+    {
+      "metadata": {
+        "source": "Betriebsanleitung Pumpen.pdf",
+        "chapter": "Unbekanntes Kapitel",
+        "page": 217
+      },
+      "text": "Defecțiune \nCauza posibilă \nRemediu \nMotorul nu funcționează. \nRotor blocat. \n■\nCurățați pompa. Eliberați\narborele motor al rotorului cu o\nșurubelniță.\n■\nÎndepărtați murdăria din zona\nde aspirare.\nÎntrerupătorul de protecție \ntermică s-a dezactivat. \n■\nVerificați nivelul apei pe partea\nde aspirație. Lăsați lichidul de \ntransport să se răcească.\nReparați sau înlocuiți pompa.\n■\nAșteptați până când\nîntrerupătorul de protecție\ntermică de pe pompă pornește \ndin nou. Luați notă de\ntemperatura maximă a agentului\nde transport. Solicitați inspecția\npompei\nNu există curent electric. \nVerificați siguranțele, solicitați \nverificarea alimentării cu energie \nelectrică de către un electrician \ncalificat. \nProtecție la funcționare uscată \nactivată \nVerificați partea de aspirație.",
+      "cosine_similarity": 0.8343999715391466
+    },
+    {
+      "metadata": {
+        "source": "Betriebsanleitung Pumpen.pdf",
+        "chapter": "Unbekanntes Kapitel",
+        "page": 48
+      },
+      "text": "La bomba funciona pero no\nbombea.\nEl tubo de aspiración no está\nen el agua.\nSumergir el tubo de aspiración 30\ncm mín. en el agua.\nTubo de presión cerrado.\nAbrir los cierres del tubo de presión.\nLa bomba aspira aire.\nComprobar la estanqueidad de to-\ndas las uniones roscadas y la tapa\ndel filtro.\nObstrucción en el lado de aspi-\nración.\nEliminar la suciedad en la zona de\naspiración.\nLa bomba está funcionando en\nseco.\nLlenar de agua el cuerpo de la bom-\nba.\nEl tubo de presión está dobla-\ndo.\nEstirar el tubo de presión.\nLa protección contra la marcha\nen seco está activada.\nComprobar el lado de aspiración.\nLa bomba se conecta y des-\nconecta continuamente.\nLa membrana está dañada\n(HW 3600).\nEncargar la sustitución de la mem-\nbrana al servicio técnico de AL-KO.\nPresión de aire insuficiente en",
+      "cosine_similarity": 0.8283186326295754
+    },
+    {
+      "metadata": {
+        "source": "Betriebsanleitung Pumpen.pdf",
+        "chapter": "Unbekanntes Kapitel",
+        "page": 127
+      },
+      "text": "LED\nKopplingsstatus\n lyser\n■\nVattentryck genereras\n■\nPumpen har stängt av\n blinkar lång-\nsamt\nFörsta sugförsök misslycka-\ndes",
+      "cosine_similarity": 0.8249570372482308
+    },
+    {
+      "metadata": {
+        "source": "Betriebsanleitung Pumpen.pdf",
+        "chapter": "Unbekanntes Kapitel",
+        "page": 55
+      },
+      "text": "■\nControllare il livello dell'acqua lato aspirazio-\nne.\n■\nVerificare la tenuta delle condotte.\n■\nVerificare l'installazione del tubo di aspirazio-\nne e del tubo di mandata.\n■\nRimettere la pompa in funzione solo dopo a-\nver eliminato tutti i vizi!",
+      "cosine_similarity": 0.8139353167550406
+    },
+    {
+      "metadata": {
+        "source": "Betriebsanleitung Pumpen.pdf",
+        "chapter": "Unbekanntes Kapitel",
+        "page": 17
+      },
+      "text": "consequential damage due to flooding.\n■\nTake appropriate measures to avoid conse-\nquential damage caused by flooding in the\nevent of faults in the pump.\n4.2\nConnect the suction line\n NOTE We recommend the installation of flex-\nible lines at the pump inlet to prevent mechanical\npressure or tension being exerted on the pump.\n1.\nSelect the length of the suction line such that\nthe pump cannot run dry. The suction line\nmust always be at least 30 cm under the wa-\nter surface.\n2.\nConnect the suction line. Ensure that the\nconnection is tight, but take care not to dam-\nage the thread.\n3.\nAlways lay the suction line with an upward\ngradient.\n NOTE If the suction head is more than 4 m,\na suction hose with a diameter larger than 1”\nmust be installed. We recommend the use of an",
+      "cosine_similarity": 0.8097339011210999
+    }
+  ]
+}

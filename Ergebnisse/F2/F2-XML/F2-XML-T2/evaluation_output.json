@@ -1,0 +1,112 @@
+{
+  "query": "Warum fördert die Gartenpumpe trotz eingeschaltetem Motor kein Wasser und wie kann das Problem behoben werden?",
+  "answer": "   Wenn die Gartenpumpe trotz eingeschaltetem Motor kein Wasser fördert, könnte dies mehrere Ursachen haben. Hier sind die möglichen Ursachen und die entsprechenden Abhilfen:\n\n1. **Saugleitung ist nicht im Wasser**:\n   - **Ursache**: Die Saugleitung taucht nicht mindestens 30 cm tief ins Wasser ein.\n   - **Abhilfe**: Überprüfen Sie die Position der Saugleitung und stellen Sie sicher, dass sie tief genug im Wasser liegt.\n\n2. **Druckleitung geschlossen**:\n   - **Ursache**: Ein Verschluss-Aggregat in der Druckleitung ist geschlossen.\n   - **Abhilfe**: Öffnen Sie alle Verschluss-Aggregate in der Druckleitung.\n\n3. **Pumpe saugt Luft**:\n   - **Ursache**: Es könnte eine Undichtigkeit in den Anschlussverbindungen oder im Filterdeckel geben.\n   - **Abhilfe**: Überprüfen Sie alle Anschlussverbindungen und den Filterdeckel auf Dichtheit.\n\n4. **Saugseitige Verstopfung**:\n   - **Ursache**: Schmutz oder Partikel blockieren den Ansaugbereich.\n   - **Abhilfe**: Reinigen Sie den Ansaugbereich und entfernen Sie eventuell vorhandenen Schmutz.\n\n5. **Pumpe ist trocken gelaufen**:\n   - **Ursache**: Das Pumpengehäuse war während des Betriebs leer oder die Saugseite war trocken.\n   - **Abhilfe**: Befüllen Sie das Pumpengehäuse mit Wasser.\n\n6. **Druckschlauch geknickt**:\n   - **Ursache**: Ein geknickter Druckschlauch kann den Wasserfluss behindern.\n   - **Abhilfe**: Strecken Sie den Druckschlauch und stellen Sie sicher, dass er keine Knicke aufweist.\n\n7. **Schlauchdurchmesser zu klein**:\n   - **Ursache**: Ein zu kleiner Schlauch kann die Fördermenge reduzieren.\n   - **Abhilfe**: Ersetzen Sie den Schlauch durch einen größeren mit dem entsprechenden Durchmesser.\n\n8. **Förderhöhe zu groß**:\n   - **Ursache**: Die maximale Förderhöhe ist überschritten.\n   - **Abhilfe**: Achten Sie auf die maximale Förderhöhe, die in den technischen Daten angegeben ist.\n\n9. **Saughöhe zu groß**:\n   - **Ursache**: Die Saughöhe ist zu hoch und der Wasserdruck zu niedrig.\n   - **Abhilfe**: Überprüfen Sie die Saughöhe und stellen Sie sicher, dass sie innerhalb der angegebenen Grenzen liegt.\n\n10. **Schmutz im Ansaugbereich**:\n    - **Ursache**: Schmutzpartikel blockieren den Ansaugbereich.\n    - **Abhilfe**: Reinigen Sie den Ansaugbereich und entfernen Sie eventuell vorhandenen Schmutz.\n\nFalls diese Maßnahmen das Problem nicht beheben, könnte es sich um ein technisches Problem handeln, das eine professionelle Überprüfung durch den Kundendienst erfordert.",
+  "confidence_score": 0.72998046875,
+  "rouge1_precision": 0.5793650793650794,
+  "rouge1_recall": 0.2246153846153846,
+  "rouge1_f1": 0.32372505543237257,
+  "rougeL_precision": 0.4444444444444444,
+  "rougeL_recall": 0.1723076923076923,
+  "rougeL_f1": 0.2483370288248337,
+  "sorted_source_documents": [
+    {
+      "metadata": {
+        "source": "BETRIEBSANLEITUNG Pumpen.xml",
+        "chapter": "Hinweis - Erstinbetriebnahme",
+        "page": "N/A"
+      },
+      "text": "Hinweis - Erstinbetriebnahme\n\nSollte nach ca. 90 Sekunden noch kein Wasser über die Saugleitung angesaugt werden, schaltet der Trockenlaufschutz die Pumpe ab und die LED-Anzeige ALARM leuchtet. Überprüfen Sie die Saugleitung, das Filterglas und alle Verschraubungen auf Dichtheit, drücken Sie den RESET-Taster und führen Sie die Erstinbetriebnahme nochmals durch.",
+      "cosine_similarity": 0.8573806696152174
+    },
+    {
+      "metadata": {
+        "source": "BETRIEBSANLEITUNG Pumpen.xml",
+        "chapter": "Verstopfung beseitigen",
+        "page": "N/A"
+      },
+      "text": "Verstopfung beseitigen\n\nPumpe vom Netz trennen und gegen Wiedereinschalten sichern. Saugleitung am Pumpeneingang entfernen. Druckleitung an die Wasserleitung anschließen. Wasser durch das Pumpengehäuse laufen lassen, bis sich die Verstopfung auflöst. Durch kurzes Einschalten prüfen, ob die Pumpe freidreht.",
+      "cosine_similarity": 0.851568154881638
+    },
+    {
+      "metadata": {
+        "source": "BETRIEBSANLEITUNG Pumpen.xml",
+        "chapter": "LED-Anzeigen (HWA 3600)",
+        "page": "N/A"
+      },
+      "text": "LED-Anzeigen (HWA 3600)\n\nLED Schaltzustand leuchtet Pumpe eingesteckt Hahn geöffnet blinkt Wasserförderung unter 200 l/h leuchtet Wasserdruck ist aufgebaut Pumpe hat abgeschaltet blinkt langsam Erster Ansaugversuch fehlgeschlagen leuchtet Zweiter Ansaugversuch fehlgeschlagen RESET-Taste (06/1) drücken für erneuten Versuch blinkt schnell Tropfprogramm: Pumpe hat Verbraucher erkannt, der eine zu geringe Wassermenge abnimmt. , , leuchten Pumpe wurde durch Drücken der REST-Taste ausgeschaltet (Sondermodus).",
+      "cosine_similarity": 0.8511374930461952
+    },
+    {
+      "metadata": {
+        "source": "BETRIEBSANLEITUNG Pumpen.xml",
+        "chapter": "Hilfe bei Störungen",
+        "page": "N/A"
+      },
+      "text": "Hilfe bei Störungen\n\nStörung Mögliche Ursache Abhilfe Motor läuft nicht. Laufrad blockiert. Pumpe reinigen. Motorwelle des Laufrads mit Schraubendreher losdrehen. Schmutz im Ansaugbereich entfernen. Thermoschalter hat abgeschaltet. Wasserstand auf Saugseite prüfen. Förderflüssigkeit abkühlen lassen. Pumpe Instandsetzen oder austauschen. Warten, bis der Thermoschalter die Pumpe wieder einschaltet. Auf maximale Temperatur des Fördermediums achten. Pumpe prüfen lassen Keine Netzspannung vorhanden. Sicherungen prüfen, Stromversorgung von Elektrofachkraft prüfen lassen. Trockenlaufschutz aktiviert Saugseite prüfen. Pumpe läuft, aber fördert nicht. Die Saugleitung ist nicht im Wasser. Saugleitung min. 30 cm ins Wasser eintauchen. Druckleitung geschlossen. Verschluss-Aggregate in der Druckleitung öffnen. Pumpe saugt Luft. Alle Anschlussverbindungen und den Filterdeckel auf Dichtheit prüfen. Saugseitige Verstopfung. Schmutz im Ansaugbereich entfernen. Pumpe ist trocken gelaufen. Pumpengehäuse mit Wasser befüllen. Druckschlauch geknickt. Druckschlauch strecken. Trockenlaufschutz aktiviert. Saugseite prüfen. Pumpe schaltet zu oft ein und aus. Membrane ist beschädigt (HW 3600). Membrane durch AL-KO Service austauschen lassen. Geringer Luftdruck im Vorratsbehälter (HW 3600). Luft im Vorratsbehälter nachfüllen. (Membranvordruck auf 1,5 bar einstellen). Pumpe saugt Luft, Wassermangel saugseitig. Pumpe ausschalten und abkühlen lassen. Undichtigkeit auf der Druckseite (HWA 3600) Druckschlauch prüfen. Fördermenge zu gering Druckschlauch geknickt. Druckschlauch strecken. Saugseitige Verstopfung. Schmutz im Ansaugbereich entfernen. Schlauchdurchmesser zu klein. Größeren Druckschlauch verwenden. Förderhöhe zu groß. Max. Förderhöhe beachten, siehe technische Daten! Saugseitig zu geringe Wassermenge. Drosseln der Pumpe, um die Fördermenge anzupassen. Saughöhe zu groß. Saughöhe prüfen, max. Saughöhe beachten - siehe technische Daten.",
+      "cosine_similarity": 0.8451197569316278
+    },
+    {
+      "metadata": {
+        "source": "BETRIEBSANLEITUNG Pumpen.xml",
+        "chapter": "Bestimmungsgemäße Verwendung",
+        "page": "N/A"
+      },
+      "text": "Bestimmungsgemäße Verwendung\n\nDie Pumpe ist für die private Nutzung in Haus und Garten bestimmt. Sie darf nur im Rahmen der Einsatzgrenzen gemäß den technischen Daten betrieben werden. Die Pumpe eignet sich für: Bewässerung der Garten- und Grundstücksfläche Um- und Auspumpen von Behältern (z. B. Schwimmbecken) Wasserentnahme aus Brunnen, Regentonnen und Zisternen. HW 3600 / HWA 3600 Automatische Wasserversorgung im Haus Druckerhöhung der Wasserversorgung.  Die Pumpe ist ausschließlich zum Fördern von folgenden Flüssigkeiten geeignet: Klarwasser, Regenwasser chlorhaltiges Wasser (z. B. Schwimmbecken) Eine andere oder darüber hinausgehende Verwendung gilt als nicht bestimmungsgemäß.",
+      "cosine_similarity": 0.8388844733774217
+    },
+    {
+      "metadata": {
+        "source": "BETRIEBSANLEITUNG Pumpen.xml",
+        "chapter": "Hinweis – Pumpe spülen",
+        "page": "N/A"
+      },
+      "text": "Hinweis – Pumpe spülen\n\nNach Förderung von chlorhaltigem Schwimmbadwasser oder Flüssigkeiten, die Rückstände hinterlassen, muss die Pumpe mit klarem Wasser gespült werden.",
+      "cosine_similarity": 0.8343373650607101
+    },
+    {
+      "metadata": {
+        "source": "BETRIEBSANLEITUNG Pumpen.xml",
+        "chapter": "Inbetriebnahme Pumpe befüllen",
+        "page": "N/A"
+      },
+      "text": "Inbetriebnahme Pumpe befüllen\n\nUm die Ansaugzeit zu verkürzen, Saugschlauch vor dem Anschrauben mit Wasser füllen. Einfüllschraube (3) mit Filterschlüssel (19/A) öffnen. Über die Einfüllschraube Wasser einfüllen, bis das Pumpengehäuse (2) voll ist. Einfüllschraube einschrauben.",
+      "cosine_similarity": 0.8327851093253741
+    },
+    {
+      "metadata": {
+        "source": "BETRIEBSANLEITUNG Pumpen.xml",
+        "chapter": "Möglicher Fehlgebrauch",
+        "page": "N/A"
+      },
+      "text": "Möglicher Fehlgebrauch\n\nDie Pumpe darf nicht im Dauerbetrieb eingesetzt werden. Sie ist nicht geeignet zur Förderung von: Trinkwasser Salzwasser Lebensmitteln Schmutzwasser aggressiven Medien, Chemikalien ätzenden, brennbaren, explosiven oder gasenden Flüssigkeiten Flüssigkeiten, die wärmer als 35 °C sind sandhaltigem Wasser und schmirgelnden Flüssigkeiten",
+      "cosine_similarity": 0.8319634534383572
+    },
+    {
+      "metadata": {
+        "source": "BETRIEBSANLEITUNG Pumpen.xml",
+        "chapter": "Erstinbetriebnahme",
+        "page": "N/A"
+      },
+      "text": "Erstinbetriebnahme\n\nBei der Erstinbetriebnahme leuchtet die LED-Anzeigen PUMP ON und die LED-Anzeige FLOW CONTROL blinkt.",
+      "cosine_similarity": 0.8307399932312464
+    },
+    {
+      "metadata": {
+        "source": "BETRIEBSANLEITUNG Pumpen.xml",
+        "chapter": "LED-Anzeige (HWA 3600)",
+        "page": "N/A"
+      },
+      "text": "LED-Anzeige (HWA 3600)\n\nZur Anzeige der Betriebszustände und Fehlermeldungen ist die Pumpe mit einer LED-Anzeige (03/13) ausgestattet. Betriebsstörungen können durch Drücken der Taste Reset (06/1) quittiert werden",
+      "cosine_similarity": 0.8257224575177113
+    },
+    {
+      "metadata": {
+        "source": "BETRIEBSANLEITUNG Pumpen.xml",
+        "chapter": "Hinweis - Störungen",
+        "page": "N/A"
+      },
+      "text": "Hinweis - Störungen\n\nBei nicht behebbaren Störungen wenden Sie sich bitte an unseren zuständigen Kundendienst.",
+      "cosine_similarity": 0.8226273298035802
+    }
+  ]
+}

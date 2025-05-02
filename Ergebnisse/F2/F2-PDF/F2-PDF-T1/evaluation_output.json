@@ -1,0 +1,67 @@
+{
+  "query": "Warum fördert die Gartenpumpe trotz eingeschaltetem Motor kein Wasser und wie kann das Problem behoben werden?",
+  "answer": "   **Die Gartenpumpe fördert trotz eingeschaltetem Motor kein Wasser, weil die Saugleitung nicht tief genug ins Wasser eintaucht. Um das Problem zu beheben, muss die Saugleitung mindestens 30 cm ins Wasser eingetaucht werden.**",
+  "confidence_score": 0.4638671875,
+  "rouge1_precision": 0.11904761904761904,
+  "rouge1_recall": 0.45454545454545453,
+  "rouge1_f1": 0.18867924528301885,
+  "rougeL_precision": 0.0873015873015873,
+  "rougeL_recall": 0.3333333333333333,
+  "rougeL_f1": 0.13836477987421383,
+  "sorted_source_documents": [
+    {
+      "metadata": {
+        "source": "Betriebsanleitung Pumpen.pdf",
+        "chapter": "Unbekanntes Kapitel",
+        "page": 12
+      },
+      "text": "477634_d\n13\nLagerung\nStörung\nMögliche Ursache\nAbhilfe\nPumpe läuft, aber fördert\nnicht.\nDie Saugleitung ist nicht im\nWasser.\nSaugleitung min. 30 cm ins Wasser\neintauchen.\nDruckleitung geschlossen.\nVerschluss-Aggregate in der Druck-\nleitung öffnen.\nPumpe saugt Luft.\nAlle Anschlussverbindungen und\nden Filterdeckel auf Dichtheit prüfen.\nSaugseitige Verstopfung.\nSchmutz im Ansaugbereich entfer-\nnen.\nPumpe ist trocken gelaufen.\nPumpengehäuse mit Wasser befül-\nlen.\nDruckschlauch geknickt.",
+      "cosine_similarity": 0.8797893523633195
+    },
+    {
+      "metadata": {
+        "source": "Betriebsanleitung Pumpen.pdf",
+        "chapter": "Unbekanntes Kapitel",
+        "page": 11
+      },
+      "text": "HINWEIS Bei nicht behebbaren Störungen\nwenden Sie sich bitte an unseren zuständigen\nKundendienst.\nStörung\nMögliche Ursache\nAbhilfe\nMotor läuft nicht.\nLaufrad blockiert.\n■\nPumpe reinigen. Motorwelle des\nLaufrads mit Schraubendreher\nlosdrehen.\n■\nSchmutz im Ansaugbereich ent-\nfernen.\nThermoschalter hat abgeschal-\ntet.\n■\nWasserstand auf Saugseite prü-\nfen. Förderflüssigkeit abkühlen\nlassen. Pumpe Instandsetzen\noder austauschen.\n■\nWarten, bis der Thermoschalter\ndie Pumpe wieder einschaltet.",
+      "cosine_similarity": 0.8716045403045842
+    },
+    {
+      "metadata": {
+        "source": "Betriebsanleitung Pumpen.pdf",
+        "chapter": "Unbekanntes Kapitel",
+        "page": 11
+      },
+      "text": "Auf maximale Temperatur des\nFördermediums achten. Pumpe\nprüfen lassen\nKeine Netzspannung vorhan-\nden.\nSicherungen prüfen, Stromversor-\ngung von Elektrofachkraft prüfen\nlassen.\nTrockenlaufschutz aktiviert\nSaugseite prüfen.",
+      "cosine_similarity": 0.8668786905150032
+    },
+    {
+      "metadata": {
+        "source": "Betriebsanleitung Pumpen.pdf",
+        "chapter": "Unbekanntes Kapitel",
+        "page": 207
+      },
+      "text": "BİLGİ Giderilemeyen arızalarda lütfen yetkili\nmüşteri hizmetlerimize başvurun.",
+      "cosine_similarity": 0.7957373631677068
+    },
+    {
+      "metadata": {
+        "source": "Betriebsanleitung Pumpen.pdf",
+        "chapter": "Unbekanntes Kapitel",
+        "page": 93
+      },
+      "text": "prosím obraťte na naši příslušnou zákaznickou\nslužbu.",
+      "cosine_similarity": 0.7867046335270741
+    },
+    {
+      "metadata": {
+        "source": "Betriebsanleitung Pumpen.pdf",
+        "chapter": "Unbekanntes Kapitel",
+        "page": 155
+      },
+      "text": "galima materialinė žala.\n NUORODA Specialios nuorodos dėl geres-\nnio suprantamumo ir valdymo.",
+      "cosine_similarity": 0.7566197164822208
+    }
+  ]
+}
