@@ -15,7 +15,7 @@ Fabio Cappellaro
 
 ---
 ## Projektbeschreibung
-Diese Masterarbeit entwickelt einen Prototyp zur Wissensextraktion aus technischen Dokumentationen mithilfe von **Retrieval-Augmented Generation (RAG)**. Ziel ist es, auf Basis von XML- und PDF-Daten automatisch Antworten auf fachliche Fragen zu generieren.
+Diese Masterarbeit entwickelt einen Prototyp zur Wissensextraktion aus technischen Dokumentationen mithilfe von Retrieval-Augmented Generation (RAG). Ziel ist es, auf Basis von XML- und PDF-Daten automatisch Antworten auf fachliche Fragen zu generieren.
 
 ---
 
