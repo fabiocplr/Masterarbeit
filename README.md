@@ -31,5 +31,3 @@ Die Leistungsfähigkeit des Systems wird in einem Testszenario anhand etablierte
 
 This thesis investigates the use of transformer-based Retrieval-Augmented Generation (RAG) models for knowledge extraction from technical documentation. Based on the hypothesis that such documentation represents a high-quality and structured data source for RAG systems, a prototype was developed. This prototype combines a preprocessing pipeline for XML and PDF documents with a retriever and a large language model (LLM) to generate coherent and source-based answers.
 The system's performance is evaluated in a test scenario using established metrics. The results show that XML data, in particular, is highly suitable for RAG systems due to its structured nature. Furthermore, the implemented approach to data preprocessing, the system infrastructure, the RAG configuration, and the applied evaluation methods are presented and discussed. The thesis confirms the initial hypothesis and demonstrates the potential for real-world applications, for example in industrial or end-user support environments.
-
-
