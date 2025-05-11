@@ -43,7 +43,7 @@ def show_token_confidences(answer, model, tokenizer, filename="token_confidences
     inputs = tokenizer(answer, return_tensors="pt", truncation=True, max_length=512).to(device)
     input_ids = inputs.input_ids
 
-    #Inferenzmodus aktivieren, weil kein Training stattfindet
+    # Inferenzmodus aktivieren, weil kein Training stattfindet
     with torch.no_grad():
         outputs = model(**inputs)
 
@@ -68,7 +68,7 @@ def show_token_confidences(answer, model, tokenizer, filename="token_confidences
 
 
 
-#ROUGE Metrik
+# ROUGE Metrik
 def rouge_score(answer, correct_answer):
     #Berechnet ROUGE-1 und ROUGE-L
     scorer = rouge_scorer.RougeScorer(['rouge1', 'rougeL'], use_stemmer=True)
