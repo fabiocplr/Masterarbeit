@@ -84,9 +84,8 @@ def rouge_score(answer, correct_answer):
     return rouge1_precision, rouge1_recall, rouge1_f1, rougeL_precision, rougeL_recall, rougeL_f1  
     
 
-
+# Zeigt Evaluation-Infos an: Kontext, Cosine Similarity, Confidence Score und ROUGE Score
 def evaluation_info(query, result_dict, correct_answer):
-    # Zeigt Evaluation-Infos an: Kontext, Cosine Similarity, Confidence Score und ROUGE Score
     
     # Kontext ausgeben
     source_docs = result_dict.get("source_documents", [])
@@ -200,7 +199,7 @@ if __name__ == "__main__":
         "source_documents": data.get("Kontext", [])
     }
 
-    # Hole die korrekte Antwort aus der JSON-Datei
+    # Holt die korrekte Antwort aus der JSON-Datei
     correct_answer = correct_answer_data.get(query, "Keine Referenzantwort vorhanden.")
 
     print(f"\n=== EVALUATION-SKRIPT ===")
