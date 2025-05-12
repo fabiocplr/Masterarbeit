@@ -79,7 +79,7 @@ def create_multi_query_retriever(llm):
         search_type="mmr",
         search_kwargs={'k': 5 })
 
-#     # Output-Parser
+    # Output-Parser
     output_parser = LineListOutputParser()
 
     # LLM-Kette mit Output-Parser
