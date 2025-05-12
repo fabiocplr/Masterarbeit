@@ -31,6 +31,7 @@ Du bist ein KI-Assistent für technische Dokumentationen. Generiere drei alterna
 # Globale Variable zur Speicherung der alternativen Queries
 raw_alternative_queries = None
 
+# Eigener MultiQueryRetriever mit Zugriff auf generierte Varianten (für Logging/Evaluation)
 class CustomMultiQueryRetriever(MultiQueryRetriever):
     def get_relevant_documents(self, query: str) -> List:
         global raw_alternative_queries
